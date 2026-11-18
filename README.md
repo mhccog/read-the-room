@@ -12,7 +12,7 @@ One phone-first app that combines two earlier sites (both still live and unchang
 |---|---|---|
 | **Say** (home) | Pick Lean, Vibe, Moment, Teacher → a "Say first" word plus a line with technique, why and how to say it. Copy, Another, Saved. | Read Anyone |
 | **Profile** | The six-minute read: tap what you notice, and a live card builds their need, decision style, values and senses. **✦ More lines for them** opens Say with a matching lean and vibe. | Read & Connect |
-| **Body** | 90 cues, 69 with a 3D figure, 28 with real photos. Baseline, clusters, context. | Read & Connect |
+| **Body** | 90 cues, 69 with a 3D figure, 26 with real photos. Baseline, clusters, context. | Read & Connect |
 | **Talk** | Playbooks by goal, need, decision style, value and conflict style. | Read & Connect |
 | **Ask** | A switch with two separate knowledge bases: **Hughes only** (strictly his book, videos and site) and **Blend · 3 teachers**. They never share notes. | Both |
 | **Watch** | Real-life profiling videos, Hughes first, with a switch for other analysts. | Read & Connect |

@@ -157,6 +157,45 @@ for root, dirs, files in os.walk(OVER):
         src = os.path.join(root, f); dst = os.path.join(OUT, os.path.relpath(src, OVER))
         os.makedirs(os.path.dirname(dst), exist_ok=True); shutil.copy(src, dst)
 
+# ---------- 5b. Drop two weak photos (Cyrus, 18 Nov 2026) ----------
+# Hub-owned: leave the Behavior Ops source unchanged. These cues stay in the
+# Body tab (both have a 3D figure) but lose their "Real example" photo.
+DROP_PHOTOS = ('contempt-one-sided-smirk', 'eyebrow-flash')
+
+pjs_path = os.path.join(OUT, 'photos/photos.js')
+pjs = rd(pjs_path)
+pre, sep, rest = pjs.partition('window.BO_PHOTOS=')
+assert sep, 'window.BO_PHOTOS missing from photos/photos.js'
+obj_text = rest.strip()
+if obj_text.endswith(';'):
+    obj_text = obj_text[:-1].strip()
+photos = json.loads(obj_text)
+removed = []
+for k in DROP_PHOTOS:
+    if k not in photos:
+        print('photo key already gone:', k)
+        continue
+    for item in photos[k]:
+        removed.append(item['f'])
+    del photos[k]
+# Keep the existing pretty-printed style: 0-indent keys/fields, 2-space inside arrays is not required.
+wr(pjs_path, pre + 'window.BO_PHOTOS=' + json.dumps(photos, ensure_ascii=False, indent=0) + ';\n')
+for rel in removed:
+    fp = os.path.join(OUT, rel)
+    assert os.path.isfile(fp), f'photo file missing: {rel}'
+    os.remove(fp)
+    print('dropped', rel)
+
+cred_path = os.path.join(OUT, 'CREDITS.md')
+cred = rd(cred_path)
+for title in ('Contempt (one-sided smirk)', 'Eyebrow flash'):
+    cred2, n = re.subn(r'\n\*\*' + re.escape(title) + r'\*\*\n\n(?:- .+\n)+', '\n', cred, count=1)
+    if n != 1:
+        print('CREDITS.md section already gone:', title)
+    cred = cred2
+cred = re.sub(r'\n{3,}', '\n\n', cred)
+wr(cred_path, cred)
+
 # ---------- 6. Service worker: precache everything ----------
 files = []
 for root, dirs, fs in os.walk(OUT):

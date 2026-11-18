@@ -72,18 +72,10 @@ The same details are stored in `photos/photos.js` and shown under each photo on 
 
 - `photos/object-in-mouth-1.webp`: "Работа энтомолога.jpg" by Табалыкин Евгений Алексеевич, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_%D1%8D%D0%BD%D1%82%D0%BE%D0%BC%D0%BE%D0%BB%D0%BE%D0%B3%D0%B0.jpg)
 
-**Contempt (one-sided smirk)**
-
-- `photos/contempt-one-sided-smirk-1.webp`: "Retouch Smirk glasses vip 1.jpg" by DanieldeWeldon1, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Retouch_Smirk_glasses_vip_1.jpg)
-
 **Disgust**
 
 - `photos/disgust-1.webp`: "Disgust expression cropped.jpg" by Unknown (Wikimedia Commons), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Disgust_expression_cropped.jpg)
 - `photos/disgust-2.webp`: "Man with beard and knit red cap frowns and has disgusted facial expression.jpg" by Lies Thru a Lens , [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Man_with_beard_and_knit_red_cap_frowns_and_has_disgusted_facial_expression.jpg)
-
-**Eyebrow flash**
-
-- `photos/eyebrow-flash-1.webp`: "Flip Wilson (raised eyebrows) (1975-05-10)(Gerald Ford Library).jpg" by David Hume Kennerly, Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Flip_Wilson_(raised_eyebrows)_(1975-05-10)(Gerald_Ford_Library).jpg)
 
 **Pupils dilate**
 

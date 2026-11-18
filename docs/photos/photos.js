@@ -283,21 +283,6 @@ window.BO_PHOTOS={
 "title": "Работа энтомолога.jpg"
 }
 ],
-"contempt-one-sided-smirk": [
-{
-"f": "photos/contempt-one-sided-smirk-1.webp",
-"w": 800,
-"h": 830,
-"cap": "One corner of the mouth pulled higher than the other",
-"by": "DanieldeWeldon1",
-"byUrl": null,
-"src": "https://commons.wikimedia.org/wiki/File:Retouch_Smirk_glasses_vip_1.jpg",
-"site": "Wikimedia Commons",
-"lic": "CC BY-SA 3.0",
-"licUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-"title": "Retouch Smirk glasses vip 1.jpg"
-}
-],
 "disgust": [
 {
 "f": "photos/disgust-1.webp",
@@ -324,21 +309,6 @@ window.BO_PHOTOS={
 "lic": "CC BY 2.0",
 "licUrl": "https://creativecommons.org/licenses/by/2.0",
 "title": "Man with beard and knit red cap frowns and has disgusted facial expression.jpg"
-}
-],
-"eyebrow-flash": [
-{
-"f": "photos/eyebrow-flash-1.webp",
-"w": 800,
-"h": 533,
-"cap": "Eyebrows lifted high, eyes wide",
-"by": "David Hume Kennerly",
-"byUrl": null,
-"src": "https://commons.wikimedia.org/wiki/File:Flip_Wilson_(raised_eyebrows)_(1975-05-10)(Gerald_Ford_Library).jpg",
-"site": "Wikimedia Commons",
-"lic": "Public domain",
-"licUrl": null,
-"title": "Flip Wilson (raised eyebrows) (1975-05-10)(Gerald Ford Library).jpg"
 }
 ],
 "pupils-dilate": [
