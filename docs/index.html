@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Read the Room</title>
+<meta name="description" content="Know what to say and read people well: a line generator from Van Edwards, Hughes and Giang, plus a field guide to profiling and body language from Chase Hughes' work.">
+<meta name="theme-color" content="#f5f5f7">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" href="icon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Read the Room">
+<meta name="application-name" content="Read the Room">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta property="og:title" content="Read the Room">
+<meta property="og:description" content="Know what to say. Read people well.">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="say.css">
+<link rel="stylesheet" href="hub.css">
+<!-- three.js is only fetched when a 3D figure is opened -->
+<script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/jsm/"}}</script>
+<script src="migrate.js"></script>
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo" aria-hidden="true"><img src="icon.svg" alt="" width="30" height="30"></span><div><h1>Read the Room</h1><small>Know what to say · read people well</small></div></div>
+  <button class="icon-btn" id="infoBtn" aria-label="About">i</button>
+</header>
+
+<main>
+  <!-- SAY (line generator, from Read Anyone) -->
+  <section id="tab-say" class="tab active">
+    <div id="sayFrom" class="say-from"></div>
+    <div id="sayApp" class="ra"></div>
+  </section>
+
+  <!-- PROFILE -->
+  <section id="tab-profile" class="tab">
+    <div class="drill" id="drill"></div>
+    <div class="howto">
+      <b>Six-minute read</b>
+      <ol><li>Baseline them on easy small talk.</li><li>Tap what you notice below.</li><li>Use the card to talk their way, or tap <b>✦ More lines for them</b> to get lines in Say.</li></ol>
+      <p class="caveat">One gesture ≠ one meaning. Look for <b>changes</b>, <b>clusters</b>, and <b>what was just said</b>.</p>
+    </div>
+    <div id="groups"></div>
+    <div class="spacer"></div>
+  </section>
+
+  <!-- CUES -->
+  <section id="tab-cues" class="tab">
+    <div class="search"><input id="cueSearch" type="search" placeholder="Search cues… e.g. lips, feet, pause"></div>
+    <div class="regions" id="regions"></div>
+    <p class="caveat">Baseline first · clusters of 3+ · context. Stress ≠ lying. Culture, cold rooms and your own pressure all change behaviour.</p>
+    <p class="hint3d">▶ <b>Show me in 3D</b> plays a figure acting out the cue. Turn it with a finger or mouse. <b>Real example</b> shows openly licensed photos of real people making the gesture.</p>
+    <div id="cueList"></div>
+  </section>
+
+  <!-- TALK -->
+  <section id="tab-talk" class="tab">
+    <h2 class="sec">By goal</h2>
+    <div id="goalList"></div>
+    <h2 class="sec">By need</h2>
+    <div id="needList"></div>
+    <h2 class="sec">By decision style</h2>
+    <div id="decList"></div>
+    <h2 class="sec">By life value</h2>
+    <div id="valList"></div>
+    <h2 class="sec">Conflict styles</h2>
+    <div id="animalList"></div>
+  </section>
+
+  <!-- ASK: two separate knowledge bases behind one switch -->
+  <section id="tab-ask" class="tab">
+    <div class="wseg askseg" id="askSeg" role="tablist" aria-label="Ask source"><i></i><button data-am="hughes" role="tab">Hughes only</button><button data-am="blend" role="tab">Blend · 3 teachers</button></div>
+    <div id="askHughes">
+      <div class="ask-head">
+        <div><h2 class="sec">Ask · Hughes only</h2><p class="caveat">Answers come only from Chase Hughes’ work: <i>The Behavior Ops Manual</i> plus his own videos and site. Written in my own words, with page refs and links. Runs on your device, with no AI service.</p></div>
+        <div class="ask-tools"><button class="ghost" id="askGloss">Glossary</button><button class="ghost" id="askClear">Clear</button></div>
+      </div>
+      <div id="askLog" class="chat" aria-live="polite"></div>
+      <form id="askBar" class="askbar" autocomplete="off">
+        <button type="button" id="askMic" class="mic" aria-label="Ask by voice" title="Ask by voice">🎙</button>
+        <input id="askInput" type="text" placeholder="Ask about a cue, term or situation…" enterkeyhint="send" aria-label="Your question">
+        <button type="submit" class="send" aria-label="Send">↑</button>
+      </form>
+    </div>
+    <div id="blendPane" class="ra blend" hidden aria-label="Ask: blend of Van Edwards, Hughes and Giang">
+      <div class="ask-wrap">
+        <div class="top">
+          <div><div class="kicker">Blend · Van Edwards, Hughes, Vinh Giang</div><h1>Ask</h1></div>
+          <button type="button" class="saved-btn" id="blGloss">Glossary</button>
+        </div>
+        <p class="lede">One blended answer from all three teachers: a direct answer, a few moves, lines to try and how to say them. Separate from the Hughes-only notes.</p>
+        <div class="picks ask-filter" id="blFilter" aria-label="Teacher"></div>
+        <div id="blLog" class="ask-log" aria-live="polite"></div>
+        <p class="ask-clear-row"><button type="button" class="link-btn" id="blClear" hidden>Clear chat</button></p>
+      </div>
+      <form id="blBar" class="ask-bar" autocomplete="off">
+        <div class="ask-bar-in">
+          <input id="blInput" type="text" inputmode="text" enterkeyhint="send" placeholder="Ask anything — vague is fine" aria-label="Your question">
+          <button type="button" id="blMic" class="mic" aria-label="Speak your question"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3Zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-3.08A7 7 0 0 0 19 11h-2Z"/></svg></button>
+          <button type="submit" class="send" aria-label="Ask"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 4 5 11l1.4 1.4L11 7.8V20h2V7.8l4.6 4.6L19 11z"/></svg></button>
+        </div>
+      </form>
+      <dialog id="blDlg" class="ask-dlg">
+        <div class="dlg-in">
+          <p class="dlg-close-row"><button type="button" class="btn" id="blDlgClose">Done</button></p>
+          <div id="blDlgBody"></div>
+        </div>
+      </dialog>
+    </div>
+  </section>
+
+  <!-- WATCH -->
+  <section id="tab-watch" class="tab">
+    <h2 class="sec">Watch</h2>
+    <p class="caveat">Real-life examples of behaviour profiling, played from YouTube. Each cue moment links to the matching Body cue and Ask entry. <b>Cues are indicators, not proof.</b> Analysts are reading stress and behaviour, not handing down a verdict. Courts and investigators decide facts.</p>
+    <div class="wseg" id="watchSeg" role="tablist"><i></i><button data-g="hughes" role="tab">Chase Hughes</button><button data-g="others" role="tab">Other analysts</button></div>
+    <p class="caveat wnote" id="watchNote"></p>
+    <div class="regions" id="watchConcepts"></div>
+    <div class="wfilter"><select id="watchCue" aria-label="Filter by cue"><option value="">Any cue</option></select><span id="watchCount" class="caveat"></span></div>
+    <div id="watchList"></div>
+  </section>
+
+  <!-- PEOPLE -->
+  <section id="tab-people" class="tab">
+    <div class="row-between"><h2 class="sec">People</h2><button class="ghost" id="newProfile">+ New</button></div>
+    <div id="peopleList"></div>
+    <div class="backup">
+      <button class="ghost" id="exportBtn">Export backup</button>
+      <label class="ghost file">Import<input type="file" id="importFile" accept="application/json"></label>
+    </div>
+    <p class="caveat">Saved only on this device (no server). Export a backup now and then.</p>
+  </section>
+</main>
+
+<!-- live profile card (sticky, Profile tab only) -->
+<div id="card" class="card collapsed" aria-live="polite" style="display:none">
+  <button id="cardToggle" class="card-head">
+    <span id="cardSummary">Tap what you notice — your read builds here</span>
+    <span class="chev">▲</span>
+  </button>
+  <div class="card-body" id="cardBody"></div>
+</div>
+
+<nav class="tabs">
+  <button data-tab="say" class="active"><span>❝</span>Say</button>
+  <button data-tab="profile"><span>◎</span>Profile</button>
+  <button data-tab="cues"><span>👁</span>Body</button>
+  <button data-tab="talk"><span>💬</span>Talk</button>
+  <button data-tab="ask"><span>✦</span>Ask</button>
+  <button data-tab="watch"><span>▶︎</span>Watch</button>
+  <button data-tab="people"><span>👥</span>People</button>
+</nav>
+
+<dialog id="dlg"><div id="dlgBody"></div><form method="dialog"><button class="primary">Close</button></form></dialog>
+
+<script src="data.js"></script>
+<script src="figure/cues3d.js"></script>
+<script src="photos/photos.js"></script>
+<script src="say/app.js"></script>
+<script src="app.js"></script>
+<script src="ask/ui.js"></script>
+<script src="blend/ui.js"></script>
+<script src="watch/ui.js"></script>
+<script src="hub.js"></script>
+</body>
+</html>
