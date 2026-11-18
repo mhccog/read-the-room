@@ -77,14 +77,92 @@ const SAY_NEEDS = [
   {k:'pit', lean:'pity', emoji:'🌧️', name:'Pity (hardship)', is:'Wants someone to see how hard it’s been.', how:'Approach by acknowledging it, then pausing so they feel heard, without rushing to fix it.'},
   {k:'str', lean:'power', emoji:'🦁', name:'Strength / Power', is:'Wants to be seen as strong and in control.', how:'Approach with calm respect, and give them the choice.'}
 ];
+const SAY_NEEDS_DEEP = {
+  sig: {
+    fear: "Being ignored, made to feel small, ridiculed or left behind.",
+    signs: ["Talks about achievements, titles, who they know","Status brands, cars, watches, latest tech","Wants to lead or decide first","Steers talk back to themselves"],
+    meet: "Call out a specific impact they actually had, and ask for their view before you give yours. The aim is to make them feel interesting — not to impress them.",
+    lines: ["I'd value your take on this before anyone else's.","What you built there is genuinely rare."],
+    avoid: ["Talking over them or one-upping their story","Treating them as 'just another' person in the room","Correcting them in front of others"],
+    ask: "If you genuinely want their lead or their view first, ask for it that way.",
+    extra: [{by:"Van Edwards", note:"If you are genuinely impressed, say so — she calls this being easily awed. Asking for their advice also works, but only when you really want it."}]
+  },
+  app: {
+    fear: "Disapproval, dismissal, contempt, or being left out.",
+    signs: ["Self put-downs ('I'm rubbish at this')","Asks permission when they don't need to","Shifts their view if you disagree","Lots of compliments; rarely complains"],
+    meet: "Reassure them, and notice the care they put in, not only the result. Make it safe to say yes, and equally safe to say no. Don't leave a self-put-down hanging in silence.",
+    lines: ["You've clearly put real care into this.","There's no wrong answer here — I'd just love your honest view."],
+    avoid: ["Sarcasm or teasing","Silence after they put themselves down","Pushing them to decide on the spot"],
+    ask: "Give clear permission, and make it safe to say yes or no.",
+    extra: [{by:"Van Edwards", note:"In a high-stakes moment, start with a real appreciation and make it safe to be honest — including saying no."}]
+  },
+  acc: {
+    fear: "Gossip, social criticism, or not fitting in with their people.",
+    signs: ["Clubs, teams, groups, 'we' and 'us'","Helping or caring roles, volunteering, pets","Team shirts, memberships, community talk","Returns every smile and eyebrow flash"],
+    meet: "Include them in the 'we'. If you can do it honestly, introduce them to your people so they feel they belong. Hughes' habit here is to meet people and make introductions.",
+    lines: ["Want me to introduce you to a few people here?","It's people like you that make a group actually work."],
+    avoid: ["Singling them out in front of others","Anything that could embarrass them with their group","'Nobody else does it this way'"],
+    ask: "If it's true, show who else is already in, and how this keeps them connected to their people.",
+    extra: [{by:"Van Edwards", note:"When you notice a genuine overlap, say so — a 'same here' on a feeling or a fact. And introduce them by something you actually admire."}]
+  },
+  int: {
+    fear: "Looking stupid, being questioned, or being called out.",
+    signs: ["Mentions education, books, research, technical detail","Says 'actually…', corrects or explains","Calls others idiots or incompetent","Asks if you know things they know you don't"],
+    meet: "Ask how they would approach it, then stay curious long enough to hear the answer. A sincere 'teach me' — only when you want to learn — lets them show their reasoning.",
+    lines: ["I'd love to hear how you'd approach it.","I'll be honest, I know next to nothing about this — how does it actually work?"],
+    avoid: ["Over-simplifying or lecturing them","Catching them out in public","Vague claims with no reasoning"],
+    ask: "Lay out the reasoning, and let them reach the conclusion themselves.",
+    extra: [
+      {by:"Van Edwards", note:"'Tell me more?' is enough, when you mean it."},
+      {by:"Giang", note:"Treat listening as the bigger half. After they explain, ask yourself what seemed to matter most."}
+    ]
+  },
+  pit: {
+    fear: "Being dismissed, disbelieved, or misunderstood.",
+    signs: ["Complaints about traffic, weather, health or workload","Bad-luck stories, or being treated unfairly","A stressed or hunched look","Reacts strongly to small pains"],
+    meet: "Confirm that it has been hard, then pause so they feel heard. Don't rush to fix it or bright-side it. Reflect a word they used, and ask a little more before you talk about yourself.",
+    lines: ["That sounds genuinely exhausting… (pause)","You've had a lot more on your plate than people realise."],
+    avoid: ["'Look on the bright side' or 'could be worse'","Rushing to fix it","Topping their story with yours"],
+    ask: "Only if it's true, show how this takes something off their plate or makes the day easier.",
+    extra: [{by:"Giang", note:"Watch the listening traps — especially advising, one-upping, and rushing to fix. Reflect their words, pause, and ask a couple of follow-ups before you bring in your own story."}]
+  },
+  str: {
+    fear: "Being disrespected, challenged, or ignored.",
+    signs: ["Loud voice, big posture, a crushing handshake","Stories of toughness, or getting one over on people","Status and pecking order matter to them","Bristles when challenged; can be sharp with staff"],
+    meet: "Stay calm and respectful, and put the choice in their hands. Don't make it a contest. Offer clear options and let them decide.",
+    lines: ["Your call — how would you want to play it?","I'd rather have you on my side of this."],
+    avoid: ["Dominance contests or 'putting them in their place'","Embarrassing them in front of others","Ultimatums"],
+    ask: "Give them the decision and a few clear options, and let them choose.",
+    extra: [{by:"Giang", note:"Watch the one-upping trap. Keep your own status stories out of it, and don't turn the moment into a contest."}]
+  }
+};
+function needDeepHTML(n){
+  const d=SAY_NEEDS_DEEP[n.k];
+  if(!d)return '';
+  const extras=(d.extra||[]).map(x=>`<p class="need-from"><b>From ${esc(x.by)}.</b> ${esc(x.note)}</p>`).join('');
+  return `<p class="say-need-how">${esc(n.how)}</p>
+    <div class="need-deep">
+      <h4>What they fear</h4><p>${esc(d.fear)}</p>
+      <h4>Signs to listen for</h4><ul>${d.signs.map(s=>`<li>${esc(s)}</li>`).join('')}</ul>
+      <h4>How to meet it</h4><p>${esc(d.meet)}</p>
+      <h4>Lines to try</h4><div class="need-lines">${d.lines.map(s=>`<p class="need-try">“${esc(s)}”</p>`).join('')}</div>
+      <h4>What to avoid</h4><ul>${d.avoid.map(s=>`<li>${esc(s)}</li>`).join('')}</ul>
+      <h4>When you ask for something</h4><p>${esc(d.ask)}</p>
+      ${extras}
+      <button type="button" class="need-profile" data-goto="profile" data-scroll="need-${n.k}">Full card on Profile →</button>
+    </div>`;
+}
 (function setupSayNeeds(){
   const btn=$('#needsBtn'), panel=$('#sayNeedsPanel'), body=$('#sayNeedsBody'), close=$('#needsClose');
   if(!btn||!panel||!body)return;
-  body.innerHTML=SAY_NEEDS.map(n=>`<div class="say-need">
-    <button type="button" class="say-need-name" data-goto="profile" data-scroll="need-${n.k}">${n.emoji} ${esc(n.name)}</button>
-    <p class="say-need-is">${esc(n.is)}</p>
-    <p class="say-need-how">${esc(n.how)}</p>
-  </div>`).join('')+'<p class="say-needs-note">Hunches to listen for, never labels.</p>';
+  body.innerHTML='<p class="say-needs-note">Hunches to listen for, never labels.</p>'+
+    SAY_NEEDS.map(n=>`<details class="say-need">
+      <summary><span class="need-emoji" aria-hidden="true">${n.emoji}</span><div>
+        <h3>${esc(n.name)}</h3>
+        <p class="say-need-is">${esc(n.is)}</p>
+      </div></summary>
+      <div class="say-need-more">${needDeepHTML(n)}</div>
+    </details>`).join('');
   function setOpen(open){
     panel.hidden=!open;
     btn.classList.toggle('is-on', open);
