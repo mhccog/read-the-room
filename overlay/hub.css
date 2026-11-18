@@ -36,3 +36,28 @@
 .tabs button span{font-size:19px}
 @media (max-width:380px){.tabs button{font-size:9.5px;letter-spacing:-.02em}}
 .ra .icon-btn{width:44px;height:44px;border-radius:50%;display:inline-grid;place-items:center;padding:0}
+
+/* The six needs guide (Profile) */
+.needs-guide{margin:0 0 18px;scroll-margin-top:72px}
+.needs-guide > h2{font-size:22px;font-weight:700;letter-spacing:-.03em;margin:0 0 6px;color:var(--text);text-transform:none}
+.needs-guide > .lede{color:var(--mute);font-size:15px;line-height:1.45;margin:0 0 12px}
+.need-card{background:var(--card);border-radius:var(--r);box-shadow:var(--sh);margin:0 0 8px;overflow:hidden}
+.need-card summary{list-style:none;display:flex;gap:12px;align-items:flex-start;padding:14px 18px;cursor:pointer;transition:background .2s var(--ease)}
+.need-card summary::-webkit-details-marker{display:none}
+.need-card summary::after{content:"";margin:8px 0 0 auto;flex:none;width:8px;height:8px;border-right:2px solid #aeaeb2;border-bottom:2px solid #aeaeb2;transform:rotate(45deg);transition:transform .3s var(--spring)}
+.need-card[open] summary::after{transform:rotate(-135deg);margin-top:10px}
+.need-card summary:active{background:var(--fill2)}
+.need-emoji{font-size:24px;line-height:1.15;width:1.3em;text-align:center;flex:none}
+.need-card h3{margin:0 0 3px;font-size:17px;font-weight:650;letter-spacing:-.02em}
+.need-q{margin:0;font-size:14.5px;font-style:italic;line-height:1.35;color:#5149c9;padding-right:8px}
+.need-body{padding:0 18px 14px}
+.need-body .need-block:first-child{border-top:1px solid var(--line);padding-top:10px}
+.need-block{margin:10px 0 0}
+.need-block h4{margin:0 0 4px;font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--mute);font-weight:600}
+.need-block p,.need-block li{margin:0;font-size:14.5px;line-height:1.4;color:#3a3a3c}
+.need-block ul{margin:0;padding:0 0 0 18px}
+.need-block li{margin:3px 0}
+.need-block p + p{margin-top:6px}
+.need-lines{margin:8px 0 0}
+.need-line{margin:6px 0 0;padding:9px 12px;border-radius:12px;background:var(--fill2);border-left:3px solid var(--acc);font-size:14px;line-height:1.4;color:var(--text)}
+.need-card[open] .need-body{animation:fadeUp .25s var(--ease)}

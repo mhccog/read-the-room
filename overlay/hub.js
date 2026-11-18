@@ -26,7 +26,7 @@ const NEED={sig:'significance',app:'approval',acc:'acceptance',int:'intelligence
 const FEEL={sig:'important',app:'appreciated',acc:'included',int:'smart',pit:'understood',str:'control'};
 const NEEDNAME={significance:'Significance',approval:'Approval',acceptance:'Acceptance',intelligence:'Intelligence',pity:'Hardship',power:'Power'};
 function sayFrom(html){$('#sayFrom').innerHTML=html}
-function defaultFrom(){sayFrom(`<button class="link" data-goto="profile">Not sure which lean fits? Do a quick read on <b>Profile</b> →</button>`)}
+function defaultFrom(){sayFrom(`<button class="link" data-goto="profile" data-scroll="needsGuide">Not sure which lean fits? See <b>The six needs</b> on Profile →</button>`)}
 document.addEventListener('click',e=>{
   const t=e.target.closest('[data-tosay]');
   if(t){
@@ -40,9 +40,32 @@ document.addEventListener('click',e=>{
     setTimeout(()=>{const r=document.querySelector('#sayApp .say-first')||document.querySelector('#sayApp .result');if(r)window.scrollTo({top:r.getBoundingClientRect().top+scrollY-74,behavior:'smooth'})},120);return;
   }
   if(e.target.closest('[data-reset-say]')){if(window.SAY)SAY.preset({need:'any',feeling:'heard',sit:'all'});defaultFrom();return}
-  const g=e.target.closest('[data-goto]');if(g&&APP.show)APP.show(g.dataset.goto);
+  const g=e.target.closest('[data-goto]');
+  if(g&&APP.show){
+    APP.show(g.dataset.goto);
+    const id=g.dataset.scroll;
+    if(id)setTimeout(()=>{const el=document.getElementById(id);if(el)el.scrollIntoView({behavior:'smooth',block:'start'})},160);
+  }
 });
 defaultFrom();
+
+/* ---- The six needs guide (Profile), from BO.needs ---- */
+(function renderNeedsGuide(){
+  const root=$('#needsCards');
+  if(!root||!window.BO||!BO.needs)return;
+  root.innerHTML=Object.values(BO.needs).map(x=>`<details class="need-card">
+    <summary><span class="need-emoji" aria-hidden="true">${x.emoji}</span><div>
+      <h3>${esc(x.name)}</h3>
+      <p class="need-q">${esc(x.q)}</p>
+    </div></summary>
+    <div class="need-body">
+      <div class="need-block"><h4>Notice</h4><ul>${x.signs.map(s=>`<li>${esc(s)}</li>`).join('')}</ul></div>
+      <div class="need-block"><h4>Approach</h4><p>${esc(x.give)}</p><div class="need-lines">${x.say.slice(0,2).map(s=>`<p class="need-line">${esc(s)}</p>`).join('')}</div></div>
+      <div class="need-block"><h4>Avoid</h4><ul>${x.avoid.map(s=>`<li>${esc(s)}</li>`).join('')}</ul></div>
+    </div>
+  </details>`).join('');
+})();
+
 
 /* ---- About ---- */
 const info=$('#infoBtn');
