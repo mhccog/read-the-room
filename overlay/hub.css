@@ -61,3 +61,18 @@
 .need-lines{margin:8px 0 0}
 .need-line{margin:6px 0 0;padding:9px 12px;border-radius:12px;background:var(--fill2);border-left:3px solid var(--acc);font-size:14px;line-height:1.4;color:var(--text)}
 .need-card[open] .need-body{animation:fadeUp .25s var(--ease)}
+
+/* Compact six needs, inside the Say line card */
+.need-card{scroll-margin-top:72px}
+.ra .result .say-needs{margin:16px 0 -4px;border-top:1px solid var(--line);padding-top:2px}
+.ra .say-needs > summary{list-style:none;display:flex;align-items:center;gap:10px;padding:12px 0 8px;cursor:pointer;font-size:14px;font-weight:600;color:var(--ink);letter-spacing:-.01em;transition:color .2s var(--ease)}
+.ra .say-needs > summary::-webkit-details-marker{display:none}
+.ra .say-needs > summary::after{content:"";margin-left:auto;flex:none;width:7px;height:7px;border-right:2px solid #aeaeb2;border-bottom:2px solid #aeaeb2;transform:rotate(45deg);transition:transform .3s var(--spring)}
+.ra .say-needs[open] > summary::after{transform:rotate(-135deg)}
+.ra .say-needs-body{padding:0 0 6px}
+.ra .say-need{margin:0 0 12px}
+.ra .say-need-name{display:block;width:100%;background:none;border:0;padding:0;margin:0 0 3px;text-align:left;font:inherit;font-size:15px;font-weight:650;letter-spacing:-.02em;color:var(--gold-ink);cursor:pointer}
+.ra .say-need-name:active{opacity:.6}
+.ra .say-need-is,.ra .say-need-how{margin:0;font-size:13.5px;line-height:1.4;color:#3a3a3c}
+.ra .say-need-how{color:var(--muted);margin-top:2px}
+.ra .say-needs-note{margin:2px 0 4px;font-size:12.5px;color:var(--muted)}

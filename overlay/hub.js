@@ -44,7 +44,7 @@ document.addEventListener('click',e=>{
   if(g&&APP.show){
     APP.show(g.dataset.goto);
     const id=g.dataset.scroll;
-    if(id)setTimeout(()=>{const el=document.getElementById(id);if(el)el.scrollIntoView({behavior:'smooth',block:'start'})},160);
+    if(id)setTimeout(()=>{const el=document.getElementById(id);if(!el)return;if(el.tagName==='DETAILS')el.open=true;el.scrollIntoView({behavior:'smooth',block:'start'})},160);
   }
 });
 defaultFrom();
@@ -53,7 +53,7 @@ defaultFrom();
 (function renderNeedsGuide(){
   const root=$('#needsCards');
   if(!root||!window.BO||!BO.needs)return;
-  root.innerHTML=Object.values(BO.needs).map(x=>`<details class="need-card">
+  root.innerHTML=Object.entries(BO.needs).map(([k,x])=>`<details class="need-card" id="need-${k}">
     <summary><span class="need-emoji" aria-hidden="true">${x.emoji}</span><div>
       <h3>${esc(x.name)}</h3>
       <p class="need-q">${esc(x.q)}</p>
@@ -66,6 +66,38 @@ defaultFrom();
   </details>`).join('');
 })();
 
+
+
+/* ---- Compact six needs, inside the Say line card ---- */
+const SAY_NEEDS = [
+  {k:'sig', emoji:'👑', name:'Significance', is:'Wants to feel they matter and make an impact.', how:'Approach by noticing their impact out loud, and asking their view first.'},
+  {k:'app', emoji:'🤝', name:'Approval', is:'Wants to know they’re doing OK.', how:'Approach with reassurance, praise the effort, and make yes and no equally safe.'},
+  {k:'acc', emoji:'🫂', name:'Acceptance', is:'Wants to belong.', how:'Approach by including them and bringing them into the group.'},
+  {k:'int', emoji:'🧠', name:'Intelligence', is:'Wants to be seen as smart.', how:'Approach by asking them to explain, staying curious, and letting them reach the conclusion.'},
+  {k:'pit', emoji:'🌧️', name:'Pity (hardship)', is:'Wants someone to see how hard it’s been.', how:'Approach by acknowledging it, then pausing so they feel heard, without rushing to fix it.'},
+  {k:'str', emoji:'🦁', name:'Strength / Power', is:'Wants to be seen as strong and in control.', how:'Approach with calm respect, and give them the choice.'}
+];
+let sayNeedsOpen = false;
+function mountSayNeeds(){
+  const card = document.querySelector('#sayApp article.result');
+  if(!card || card.querySelector('.say-needs')) return;
+  const rows = SAY_NEEDS.map(n => `<div class="say-need">
+    <button type="button" class="say-need-name" data-goto="profile" data-scroll="need-${n.k}">${n.emoji} ${esc(n.name)}</button>
+    <p class="say-need-is">${esc(n.is)}</p>
+    <p class="say-need-how">${esc(n.how)}</p>
+  </div>`).join('');
+  card.insertAdjacentHTML('beforeend', `<details class="say-needs"${sayNeedsOpen?' open':''}>
+    <summary>What the needs mean</summary>
+    <div class="say-needs-body">${rows}<p class="say-needs-note">Hunches to listen for, never labels.</p></div>
+  </details>`);
+  const d = card.querySelector('.say-needs');
+  d.addEventListener('toggle', ()=>{ sayNeedsOpen = d.open; });
+}
+const sayRoot = $('#sayApp');
+if(sayRoot){
+  mountSayNeeds();
+  new MutationObserver(mountSayNeeds).observe(sayRoot, {childList:true, subtree:true});
+}
 
 /* ---- About ---- */
 const info=$('#infoBtn');
