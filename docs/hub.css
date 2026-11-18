@@ -81,3 +81,10 @@
 .say-need-is,.say-need-how{margin:0;font-size:13.5px;line-height:1.4;color:#3a3a3c}
 .say-need-how{color:var(--mute);margin-top:2px}
 .say-needs-note{margin:2px 0 0;font-size:12.5px;color:var(--mute)}
+
+/* Selected lean, inside the Say line card (after How to say it.) */
+.ra .line-needs{margin:14px 0 0}
+.ra .line-need + .line-need{margin-top:10px}
+.ra .line-need-name{margin:0 0 2px;font-size:14px;line-height:1.5;color:var(--ink)}
+.ra .line-need-name b{font-weight:650}
+.ra .line-need-is,.ra .line-need-how{margin:0;font-size:14px;line-height:1.5;color:var(--muted)}

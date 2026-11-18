@@ -70,12 +70,12 @@ defaultFrom();
 
 /* ---- Compact six needs: hidden until the Needs button at the top of Say is pressed ---- */
 const SAY_NEEDS = [
-  {k:'sig', emoji:'👑', name:'Significance', is:'Wants to feel they matter and make an impact.', how:'Approach by noticing their impact out loud, and asking their view first.'},
-  {k:'app', emoji:'🤝', name:'Approval', is:'Wants to know they’re doing OK.', how:'Approach with reassurance, praise the effort, and make yes and no equally safe.'},
-  {k:'acc', emoji:'🫂', name:'Acceptance', is:'Wants to belong.', how:'Approach by including them and bringing them into the group.'},
-  {k:'int', emoji:'🧠', name:'Intelligence', is:'Wants to be seen as smart.', how:'Approach by asking them to explain, staying curious, and letting them reach the conclusion.'},
-  {k:'pit', emoji:'🌧️', name:'Pity (hardship)', is:'Wants someone to see how hard it’s been.', how:'Approach by acknowledging it, then pausing so they feel heard, without rushing to fix it.'},
-  {k:'str', emoji:'🦁', name:'Strength / Power', is:'Wants to be seen as strong and in control.', how:'Approach with calm respect, and give them the choice.'}
+  {k:'sig', lean:'significance', emoji:'👑', name:'Significance', is:'Wants to feel they matter and make an impact.', how:'Approach by noticing their impact out loud, and asking their view first.'},
+  {k:'app', lean:'approval', emoji:'🤝', name:'Approval', is:'Wants to know they’re doing OK.', how:'Approach with reassurance, praise the effort, and make yes and no equally safe.'},
+  {k:'acc', lean:'acceptance', emoji:'🫂', name:'Acceptance', is:'Wants to belong.', how:'Approach by including them and bringing them into the group.'},
+  {k:'int', lean:'intelligence', emoji:'🧠', name:'Intelligence', is:'Wants to be seen as smart.', how:'Approach by asking them to explain, staying curious, and letting them reach the conclusion.'},
+  {k:'pit', lean:'pity', emoji:'🌧️', name:'Pity (hardship)', is:'Wants someone to see how hard it’s been.', how:'Approach by acknowledging it, then pausing so they feel heard, without rushing to fix it.'},
+  {k:'str', lean:'power', emoji:'🦁', name:'Strength / Power', is:'Wants to be seen as strong and in control.', how:'Approach with calm respect, and give them the choice.'}
 ];
 (function setupSayNeeds(){
   const btn=$('#needsBtn'), panel=$('#sayNeedsPanel'), body=$('#sayNeedsBody'), close=$('#needsClose');
@@ -94,6 +94,36 @@ const SAY_NEEDS = [
   btn.addEventListener('click', ()=>setOpen(panel.hidden));
   if(close)close.addEventListener('click', ()=>setOpen(false));
 })();
+
+/* ---- Selected lean(s) in the Say line card, after "How to say it." Same SAY_NEEDS text. ---- */
+function selectedLeans(){
+  return $$('#sayApp [data-act="need"].is-on').map(b=>b.getAttribute('data-val')).filter(v=>v&&v!=='any');
+}
+function mountLineNeed(){
+  const card=document.querySelector('#sayApp article.result');
+  if(!card)return;
+  const items=selectedLeans().map(id=>SAY_NEEDS.find(n=>n.lean===id)).filter(Boolean);
+  const key=items.map(n=>n.k).join(',');
+  const existing=card.querySelector('.line-needs');
+  if(existing&&existing.dataset.needs===key)return;
+  if(existing)existing.remove();
+  if(!items.length)return;
+  const html=`<div class="line-needs" data-needs="${esc(key)}">${items.map(n=>`<div class="line-need">
+    <p class="line-need-name">${n.emoji} <b>${esc(n.name)}</b></p>
+    <p class="line-need-is">${esc(n.is)}</p>
+    <p class="line-need-how">${esc(n.how)}</p>
+  </div>`).join('')}</div>`;
+  const tip=card.querySelector('.tip');
+  const actions=card.querySelector('.actions');
+  if(tip)tip.insertAdjacentHTML('afterend', html);
+  else if(actions)actions.insertAdjacentHTML('beforebegin', html);
+  else card.insertAdjacentHTML('beforeend', html);
+}
+const sayRoot=$('#sayApp');
+if(sayRoot){
+  mountLineNeed();
+  new MutationObserver(mountLineNeed).observe(sayRoot,{childList:true,subtree:true});
+}
 
 /* ---- About ---- */
 const info=$('#infoBtn');
