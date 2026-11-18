@@ -62,17 +62,22 @@
 .need-line{margin:6px 0 0;padding:9px 12px;border-radius:12px;background:var(--fill2);border-left:3px solid var(--acc);font-size:14px;line-height:1.4;color:var(--text)}
 .need-card[open] .need-body{animation:fadeUp .25s var(--ease)}
 
-/* Compact six needs, inside the Say line card */
 .need-card{scroll-margin-top:72px}
-.ra .result .say-needs{margin:16px 0 -4px;border-top:1px solid var(--line);padding-top:2px}
-.ra .say-needs > summary{list-style:none;display:flex;align-items:center;gap:10px;padding:12px 0 8px;cursor:pointer;font-size:14px;font-weight:600;color:var(--ink);letter-spacing:-.01em;transition:color .2s var(--ease)}
-.ra .say-needs > summary::-webkit-details-marker{display:none}
-.ra .say-needs > summary::after{content:"";margin-left:auto;flex:none;width:7px;height:7px;border-right:2px solid #aeaeb2;border-bottom:2px solid #aeaeb2;transform:rotate(45deg);transition:transform .3s var(--spring)}
-.ra .say-needs[open] > summary::after{transform:rotate(-135deg)}
-.ra .say-needs-body{padding:0 0 6px}
-.ra .say-need{margin:0 0 12px}
-.ra .say-need-name{display:block;width:100%;background:none;border:0;padding:0;margin:0 0 3px;text-align:left;font:inherit;font-size:15px;font-weight:650;letter-spacing:-.02em;color:var(--gold-ink);cursor:pointer}
-.ra .say-need-name:active{opacity:.6}
-.ra .say-need-is,.ra .say-need-how{margin:0;font-size:13.5px;line-height:1.4;color:#3a3a3c}
-.ra .say-need-how{color:var(--muted);margin-top:2px}
-.ra .say-needs-note{margin:2px 0 4px;font-size:12.5px;color:var(--muted)}
+.say-from:empty{display:none;margin:0}
+
+/* Needs button + panel at the top of the Say tab */
+.say-needs-wrap{margin:0 0 14px}
+.needs-btn{display:inline-flex;align-items:center;gap:6px;border:0;border-radius:980px;background:var(--fill);color:var(--text);padding:8px 14px;font-weight:600;font-size:14px;letter-spacing:-.01em;min-height:36px;box-shadow:none;transition:background .2s var(--ease),color .2s var(--ease),transform .15s var(--ease)}
+.needs-btn:active{transform:scale(.97)}
+.needs-btn.is-on{background:var(--acc);color:#fff}
+.say-needs-panel{margin:10px 0 0;background:var(--card);border-radius:var(--r);box-shadow:var(--sh);padding:14px 16px 12px}
+.say-needs-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 10px}
+.say-needs-head h2{margin:0;font-size:17px;font-weight:650;letter-spacing:-.02em;color:var(--text);text-transform:none}
+.needs-close{width:32px;height:32px;border:0;border-radius:50%;background:var(--fill);color:var(--text);font-size:20px;line-height:1;display:inline-grid;place-items:center;padding:0}
+.needs-close:active{transform:scale(.96)}
+.say-need{margin:0 0 12px}
+.say-need-name{display:block;width:100%;background:none;border:0;padding:0;margin:0 0 3px;text-align:left;font:inherit;font-size:15px;font-weight:650;letter-spacing:-.02em;color:var(--acc-ink);cursor:pointer}
+.say-need-name:active{opacity:.6}
+.say-need-is,.say-need-how{margin:0;font-size:13.5px;line-height:1.4;color:#3a3a3c}
+.say-need-how{color:var(--mute);margin-top:2px}
+.say-needs-note{margin:2px 0 0;font-size:12.5px;color:var(--mute)}

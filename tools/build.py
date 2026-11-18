@@ -46,6 +46,8 @@ a = sub(a, '<button class="ghost" data-view="${p.id}">How to talk to them</butto
         '<button class="ghost" data-view="${p.id}">How to talk to them</button>${P.needs[0]?`<button class="ghost" data-tosay="${P.needs[0]}|${P.stress>P.comfort?1:0}" data-who="${esc(p.name)}">✦ Lines</button>`:\'\'}', where=W)
 a = sub(a, "const h=location.hash.slice(1);if(['profile','cues','talk','ask','watch','people'].includes(h))show(h);",
         "const h=location.hash.slice(1);show(['say','profile','cues','talk','ask','watch','people'].includes(h)?h:'say');\nwindow.HUB_APP={show,compute,people,dialog,toast};", where=W)
+a = sub(a, "if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});",
+        "if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).catch(()=>{});", where=W)
 a = sub(a, "Everything works except playing Watch videos.", "Everything works except playing Watch videos.", where=W)
 wr(os.path.join(OUT, 'app.js'), a)
 

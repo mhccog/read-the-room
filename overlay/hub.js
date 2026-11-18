@@ -26,7 +26,7 @@ const NEED={sig:'significance',app:'approval',acc:'acceptance',int:'intelligence
 const FEEL={sig:'important',app:'appreciated',acc:'included',int:'smart',pit:'understood',str:'control'};
 const NEEDNAME={significance:'Significance',approval:'Approval',acceptance:'Acceptance',intelligence:'Intelligence',pity:'Hardship',power:'Power'};
 function sayFrom(html){$('#sayFrom').innerHTML=html}
-function defaultFrom(){sayFrom(`<button class="link" data-goto="profile" data-scroll="needsGuide">Not sure which lean fits? See <b>The six needs</b> on Profile →</button>`)}
+function defaultFrom(){sayFrom('')}
 document.addEventListener('click',e=>{
   const t=e.target.closest('[data-tosay]');
   if(t){
@@ -68,7 +68,7 @@ defaultFrom();
 
 
 
-/* ---- Compact six needs, inside the Say line card ---- */
+/* ---- Compact six needs: hidden until the Needs button at the top of Say is pressed ---- */
 const SAY_NEEDS = [
   {k:'sig', emoji:'👑', name:'Significance', is:'Wants to feel they matter and make an impact.', how:'Approach by noticing their impact out loud, and asking their view first.'},
   {k:'app', emoji:'🤝', name:'Approval', is:'Wants to know they’re doing OK.', how:'Approach with reassurance, praise the effort, and make yes and no equally safe.'},
@@ -77,27 +77,23 @@ const SAY_NEEDS = [
   {k:'pit', emoji:'🌧️', name:'Pity (hardship)', is:'Wants someone to see how hard it’s been.', how:'Approach by acknowledging it, then pausing so they feel heard, without rushing to fix it.'},
   {k:'str', emoji:'🦁', name:'Strength / Power', is:'Wants to be seen as strong and in control.', how:'Approach with calm respect, and give them the choice.'}
 ];
-let sayNeedsOpen = false;
-function mountSayNeeds(){
-  const card = document.querySelector('#sayApp article.result');
-  if(!card || card.querySelector('.say-needs')) return;
-  const rows = SAY_NEEDS.map(n => `<div class="say-need">
+(function setupSayNeeds(){
+  const btn=$('#needsBtn'), panel=$('#sayNeedsPanel'), body=$('#sayNeedsBody'), close=$('#needsClose');
+  if(!btn||!panel||!body)return;
+  body.innerHTML=SAY_NEEDS.map(n=>`<div class="say-need">
     <button type="button" class="say-need-name" data-goto="profile" data-scroll="need-${n.k}">${n.emoji} ${esc(n.name)}</button>
     <p class="say-need-is">${esc(n.is)}</p>
     <p class="say-need-how">${esc(n.how)}</p>
-  </div>`).join('');
-  card.insertAdjacentHTML('beforeend', `<details class="say-needs"${sayNeedsOpen?' open':''}>
-    <summary>What the needs mean</summary>
-    <div class="say-needs-body">${rows}<p class="say-needs-note">Hunches to listen for, never labels.</p></div>
-  </details>`);
-  const d = card.querySelector('.say-needs');
-  d.addEventListener('toggle', ()=>{ sayNeedsOpen = d.open; });
-}
-const sayRoot = $('#sayApp');
-if(sayRoot){
-  mountSayNeeds();
-  new MutationObserver(mountSayNeeds).observe(sayRoot, {childList:true, subtree:true});
-}
+  </div>`).join('')+'<p class="say-needs-note">Hunches to listen for, never labels.</p>';
+  function setOpen(open){
+    panel.hidden=!open;
+    btn.classList.toggle('is-on', open);
+    btn.setAttribute('aria-expanded', open?'true':'false');
+  }
+  setOpen(false);
+  btn.addEventListener('click', ()=>setOpen(panel.hidden));
+  if(close)close.addEventListener('click', ()=>setOpen(false));
+})();
 
 /* ---- About ---- */
 const info=$('#infoBtn');
@@ -107,5 +103,29 @@ if(info)info.onclick=()=>APP.dialog(`<h3 style="margin-top:0">About Read the Roo
 <p><b>Ask</b> has two separate modes. <b>Hughes only</b> answers strictly from Hughes’ own book, videos and site. <b>Blend</b> mixes all three teachers into one answer. The two never share notes.</p>
 <p><b>Ethics:</b> use this to understand people and connect better, not to manipulate them. Covert-coercion material (interrogation, false-memory and “enhanced” tactics, covert hypnosis, embedded commands) is deliberately left out, or covered only as how to spot it. Needs are listening prompts, not labels. No single cue proves a lie: always baseline, look for clusters, and consider context. Only say what you mean.</p>
 <p class="caveat">Your saved people, lines and chats stay in this browser only. Nothing is sent anywhere. Works offline once opened.</p>`);
+/* ---- Service worker: pick up new versions on an installed / cached app ---- */
+(function setupSW(){
+  if(!('serviceWorker' in navigator))return;
+  const opts={updateViaCache:'none'};
+  let hadController=!!navigator.serviceWorker.controller;
+  let reloading=false;
+  navigator.serviceWorker.addEventListener('controllerchange', ()=>{
+    // First install shouldn't reload; an update should reload once.
+    if(!hadController){hadController=true;return}
+    if(reloading)return;
+    try{if(sessionStorage.getItem('rtr.sw.reloading'))return;sessionStorage.setItem('rtr.sw.reloading','1')}catch(e){}
+    reloading=true;
+    location.reload();
+  });
+  try{if(hadController)sessionStorage.removeItem('rtr.sw.reloading')}catch(e){}
+  function check(reg){try{reg.update()}catch(e){}}
+  navigator.serviceWorker.register('sw.js', opts).then(reg=>{
+    check(reg);
+    document.addEventListener('visibilitychange', ()=>{if(document.visibilityState==='visible')check(reg)});
+    addEventListener('focus', ()=>check(reg));
+  }).catch(()=>{});
+})();
+
 window.HUB={askMode};
 })();
+

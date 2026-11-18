@@ -34,6 +34,16 @@
   <!-- SAY (line generator, from Read Anyone) -->
   <section id="tab-say" class="tab active">
     <div id="sayFrom" class="say-from"></div>
+    <div class="say-needs-wrap">
+      <button type="button" class="needs-btn" id="needsBtn" aria-expanded="false" aria-controls="sayNeedsPanel"><span aria-hidden="true">👑</span> Needs</button>
+      <div id="sayNeedsPanel" class="say-needs-panel" hidden>
+        <div class="say-needs-head">
+          <h2>The six needs</h2>
+          <button type="button" class="needs-close" id="needsClose" aria-label="Close needs">×</button>
+        </div>
+        <div id="sayNeedsBody"></div>
+      </div>
+    </div>
     <div id="sayApp" class="ra"></div>
   </section>
 
