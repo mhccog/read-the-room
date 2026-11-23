@@ -207,6 +207,7 @@ if(sayRoot){
 const info=$('#infoBtn');
 if(info)info.onclick=()=>APP.dialog(`<h3 style="margin-top:0">About Read the Room</h3>
 <p><b>Say</b> gives you a word to start with and a line you can actually say. Pick a lean, a vibe and a moment. Lines draw on Vanessa Van Edwards, Chase Hughes and Vinh Giang, each tagged with its technique, why it works and how to deliver it.</p>
+<p><b>Learn</b> turns all three teachers into bite-sized cards: a quick Deck for out and about, Browse to search, and a Go deeper sheet with steps, lines, traps and earlier vs updated versions. Every card is tagged with one teacher, and the teacher filter keeps Hughes on his own.</p>
 <p><b>Profile, Body, Talk, Watch and People</b> are a study aid for <b>Chase Hughes, <i>The Behavior Ops Manual</i></b>, summarised in my own words with page references. All credit for the frameworks goes to Hughes. Buy the book for the full depth.</p>
 <p><b>Ask</b> has two separate modes. <b>Hughes only</b> answers strictly from Hughes’ own book, videos and site. <b>Blend</b> mixes all three teachers into one answer. The two never share notes.</p>
 <p><b>Ethics:</b> use this to understand people and connect better, not to manipulate them. Covert-coercion material (interrogation, false-memory and “enhanced” tactics, covert hypnosis, embedded commands) is deliberately left out, or covered only as how to spot it. Needs are listening prompts, not labels. No single cue proves a lie: always baseline, look for clusters, and consider context. Only say what you mean.</p>

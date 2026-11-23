@@ -20,6 +20,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="say.css">
 <link rel="stylesheet" href="hub.css">
+<link rel="stylesheet" href="learn/learn.css">
 <!-- three.js is only fetched when a 3D figure is opened -->
 <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/jsm/"}}</script>
 <script src="migrate.js"></script>
@@ -46,6 +47,9 @@
     </div>
     <div id="sayApp" class="ra"></div>
   </section>
+
+  <!-- LEARN (bite-sized cards from all three teachers; data in learn/cards.js) -->
+  <section id="tab-learn" class="tab"><div id="learnApp" class="learn"></div></section>
 
   <!-- PROFILE -->
   <section id="tab-profile" class="tab">
@@ -163,6 +167,7 @@
 
 <nav class="tabs">
   <button data-tab="say" class="active"><span>❝</span>Say</button>
+  <button data-tab="learn"><span>🎓</span>Learn</button>
   <button data-tab="profile"><span>◎</span>Profile</button>
   <button data-tab="cues"><span>👁</span>Body</button>
   <button data-tab="talk"><span>💬</span>Talk</button>
@@ -182,5 +187,6 @@
 <script src="blend/ui.js"></script>
 <script src="watch/ui.js"></script>
 <script src="hub.js"></script>
+<script src="learn/learn.js"></script>
 </body>
 </html>

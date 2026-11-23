@@ -234,7 +234,7 @@ $('#infoBtn').onclick=()=>dialog(`<h3 style="margin-top:0">About this guide</h3>
 <p class="caveat">Your saved people stay in this browser only. Nothing is sent anywhere.</p>`);
 
 renderGroups();renderCard();renderRegions();renderCues();renderTalk();renderPeople();
-const h=location.hash.slice(1);show(['say','profile','cues','talk','ask','watch','people'].includes(h)?h:'say');
+const h=location.hash.slice(1);show(['say','learn','profile','cues','talk','ask','watch','people'].includes(h)?h:'say');
 window.HUB_APP={show,compute,people,dialog,toast};
 if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).catch(()=>{});
 const offBar=document.createElement('div');offBar.className='offline-bar';offBar.textContent='You\u2019re offline. Everything works except playing Watch videos.';document.body.appendChild(offBar);

@@ -1,0 +1,107 @@
+{
+ "_note": "Snapshot of the six needs as worded in Read Anyone v1 (tag v1-full-guide, 10 Nov 2026). Our own paraphrase; used for the Versions block on the Learn need cards.",
+ "needs": [
+  {
+   "id": "significance",
+   "name": "Significance",
+   "lean": "Wants to matter",
+   "icon": "★",
+   "color": "#F0C35A",
+   "glow": "rgba(240,195,90,0.28)",
+   "listen": "Talks about what they built, their impact, or standing out.",
+   "mightSay": [
+    "I built that from scratch.",
+    "People still come to me for this."
+   ],
+   "do": "Name their specific impact. Then ask what they are proudest of.",
+   "avoid": "A vague 'that's amazing' or stealing the story with your own win.",
+   "line": "That took real building. What are you proudest of?",
+   "question": "Do others see me as making an impact?"
+  },
+  {
+   "id": "approval",
+   "name": "Approval",
+   "lean": "Wants to get it right",
+   "icon": "✓",
+   "color": "#7EB6FF",
+   "glow": "rgba(126,182,255,0.28)",
+   "listen": "Checks in, seeks reassurance, plays themselves down before they start.",
+   "mightSay": [
+    "Is that okay?",
+    "I am sure I will mess it up."
+   ],
+   "do": "Give clear, specific validation. Say what is good and why.",
+   "avoid": "Vague praise, or jumping in with a fix before they feel sure.",
+   "line": "You handled that well — especially [the specific bit].",
+   "question": "Am I doing this right?"
+  },
+  {
+   "id": "acceptance",
+   "name": "Acceptance",
+   "lean": "Wants to belong",
+   "icon": "◈",
+   "color": "#3DDC97",
+   "glow": "rgba(61,220,151,0.28)",
+   "listen": "We, us, our. Teams, groups, who is in and who is out.",
+   "mightSay": [
+    "We all get on really well.",
+    "I do not want to crash a group."
+   ],
+   "do": "Use shared language. Make room for them. Talk about the 'we'.",
+   "avoid": "Making it all about you, or leaving them on the edge of the circle.",
+   "line": "You would fit with the people I have in mind for this.",
+   "question": "Do I belong here?"
+  },
+  {
+   "id": "intelligence",
+   "name": "Intelligence",
+   "lean": "Wants to be seen as smart",
+   "icon": "◉",
+   "color": "#C9A0FF",
+   "glow": "rgba(201,160,255,0.28)",
+   "listen": "Mentions expertise, research, how it works. Tests whether you know it too.",
+   "mightSay": [
+    "When I was at university…",
+    "Walk me through the method."
+   ],
+   "do": "Ask for their expert view, and mean it. Let them explain.",
+   "avoid": "Talking over them, or dumbing it down.",
+   "line": "I would like your read on this — you know this terrain.",
+   "question": "Do others see me as sharp?"
+  },
+  {
+   "id": "pity",
+   "name": "Hardship",
+   "lean": "Wants it known it has been hard",
+   "icon": "◐",
+   "color": "#E0A878",
+   "glow": "rgba(224,168,120,0.28)",
+   "listen": "Talks about what they have been through. Seeks a moment of recognition.",
+   "mightSay": [
+    "You would not believe my week.",
+    "Nobody sees what I deal with."
+   ],
+   "do": "Confirm it was hard. Pause so they feel heard. Then gently move on.",
+   "avoid": "It is not that bad, at least, or instantly problem-solving.",
+   "line": "That sounds like a heavy stretch. I am glad you said it.",
+   "question": "Do others realise how hard this has been?"
+  },
+  {
+   "id": "power",
+   "name": "Power",
+   "lean": "Wants to steer",
+   "icon": "◇",
+   "color": "#FF7A6E",
+   "glow": "rgba(255,122,110,0.28)",
+   "listen": "Directs the conversation, wants the final say, asks for the headline.",
+   "mightSay": [
+    "Just give me the headline.",
+    "Here is how we are doing it."
+   ],
+   "do": "Be short and clear. Let them make the call. Offer options, not a lecture.",
+   "avoid": "Long preambles, or wrestling them for control.",
+   "line": "Two options. You choose which we run with.",
+   "question": "Do I have the final say?"
+  }
+ ]
+}

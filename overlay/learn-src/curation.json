@@ -1,0 +1,988 @@
+{
+ "_about": "Hand-curated inputs for the Learn section. tools/learn_build.py combines these with the two source repos (behavior-ops site, read-anyone) to write docs/learn/cards.js. Not copied to the site.",
+ "topics": [
+  [
+   "openers",
+   "Openers & small talk",
+   "👋"
+  ],
+  [
+   "deeper",
+   "Going deeper",
+   "🌊"
+  ],
+  [
+   "listening",
+   "Listening",
+   "👂"
+  ],
+  [
+   "warmth",
+   "Warmth & liking",
+   "☀️"
+  ],
+  [
+   "groups",
+   "Names, groups & friends",
+   "🫶"
+  ],
+  [
+   "presence",
+   "Confidence & presence",
+   "🧭"
+  ],
+  [
+   "voice",
+   "Voice & delivery",
+   "🎙️"
+  ],
+  [
+   "body",
+   "Body & face",
+   "🙂"
+  ],
+  [
+   "stories",
+   "Stories & humour",
+   "📖"
+  ],
+  [
+   "tough",
+   "Tough moments",
+   "🛟"
+  ],
+  [
+   "needs",
+   "The six needs",
+   "👑"
+  ],
+  [
+   "ideas",
+   "Big ideas",
+   "💡"
+  ],
+  [
+   "brain",
+   "How people work",
+   "🧠"
+  ],
+  [
+   "practice",
+   "Practice & habits",
+   "🔁"
+  ],
+  [
+   "teachers",
+   "Meet the teachers",
+   "🎓"
+  ]
+ ],
+ "note_cat_topic": {
+  "about": "teachers",
+  "body": "body",
+  "confidence": "presence",
+  "deeper": "deeper",
+  "exits": "openers",
+  "groups": "groups",
+  "ideas": "ideas",
+  "listening": "listening",
+  "names": "groups",
+  "openers": "openers",
+  "practice": "practice",
+  "smalltalk": "openers",
+  "story": "stories",
+  "tough": "tough",
+  "voice": "voice",
+  "warmth": "warmth"
+ },
+ "note_map": {
+  "V2": "vve-pq-exciting",
+  "V3": "vve-pq-plans",
+  "V38": "vve-dream-dont-love",
+  "V49": "vve-friends",
+  "V54": "vve-money",
+  "V74": "vve-franklin",
+  "V81": "vve-warmth-cues",
+  "V82": "vve-power-cues",
+  "V83": "vve-interruptions",
+  "V85": "vve-vocal-power",
+  "G21": "vg-link",
+  "G28": "vg-visual-radar",
+  "G29": "vg-undercurrent",
+  "H19": "ch-heard-seen",
+  "H15": "all-six-needs"
+ },
+ "note_extra_merge": {
+  "V74": [
+   "vve-anti-perfect"
+  ],
+  "V83": [
+   "vve-anchor-touch"
+  ],
+  "G21": [
+   "vg-relinking"
+  ]
+ },
+ "code_topic": {
+  "H15": "needs",
+  "H16": "listening",
+  "H17": "ideas",
+  "V1": "deeper",
+  "V2": "openers",
+  "V3": "openers",
+  "V4": "openers",
+  "V60": "groups",
+  "V69": "ideas",
+  "V78": "presence",
+  "V79": "body",
+  "G1": "voice",
+  "G41": "practice",
+  "G42": "presence",
+  "G43": "body"
+ },
+ "extra_notes": {
+  "vve-about": "teachers",
+  "vve-power-questions": "deeper",
+  "vve-magic-phrases": "warmth",
+  "vve-curious-critical": "tough",
+  "vve-compliments": "warmth",
+  "vve-go-deeper": "deeper",
+  "vve-triple-nod": "body",
+  "vve-head-tilt": "body",
+  "vg-about": "teachers",
+  "vg-calm-pace": "tough",
+  "vg-practical-magic": "practice",
+  "vg-storytelling": "stories",
+  "vg-story-bank": "stories",
+  "all-liking-gap": "warmth",
+  "all-assume-liked": "presence",
+  "all-end-on-purpose": "openers",
+  "all-warmth-first": "warmth",
+  "all-voice-competence": "voice",
+  "ch-about": "teachers"
+ },
+ "tech_map": {
+  "'Are you lucky?'": "V53",
+  "'Can I guess?'": "V26",
+  "'I believe in you'": "V56",
+  "'I was just thinking of you'": "V13",
+  "'Last time you mentioned…'": "V15",
+  "'Same here!'": "V16",
+  "'So I can finally…'": "H16",
+  "'Teach me?'": "V67",
+  "'Tell me more' (Vinh)": "G40",
+  "'Tell me more?'": "V14",
+  "'You're so…!'": "V17",
+  "3-2-1 answer": "G38",
+  "Answer the quiet need": "H15",
+  "Appreciation Matrix": "V70",
+  "Argue at the situation, not the person": "G32",
+  "Ask for advice": "V74",
+  "Ask for good": "V32",
+  "Ask for their take": "V42",
+  "At ease, not impressive": "V35",
+  "Attunement": "V77",
+  "Awe": "V55",
+  "Be a connector": "V48",
+  "Better 'How are you?'": "V22",
+  "Bookmark and preview": "V83",
+  "Break the script": "V19",
+  "Change the story": "V58",
+  "Character question": "V8",
+  "Clear, kind ask": "V39",
+  "Context cue": "V21",
+  "Conversation sparker": "V62",
+  "Conversational confetti": "V33",
+  "Conversational threads": "G23",
+  "Counter-offer": "V76",
+  "Curious, not doubtful": "V38",
+  "Dodge the listening traps": "G25",
+  "Don't yuck their yum": "V28",
+  "Dreambuilding": "V37",
+  "FORD topics": "G39",
+  "FORK topics": "H6",
+  "Follow the story": "V51",
+  "Four threads": "H7",
+  "Generosity of energy": "G15",
+  "Go first": "H13",
+  "Golden bridge": "H22",
+  "Good weather only": "V30",
+  "Good-morning rep": "G14",
+  "Graceful exit": "V36",
+  "Graceful topic change": "V29",
+  "Gratitude and enjoyment": "H27",
+  "Hear what changed": "G27",
+  "Heard and seen": "H19",
+  "High, Low, Buffalo": "G22",
+  "Highlighter": "V64",
+  "Hold the floor kindly": "H23",
+  "Honest objection handling": "H25",
+  "Honour the fear": "V57",
+  "Humour": "G18",
+  "If you weren't afraid": "V10",
+  "Introduce people": "H8",
+  "Laugh together": "V45",
+  "Learn one new thing": "H3",
+  "Listen for what matters": "G24",
+  "Make it a regular thing": "V49",
+  "Make them feel interesting": "H2",
+  "Match, then lead": "G35",
+  "Meet their story": "V52",
+  "Money story": "V54",
+  "Most misunderstood": "V9",
+  "NUT the fear": "V75",
+  "Name Game": "V63",
+  "Name it, don't calm it": "V41",
+  "Name the feeling": "G29",
+  "Name the stakes": "G16",
+  "Names and the real question": "H26",
+  "Numbers, then story": "V27",
+  "Opening one-liner": "H5",
+  "Own it, because": "V73",
+  "Pebbling": "V43",
+  "People have reasons": "H21",
+  "Pet and pest projects": "V44",
+  "Power question: always wanted to learn": "V6",
+  "Power question: biggest goal": "V5",
+  "Power question: fun plans": "V3",
+  "Power question: passion project": "V4",
+  "Power question: something exciting": "V2",
+  "Priming words": "V18",
+  "Pull the thread": "G23",
+  "Reflect their word": "G26",
+  "Reflection": "G26",
+  "Relink the story": "G21",
+  "Remember names and stories": "H4",
+  "Resonate before you redirect": "H20",
+  "See what changed": "G28",
+  "Share an insecurity": "H10",
+  "Share wins humbly": "G33",
+  "Shared mission": "V20",
+  "Signal liking": "V24",
+  "Signature question": "V7",
+  "Simple, confident words": "V46",
+  "Sincere 'teach me'": "H14",
+  "Sincere compliment": "H9",
+  "Sincere reaction": "H11",
+  "Skip 'Been busy?'": "V31",
+  "Small-talk loop": "H1",
+  "Spark, Point, Link": "G20",
+  "Speak plainly": "H24",
+  "Speak to how they decide": "H17",
+  "Stories, not facts": "V12",
+  "Story boomerang": "V72",
+  "The situation, not the person": "G32",
+  "The undercurrent": "G29",
+  "Thread Theory": "V66",
+  "Three follow-ups": "G31",
+  "Tough feedback, warmly": "V40",
+  "Treasure hunt": "V11",
+  "Use their words": "H18",
+  "Verbal catch": "V47",
+  "Verbal mirror": "H12",
+  "Vocal nudge": "V87",
+  "Vulnerability": "G17",
+  "Warm and competent words": "V89",
+  "Warm hello": "V86",
+  "What they want from this chat": "G36",
+  "What this chat is for": "G36",
+  "Yes, and": "G37"
+ },
+ "kb_keep": {
+  "ethics": "ideas",
+  "time-distance": "ideas",
+  "yt-render-of-you": "ideas",
+  "yt-translator-not-fix": "ideas",
+  "yt-feelings-before-beliefs": "ideas",
+  "yt-being-influential": "presence",
+  "pod-argument-common-ground": "tough",
+  "yt-argument-ghost": "tough",
+  "yt-thats-right": "listening",
+  "yt-avoid-why": "listening",
+  "yt-function-not-trait": "tough",
+  "yt-remove-reasons": "ideas",
+  "yt-disclosure-ladder": "deeper",
+  "yt-metaphor-prisons": "ideas",
+  "yt-memory-rewrite": "brain",
+  "yt-context-shift": "ideas",
+  "yt-behavioral-magnetics": "ideas",
+  "yt-bullies": "tough",
+  "yt-core-shame": "ideas",
+  "yt-emotional-debt": "ideas",
+  "yt-conflict-frame": "tough",
+  "neurology-overview": "brain",
+  "brain-stem": "brain",
+  "limbic-system": "brain",
+  "cortex-vs-limbic": "brain",
+  "ras": "brain",
+  "vta-drive": "brain",
+  "scripts-vs-emotions": "brain",
+  "neurotransmitters": "brain",
+  "dopamine": "brain",
+  "amygdala": "brain",
+  "hippocampus": "brain",
+  "hypothalamus": "brain",
+  "pituitary": "brain",
+  "thalamus": "brain",
+  "spinal-cord": "brain",
+  "nucleus-accumbens": "brain",
+  "mammalian-brain": "brain",
+  "cognitive-load": "brain",
+  "resting-potential": "brain",
+  "dacc-dmpfc": "brain",
+  "impulse-cycle": "brain",
+  "pleasure-rich": "brain",
+  "dopamine-deception": "brain",
+  "cause-blindness": "brain",
+  "agentic-shift": "brain",
+  "social-resonance": "brain",
+  "smoke-room": "brain",
+  "crosswalk-study": "brain",
+  "bystander-effect": "brain",
+  "uniform-power": "brain",
+  "three-authority-types": "brain",
+  "charisma-weber": "brain",
+  "unstable-leader": "presence",
+  "hard-wired-obedience": "brain",
+  "followership": "presence",
+  "veering": "listening",
+  "authority-overview": "presence",
+  "charisma-social-skill": "presence",
+  "imitate-communicators": "presence",
+  "fear-speaking": "presence",
+  "brilliant-basics": "presence",
+  "rock-in-shoe": "presence",
+  "factors-inhibit-authority": "presence",
+  "bate": "presence",
+  "escalatory-pyramid": "presence",
+  "discipline": "practice",
+  "calm-enjoyment": "presence",
+  "leadership": "presence",
+  "roots-of-anxiety": "presence",
+  "yt-default-leader": "presence",
+  "yt-authority-recipe": "presence",
+  "yt-confidence-permission": "presence",
+  "yt-five-authority": "presence",
+  "yt-confidence-543": "presence",
+  "yt-first-seconds": "presence",
+  "yt-confidence-worldview": "presence",
+  "yt-default-state": "practice",
+  "skill-placebo": "practice",
+  "habit-timelines": "practice",
+  "magic-pathway": "practice",
+  "pod-habits-byproducts": "practice",
+  "yt-flattened": "practice",
+  "yt-predictability-change": "practice",
+  "yt-guilt-shame": "practice",
+  "yt-insert-pause": "practice",
+  "yt-anti-vision": "practice",
+  "yt-discipline-future": "practice",
+  "knowledge-vs-skill": "practice",
+  "books-hughes": "teachers",
+  "nci-levels": "teachers",
+  "behavior-panel": "teachers"
+ },
+ "kb_retitle": {
+  "yt-conflict-frame": "Heated conflict: three threats, five nevers",
+  "ethics": "The scalpel rule: ethics first"
+ },
+ "kb_merge": {
+  "H1": [
+   "rapport-loop",
+   "small-talk-ldao"
+  ],
+  "H5": [
+   "openers"
+  ],
+  "H6": [
+   "fork-topics"
+  ],
+  "H7": [
+   "four-threads",
+   "conversational-threads"
+  ],
+  "H10": [
+   "share-insecurities"
+  ],
+  "H21": [
+   "laws-of-behaviour",
+   "four-ways-seeing",
+   "eel-story",
+   "yt-behind-the-mask"
+  ],
+  "H23": [
+   "interruptions"
+  ],
+  "H24": [
+   "speak-directly",
+   "phrases-lose-focus"
+  ],
+  "H25": [
+   "sales-objections-5s"
+  ],
+  "H27": [
+   "gratitude",
+   "enjoyment"
+  ],
+  "H28": [
+   "troubleshooting"
+  ],
+  "H29": [
+   "authority-triangle",
+   "authority-traits",
+   "authority-inventory",
+   "pod-authority-elements"
+  ],
+  "H30": [
+   "composure-pendulum"
+  ],
+  "H31": [
+   "performance-connection"
+  ],
+  "H32": [
+   "excited-not-calm"
+  ],
+  "H33": [
+   "role-application"
+  ],
+  "H34": [
+   "confidence",
+   "confidence-habits"
+  ],
+  "H35": [
+   "limiting-beliefs",
+   "growth-mindset",
+   "bloom-planted",
+   "yt-limiting-beliefs"
+  ],
+  "H36": [
+   "lifestyle-authority"
+  ],
+  "H37": [
+   "swimming-pool-rule"
+  ],
+  "H39": [
+   "pauses-tonality"
+  ],
+  "H40": [
+   "impact-right",
+   "stories",
+   "heros-journey"
+  ],
+  "H42": [
+   "day-tight"
+  ],
+  "H43": [
+   "eight-point-checklist"
+  ],
+  "ch-about": [
+   "about-hughes"
+  ]
+ },
+ "playbooks": {
+  "rapport": {
+   "topic": "openers",
+   "title": "Build rapport fast (Talk playbook)",
+   "try": "Eyebrow-flash and warmly greet everyone you meet today, then count who flashes back."
+  },
+  "calm": {
+   "topic": "tough",
+   "title": "Calm someone down (Talk playbook)",
+   "try": "Next time someone is upset, say one true thing they can't disagree with, then pause."
+  }
+ },
+ "playbook_merge": {
+  "H25": "objection"
+ },
+ "overrides": {
+  "H11": {
+   "move": "Reflect what their day probably felt like (\"You must be shattered\") purely to show you understand them."
+  },
+  "H13": {
+   "move": "Share something real of your own first, at the depth you'd be happy for them to match, so it's easier for them to open up."
+  },
+  "H14": {
+   "move": "When you genuinely don't know, show real interest in their expertise and let them teach you."
+  },
+  "V68": {
+   "move": "Notice brief flashes of the seven universal expressions and respond kindly to the feeling you see.",
+   "watch": "A face only tells you a feeling. Respond to it; never treat it as proof of anything."
+  },
+  "H41": {
+   "watch": "A change usually means stress or discomfort. Ask gently; never jump to a conclusion."
+  },
+  "H15": {
+   "watch": "Never say \"you're a significance person\". The needs are hunches to test by listening, never labels."
+  },
+  "H18": {
+   "watch": "Speak in their terms to be understood, never to steer a pitch."
+  },
+  "H17": {
+   "watch": "Only ever give the honest reason. If it isn't true, don't say it."
+  },
+  "n-ch-about": {
+   "mv": "A former US Navy behaviour trainer who teaches body language, composure and people skills through The Behavior Ops Manual (2023) and NCI University.",
+   "tr": "Tap the Chase Hughes filter above to study his cards on their own."
+  }
+ },
+ "versions": [
+  {
+   "id": "vve-starters",
+   "teacher": "vve",
+   "title": "Conversation starters",
+   "note": "Same aim in both books: skip autopilot small talk. Captivate gave you novel 'sparkers' and taught you to watch for what lights people up; Conversation turns that into nine power questions across three levels.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Captivate · 2017",
+     "card": "V62"
+    },
+    {
+     "label": "Updated",
+     "when": "Conversation · 2026",
+     "card": "V2",
+     "text": "Nine power questions in three levels — put people at ease, connect deeply, create meaning."
+    }
+   ],
+   "attach": [
+    "V62",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "n-vve-power-questions"
+   ]
+  },
+  {
+   "id": "vve-common",
+   "teacher": "vve",
+   "title": "Finding common ground",
+   "note": "Hunting for three things in common became one quick phrase you say out loud the moment it's true.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Captivate · 2017",
+     "card": "V66"
+    },
+    {
+     "label": "Updated",
+     "when": "Conversation · 2026",
+     "card": "V16"
+    }
+   ]
+  },
+  {
+   "id": "vve-intro",
+   "teacher": "vve",
+   "title": "Introducing people",
+   "note": "Raving introductions grew into being the person who connects people around a shared interest.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Captivate · 2017",
+     "card": "V64"
+    },
+    {
+     "label": "Updated",
+     "when": "Conversation · 2026",
+     "card": "V48"
+    }
+   ]
+  },
+  {
+   "id": "vve-first",
+   "teacher": "vve",
+   "title": "First impressions",
+   "note": "From three body basics, to a full kit of charisma cues, to choosing your very first words.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Captivate · 2017",
+     "card": "V61"
+    },
+    {
+     "label": "Updated",
+     "when": "Cues · 2022",
+     "card": "V80"
+    },
+    {
+     "label": "Latest",
+     "when": "Conversation · 2026",
+     "card": "V18"
+    }
+   ]
+  },
+  {
+   "id": "vve-faces",
+   "teacher": "vve",
+   "title": "Reading faces",
+   "note": "From spotting seven expressions in others, to also checking the signals you send. Both say: respond to the feeling.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Captivate · 2017",
+     "card": "V68"
+    },
+    {
+     "label": "Updated",
+     "when": "Cues · 2022",
+     "card": "V84"
+    }
+   ]
+  },
+  {
+   "id": "vve-mirror",
+   "teacher": "vve",
+   "title": "Mirroring",
+   "note": "Mirroring the positive moved from a list of warmth cues to a stand-alone habit.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Cues · 2022",
+     "card": "V81"
+    },
+    {
+     "label": "Updated",
+     "when": "Conversation · 2026",
+     "card": "V34"
+    }
+   ]
+  },
+  {
+   "id": "vve-stories",
+   "teacher": "vve",
+   "title": "Stories",
+   "note": "From preparing your own stories, to asking for theirs, to following the story they tell about their life.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Captivate · 2017",
+     "card": "V72"
+    },
+    {
+     "label": "Updated",
+     "when": "Conversation · 2026",
+     "card": "V12"
+    },
+    {
+     "label": "Deeper",
+     "when": "Conversation · 2026, Level 3",
+     "card": "V51"
+    }
+   ]
+  },
+  {
+   "id": "vve-advice",
+   "teacher": "vve",
+   "title": "Asking for advice",
+   "note": "Asking for advice moved from a liking trick into high-stakes talks, alongside appreciation, safety and a shared mission.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Captivate · 2017",
+     "card": "V74"
+    },
+    {
+     "label": "Updated",
+     "when": "Conversation · 2026",
+     "card": "V20"
+    }
+   ]
+  },
+  {
+   "id": "vve-liking",
+   "teacher": "vve",
+   "title": "Showing you like people",
+   "note": "Attunement became a simpler instruction: your liking signals are weaker than you think, so turn them up.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Captivate · 2017",
+     "card": "V77"
+    },
+    {
+     "label": "Updated",
+     "when": "Conversation · 2026",
+     "card": "V24"
+    }
+   ]
+  },
+  {
+   "id": "vve-expect",
+   "teacher": "vve",
+   "title": "Expecting the best",
+   "note": "Expecting the best of others became walking in assuming they already like you.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Captivate · 2017",
+     "card": "V65"
+    },
+    {
+     "label": "Updated",
+     "when": "Conversation · 2026",
+     "card": "n-all-assume-liked"
+    }
+   ]
+  },
+  {
+   "id": "vve-reading",
+   "teacher": "vve",
+   "title": "Reading personality",
+   "note": "From the Big Five to the five stories people tell about themselves. Both are colour, never labels.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Captivate · 2017",
+     "card": "V69"
+    },
+    {
+     "label": "Updated",
+     "when": "Conversation · 2026",
+     "card": "V52"
+    }
+   ]
+  },
+  {
+   "id": "vve-remember",
+   "teacher": "vve",
+   "title": "Remembering people",
+   "note": "From remembering names to remembering what they told you, and calling it back.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Captivate · 2017",
+     "card": "V63"
+    },
+    {
+     "label": "Updated",
+     "when": "Conversation · 2026",
+     "card": "V15"
+    }
+   ]
+  },
+  {
+   "id": "vg-tellmore",
+   "teacher": "vg",
+   "title": "Keeping them talking",
+   "note": "His 2025 'tell me more' became a full reflection method in the book.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Diary of a CEO · 2025",
+     "card": "G40"
+    },
+    {
+     "label": "Updated",
+     "when": "Before We Forget How to Connect · 2026",
+     "card": "G26"
+    }
+   ]
+  },
+  {
+   "id": "vg-followups",
+   "teacher": "vg",
+   "title": "Follow-up questions",
+   "note": "Three follow-ups on strong feelings grew into a whole chapter on listening as the bigger half.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "On Purpose podcast",
+     "card": "G31"
+    },
+    {
+     "label": "Updated",
+     "when": "Before We Forget How to Connect · 2026",
+     "card": "G24"
+    }
+   ]
+  },
+  {
+   "id": "vg-match",
+   "teacher": "vg",
+   "title": "Matching people",
+   "note": "Match, mirror and lead from his blog became a precise volume habit in the book: match first, then add a notch.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Blog: build rapport with anyone",
+     "card": "G35"
+    },
+    {
+     "label": "Updated",
+     "when": "Before We Forget How to Connect · 2026",
+     "card": "G6"
+    }
+   ]
+  },
+  {
+   "id": "vg-topics",
+   "teacher": "vg",
+   "title": "Things to talk about",
+   "note": "FORD topics turned into High, Low, Buffalo: six threads from one easy round.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "YouTube @askvinh",
+     "card": "G39"
+    },
+    {
+     "label": "Updated",
+     "when": "Before We Forget How to Connect · 2026",
+     "card": "G22"
+    }
+   ]
+  },
+  {
+   "id": "vg-energy",
+   "teacher": "vg",
+   "title": "Greeting with energy",
+   "note": "Generosity of energy became a daily practice rep: a real 'Good morning!' with eye contact and a smile.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Audible interview / On Purpose",
+     "card": "G15"
+    },
+    {
+     "label": "Updated",
+     "when": "Before We Forget How to Connect · 2026",
+     "card": "G14"
+    }
+   ]
+  },
+  {
+   "id": "ch-loop",
+   "teacher": "ch",
+   "title": "The small-talk loop",
+   "note": "The field guide's four-step loop gained a quick React step in the updated formula.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Behavior Ops Manual · 2023 (Read & Connect)",
+     "text": "Listen → Display (let your face react) → Ask a small follow-up → Offer a related story. Repeat."
+    },
+    {
+     "label": "Updated",
+     "when": "Read Anyone formula · Nov 2026",
+     "card": "H1"
+    }
+   ],
+   "attach": [
+    "H1"
+   ]
+  },
+  {
+   "id": "ch-heard",
+   "teacher": "ch",
+   "title": "Making people feel seen",
+   "note": "The book's 'make them feel interesting' became, in his 2026 interview, the most important people skill of all.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Behavior Ops Manual · 2023",
+     "card": "H2"
+    },
+    {
+     "label": "Updated",
+     "when": "Diary of a CEO · 2026",
+     "card": "H19"
+    }
+   ]
+  },
+  {
+   "id": "ch-objection",
+   "teacher": "ch",
+   "title": "Handling a hesitation",
+   "note": "Same five S's; the updated version insists every step uses only true statements.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Behavior Ops Manual · 2023 (Talk playbook)",
+     "text": "Sympathise → Socialise → Select → Show → Secure, as a quick playbook for any hesitation."
+    },
+    {
+     "label": "Updated",
+     "when": "Read Anyone · honest form",
+     "card": "H25"
+    }
+   ],
+   "attach": [
+    "H25"
+   ]
+  },
+  {
+   "id": "ch-acss",
+   "teacher": "ch",
+   "title": "Fixing what isn't working",
+   "note": "The book's troubleshooting order became the four-letter ACSS check he teaches in interviews.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Behavior Ops Manual · 2023",
+     "kb": "troubleshooting"
+    },
+    {
+     "label": "Updated",
+     "when": "Diary of a CEO · 2024",
+     "card": "H28"
+    }
+   ],
+   "attach": [
+    "H28"
+   ]
+  },
+  {
+   "id": "ch-authority",
+   "teacher": "ch",
+   "title": "The authority traits",
+   "note": "Same traits, retold more simply on his podcast.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Behavior Ops Manual · 2023",
+     "kb": "authority-traits"
+    },
+    {
+     "label": "Updated",
+     "when": "Podcast",
+     "kb": "pod-authority-elements"
+    }
+   ],
+   "attach": [
+    "H29"
+   ]
+  },
+  {
+   "id": "ch-beliefs",
+   "teacher": "ch",
+   "title": "Limiting beliefs",
+   "note": "The book's step-by-step impeachment of a belief; the later video adds that the soil comes first.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Behavior Ops Manual · 2023",
+     "kb": "limiting-beliefs"
+    },
+    {
+     "label": "Updated",
+     "when": "YouTube",
+     "kb": "yt-limiting-beliefs"
+    }
+   ],
+   "attach": [
+    "H35"
+   ]
+  }
+ ],
+ "text_fix": {
+  "Good luck with the launch next week — I loved hearing about it. I'm going to grab a drink. Talk soon!": "Good luck with the launch next week. I'm off to grab a drink. Talk soon!",
+  "Van Edwards's": "Van Edwards'",
+  "Hughes's": "Hughes'"
+ }
+}
