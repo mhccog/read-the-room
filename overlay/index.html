@@ -21,6 +21,7 @@
 <link rel="stylesheet" href="say.css">
 <link rel="stylesheet" href="hub.css">
 <link rel="stylesheet" href="learn/learn.css">
+<link rel="stylesheet" href="design.css">
 <!-- three.js is only fetched when a 3D figure is opened -->
 <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/jsm/"}}</script>
 <script src="migrate.js"></script>
@@ -28,7 +29,7 @@
 <body>
 <header class="top">
   <div class="brand"><span class="logo" aria-hidden="true"><img src="icon.svg" alt="" width="30" height="30"></span><div><h1>Read the Room</h1><small>Know what to say · read people well</small></div></div>
-  <button class="icon-btn" id="infoBtn" aria-label="About">i</button>
+  <button class="icon-btn" id="infoBtn" aria-label="About"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><circle cx="12" cy="12" r="9.25"/><path d="M12 11v5.5"/><circle cx="12" cy="7.75" r=".6" fill="currentColor"/></svg></button>
 </header>
 
 <main>
@@ -36,11 +37,11 @@
   <section id="tab-say" class="tab active">
     <div id="sayFrom" class="say-from"></div>
     <div class="say-needs-wrap">
-      <button type="button" class="needs-btn" id="needsBtn" aria-expanded="false" aria-controls="sayNeedsPanel"><span aria-hidden="true">👑</span> Needs</button>
+      <button type="button" class="needs-btn" id="needsBtn" aria-expanded="false" aria-controls="sayNeedsPanel"><svg class="needs-ico" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M4.75 16.5 3.75 7.75l4.6 3.6L12 5.5l3.65 5.85 4.6-3.6-1 8.75Z"/><path d="M5 19.25h14"/></svg> Needs</button>
       <div id="sayNeedsPanel" class="say-needs-panel" hidden>
         <div class="say-needs-head">
           <h2>The six needs</h2>
-          <button type="button" class="needs-close" id="needsClose" aria-label="Close needs">×</button>
+          <button type="button" class="needs-close" id="needsClose" aria-label="Close needs"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
         </div>
         <div id="sayNeedsBody"></div>
       </div>
@@ -101,9 +102,9 @@
       </div>
       <div id="askLog" class="chat" aria-live="polite"></div>
       <form id="askBar" class="askbar" autocomplete="off">
-        <button type="button" id="askMic" class="mic" aria-label="Ask by voice" title="Ask by voice">🎙</button>
+        <button type="button" id="askMic" class="mic" aria-label="Ask by voice" title="Ask by voice"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3Zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-3.08A7 7 0 0 0 19 11h-2Z"/></svg></button>
         <input id="askInput" type="text" placeholder="Ask about a cue, term or situation…" enterkeyhint="send" aria-label="Your question">
-        <button type="submit" class="send" aria-label="Send">↑</button>
+        <button type="submit" class="send" aria-label="Send"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 4 5 11l1.4 1.4L11 7.8V20h2V7.8l4.6 4.6L19 11z"/></svg></button>
       </form>
     </div>
     <div id="blendPane" class="ra blend" hidden aria-label="Ask: blend of Van Edwards, Hughes and Giang">
@@ -160,20 +161,20 @@
 <div id="card" class="card collapsed" aria-live="polite" style="display:none">
   <button id="cardToggle" class="card-head">
     <span id="cardSummary">Tap what you notice — your read builds here</span>
-    <span class="chev">▲</span>
+    <span class="chev"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"/></svg></span>
   </button>
   <div class="card-body" id="cardBody"></div>
 </div>
 
 <nav class="tabs">
-  <button data-tab="say" class="active"><span>❝</span>Say</button>
-  <button data-tab="learn"><span>🎓</span>Learn</button>
-  <button data-tab="profile"><span>◎</span>Profile</button>
-  <button data-tab="cues"><span>👁</span>Body</button>
-  <button data-tab="talk"><span>💬</span>Talk</button>
-  <button data-tab="ask"><span>✦</span>Ask</button>
-  <button data-tab="watch"><span>▶︎</span>Watch</button>
-  <button data-tab="people"><span>👥</span>People</button>
+  <button data-tab="say" class="active"><span class="tico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><g class="o"><path d="M12 3.75c-4.83 0-8.75 3.27-8.75 7.3 0 2.2 1.17 4.17 3 5.5-.17 1.33-.8 2.6-1.75 3.45 2.07.08 3.9-.6 5.1-1.62.77.18 1.57.27 2.4.27 4.83 0 8.75-3.27 8.75-7.3S16.83 3.75 12 3.75Z"/><path d="M8.5 9.6h7M8.5 12.9h4.5"/></g><g class="f"><path class="fl" d="M12 3.75c-4.83 0-8.75 3.27-8.75 7.3 0 2.2 1.17 4.17 3 5.5-.17 1.33-.8 2.6-1.75 3.45 2.07.08 3.9-.6 5.1-1.62.77.18 1.57.27 2.4.27 4.83 0 8.75-3.27 8.75-7.3S16.83 3.75 12 3.75Z"/><path class="kn" d="M8.5 9.6h7M8.5 12.9h4.5"/></g></svg></span>Say</button>
+  <button data-tab="learn"><span class="tico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><g class="o"><path d="M12 6.6C10 5.1 7.2 4.6 3.25 4.9v12.9c3.95-.3 6.75.2 8.75 1.7 2-1.5 4.8-2 8.75-1.7V4.9C16.8 4.6 14 5.1 12 6.6Z"/><path d="M12 6.6v12.9"/></g><g class="f"><path class="fl" d="M12 6.6C10 5.1 7.2 4.6 3.25 4.9v12.9c3.95-.3 6.75.2 8.75 1.7 2-1.5 4.8-2 8.75-1.7V4.9C16.8 4.6 14 5.1 12 6.6Z"/><path class="kn" d="M12 7.4v11.3"/></g></svg></span>Learn</button>
+  <button data-tab="profile"><span class="tico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><g class="o"><circle cx="12" cy="12" r="9.25"/><circle cx="12" cy="10" r="3.1"/><path d="M6.4 18.4c1.35-1.95 3.35-3.05 5.6-3.05s4.25 1.1 5.6 3.05"/></g><g class="f"><circle class="fl" cx="12" cy="12" r="9.25"/><circle class="kf" cx="12" cy="10" r="3.1"/><path class="kf" d="M6.4 18.4c1.35-1.95 3.35-3.05 5.6-3.05s4.25 1.1 5.6 3.05A9.2 9.2 0 0 1 12 21.25a9.2 9.2 0 0 1-5.6-2.85Z"/></g></svg></span>Profile</button>
+  <button data-tab="cues"><span class="tico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><g class="o"><path d="M2.75 12S6.25 5.5 12 5.5 21.25 12 21.25 12 17.75 18.5 12 18.5 2.75 12 2.75 12Z"/><circle cx="12" cy="12" r="3"/></g><g class="f"><path class="fl" d="M2.75 12S6.25 5.5 12 5.5 21.25 12 21.25 12 17.75 18.5 12 18.5 2.75 12 2.75 12Z"/><circle class="kf" cx="12" cy="12" r="3.4"/><circle class="fl" cx="12" cy="12" r="1.5"/></g></svg></span>Body</button>
+  <button data-tab="talk"><span class="tico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><g class="o"><path d="M3.75 8.5A3.5 3.5 0 0 1 7.25 5h6A3.5 3.5 0 0 1 16.75 8.5v2.75a3.5 3.5 0 0 1-3.5 3.5H9.5L6 17.5v-2.9a3.5 3.5 0 0 1-2.25-3.3Z"/><path d="M16.75 9.25h.25a3.25 3.25 0 0 1 3.25 3.25v2.25a3.25 3.25 0 0 1-1.75 2.9v2.6l-3.1-2.25H13a3.25 3.25 0 0 1-2.9-1.75"/></g><g class="f"><path class="fl" d="M3.75 8.5A3.5 3.5 0 0 1 7.25 5h6A3.5 3.5 0 0 1 16.75 8.5v2.75a3.5 3.5 0 0 1-3.5 3.5H9.5L6 17.5v-2.9a3.5 3.5 0 0 1-2.25-3.3Z"/><path d="M16.75 9.25h.25a3.25 3.25 0 0 1 3.25 3.25v2.25a3.25 3.25 0 0 1-1.75 2.9v2.6l-3.1-2.25H13a3.25 3.25 0 0 1-2.9-1.75"/></g></svg></span>Talk</button>
+  <button data-tab="ask"><span class="tico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><g class="o"><path d="M11 3.5c.6 4.2 2.6 6.2 6.75 6.75-4.15.6-6.15 2.6-6.75 6.75-.6-4.15-2.6-6.15-6.75-6.75C8.4 9.7 10.4 7.7 11 3.5Z"/><path d="M18.25 15c.22 1.4.8 2 2.25 2.25-1.45.22-2.03.8-2.25 2.25-.22-1.45-.8-2.03-2.25-2.25 1.45-.25 2.03-.85 2.25-2.25Z"/></g><g class="f"><path class="fl" d="M11 3.5c.6 4.2 2.6 6.2 6.75 6.75-4.15.6-6.15 2.6-6.75 6.75-.6-4.15-2.6-6.15-6.75-6.75C8.4 9.7 10.4 7.7 11 3.5Z"/><path class="fl" d="M18.25 15c.22 1.4.8 2 2.25 2.25-1.45.22-2.03.8-2.25 2.25-.22-1.45-.8-2.03-2.25-2.25 1.45-.25 2.03-.85 2.25-2.25Z"/></g></svg></span>Ask</button>
+  <button data-tab="watch"><span class="tico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><g class="o"><rect x="2.75" y="5" width="18.5" height="14" rx="4"/><path d="M10.1 9.3v5.4l4.6-2.7Z"/></g><g class="f"><rect class="fl" x="2.75" y="5" width="18.5" height="14" rx="4"/><path class="kf" d="M10.1 9.3v5.4l4.6-2.7Z"/></g></svg></span>Watch</button>
+  <button data-tab="people"><span class="tico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><g class="o"><circle cx="9" cy="8.5" r="3.25"/><path d="M3.5 19.25c.5-3.1 2.8-5.25 5.5-5.25s5 2.15 5.5 5.25"/><circle cx="16.75" cy="9.25" r="2.6"/><path d="M16 14.1c2.55-.3 4.55 1.55 5 4.4"/></g><g class="f"><circle class="fl" cx="9" cy="8.5" r="3.25"/><path class="fl" d="M3.5 19.25c.5-3.1 2.8-5.25 5.5-5.25s5 2.15 5.5 5.25Z"/><circle class="fl" cx="16.75" cy="9.25" r="2.6"/><path class="fl" d="M16 14.1c2.55-.3 4.55 1.55 5 4.4h-5.1a6.9 6.9 0 0 0-1.6-4.1Z"/></g></svg></span>People</button>
 </nav>
 
 <dialog id="dlg"><div id="dlgBody"></div><form method="dialog"><button class="primary">Close</button></form></dialog>
