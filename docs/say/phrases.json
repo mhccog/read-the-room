@@ -9193,5 +9193,155 @@
   "basis": "book",
   "delivery": "Let your face show you mean it, and end \"move goes\" on a gentle rise.",
   "deliveryBy": "Vinh Giang (BWF ch11)"
+ },
+ {
+  "id": "p644",
+  "need": "any",
+  "feeling": "curious",
+  "situation": "opener",
+  "sources": [
+   "VVEYT-NGEFy_QOJSg@0:08:00"
+  ],
+  "text": "What do you like to do when you're not working?",
+  "technique": "\"What do you like to do?\"",
+  "why": "Vanessa: one small word swap turns a job report into a topic people enjoy.",
+  "basis": "interview",
+  "delivery": "Lift your voice slightly on \"like\", then keep your eyebrows up while you wait.",
+  "deliveryBy": "Van Edwards (interview 2026)"
+ },
+ {
+  "id": "p645",
+  "need": "significance",
+  "feeling": "important",
+  "situation": "rapport",
+  "sources": [
+   "VVEYT-NGEFy_QOJSg@0:44:07"
+  ],
+  "text": "What are you working towards right now, at work or outside it?",
+  "technique": "Goals open the door",
+  "why": "Vanessa: goals tap motivation and values, the quickest door from small talk to real connection.",
+  "basis": "interview",
+  "delivery": "Ask it slowly and lean in a little on \"working towards\".",
+  "deliveryBy": "Van Edwards (interview 2026)"
+ },
+ {
+  "id": "p646",
+  "need": "any",
+  "feeling": "comfortable",
+  "situation": "opener",
+  "sources": [
+   "VVEYT-NGEFy_QOJSg@0:45:30"
+  ],
+  "text": "Tell me something good from your week.",
+  "technique": "\"Tell me something good\"",
+  "why": "Vanessa opens her own team calls this way: a quick, warm start that beats dull small talk.",
+  "basis": "interview",
+  "delivery": "Smile as you say \"good\", and leave a relaxed pause for them to think.",
+  "deliveryBy": "Van Edwards (interview 2026)"
+ },
+ {
+  "id": "p647",
+  "need": "pity",
+  "feeling": "heard",
+  "situation": "rapport",
+  "sources": [
+   "VVEYT-Bl-VYQbAbVE@0:49:30"
+  ],
+  "text": "That sounds rough. How are you doing now?",
+  "technique": "Stay on their story",
+  "why": "Vanessa: don't one-up or one-down. Stay with their story before you add yours.",
+  "basis": "interview",
+  "delivery": "Drop your volume a little and slow down on \"how are you doing now\".",
+  "deliveryBy": "Van Edwards (interview 2025)"
+ },
+ {
+  "id": "p648",
+  "need": "intelligence",
+  "feeling": "respected",
+  "situation": "rapport",
+  "sources": [
+   "VGYT-PBUMOJ3M0DQ@0:44:30"
+  ],
+  "text": "Good question. Do you mean the budget or the timeline?",
+  "technique": "Pause, clarify, answer",
+  "why": "Vinh: a clarifying question buys time and shows you what they really want to know.",
+  "basis": "interview",
+  "delivery": "Pause for a full breath before \"Good question\", then ask the rest at an even pace.",
+  "deliveryBy": "Vinh Giang (interview 2026)"
+ },
+ {
+  "id": "p649",
+  "need": "intelligence",
+  "feeling": "understood",
+  "situation": "disagree",
+  "sources": [
+   "VGYT-PBUMOJ3M0DQ@0:45:00"
+  ],
+  "text": "Before I answer, can I check what matters most to you here?",
+  "technique": "Pause, clarify, answer",
+  "why": "Vinh: answering the question they actually meant beats a fast, generic answer.",
+  "basis": "interview",
+  "delivery": "Say it slower than usual; a slower answer reads as calm and in control.",
+  "deliveryBy": "Vinh Giang (interview 2026)"
+ },
+ {
+  "id": "p650",
+  "need": "acceptance",
+  "feeling": "trusted",
+  "situation": "rapport",
+  "sources": [
+   "CSYT-knAGgxzYqw8@1:09:06"
+  ],
+  "text": "I want to be upfront about what I'm hoping for here.",
+  "technique": "No hidden intent",
+  "why": "Chase's first ethics question: am I hiding my intent? Saying it out loud keeps you honest.",
+  "basis": "interview",
+  "delivery": "Keep your hands still and your voice low and steady, with a pause after \"upfront\".",
+  "deliveryBy": "Chase Hughes (interview 2025)"
+ },
+ {
+  "id": "p651",
+  "need": "any",
+  "feeling": "reassured",
+  "situation": "disagree",
+  "sources": [
+   "CSYT-d-ZzGfcitd0@0:19:46"
+  ],
+  "text": "I'm in no rush. Take your time.",
+  "technique": "Slowest in the room",
+  "why": "Chase: be the slowest, most relaxed person in the conversation, whoever they are.",
+  "basis": "interview",
+  "delivery": "Breathe out first, then say it slowly with relaxed shoulders.",
+  "deliveryBy": "Chase Hughes (interview 2025)"
+ },
+ {
+  "id": "p652",
+  "need": "intelligence",
+  "feeling": "heard",
+  "situation": "disagree",
+  "sources": [
+   "CSYT-_R2JwJ0A1QE@0:25:33"
+  ],
+  "text": "Tell me how you came to that view. I'd like to understand it.",
+  "technique": "Let them fully express",
+  "why": "Chase: ask how they reached their view and let them finish, instead of interrupting to disagree.",
+  "basis": "interview",
+  "delivery": "Ask it with genuine curiosity, then stay quiet until they have completely finished.",
+  "deliveryBy": "Chase Hughes (interview 2024)"
+ },
+ {
+  "id": "p653",
+  "need": "significance",
+  "feeling": "appreciated",
+  "situation": "rapport",
+  "sources": [
+   "CSYT-AvpTLRNDEqU@0:33:31"
+  ],
+  "text": "That's brilliant news. How did it feel when you found out?",
+  "technique": "Show real joy at their win",
+  "why": "Chase: people notice whether you're truly glad for them. Let the joy show, then ask about it.",
+  "basis": "interview",
+  "delivery": "Let your face light up before you speak, and rise on \"brilliant\".",
+  "deliveryBy": "Chase Hughes (interview 2026)"
  }
 ]

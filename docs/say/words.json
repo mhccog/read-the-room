@@ -5171,5 +5171,58 @@
     "why": "Leave the timing with them, even in a disagreement, so they keep the final say.",
     "delivery": "Say \"Whenever.\" lightly, with a falling pitch, and do not add a deadline.",
     "deliveryBy": "Vinh Giang (BWF ch4)"
+  },
+  {
+    "text": "Good question.",
+    "need": "intelligence",
+    "feeling": "respected",
+    "situation": "rapport",
+    "sources": [
+      "VGYT-PBUMOJ3M0DQ@0:44:30"
+    ],
+    "technique": "Pause, clarify, answer",
+    "why": "Buys a breath and signals you are taking their question seriously.",
+    "delivery": "Pause first, then say \"Good question.\" calmly, with a falling pitch.",
+    "deliveryBy": "Vinh Giang (interview 2026)",
+    "id": "w339",
+    "feelings": [
+      "understood",
+      "smart"
+    ]
+  },
+  {
+    "text": "Upfront—",
+    "need": "acceptance",
+    "feeling": "trusted",
+    "situation": "rapport",
+    "sources": [
+      "CSYT-knAGgxzYqw8@1:09:06"
+    ],
+    "technique": "No hidden intent",
+    "why": "Name your intent before you ask for anything.",
+    "delivery": "Say \"Upfront—\" low and steady, then pause before the rest.",
+    "deliveryBy": "Chase Hughes (interview 2025)",
+    "id": "w340",
+    "feelings": [
+      "reassured"
+    ]
+  },
+  {
+    "text": "Anything good?",
+    "need": "any",
+    "feeling": "comfortable",
+    "situation": "opener",
+    "sources": [
+      "VVEYT-NGEFy_QOJSg@0:45:30"
+    ],
+    "technique": "\"Tell me something good\"",
+    "why": "Invites a happy story instead of a flat \"fine\".",
+    "delivery": "Smile and lift your pitch on \"good\".",
+    "deliveryBy": "Van Edwards (interview 2026)",
+    "id": "w341",
+    "feelings": [
+      "curious",
+      "liked"
+    ]
   }
 ]

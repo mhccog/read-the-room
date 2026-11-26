@@ -159,7 +159,22 @@
   "all-end-on-purpose": "openers",
   "all-warmth-first": "warmth",
   "all-voice-competence": "voice",
-  "ch-about": "teachers"
+  "ch-about": "teachers",
+  "vve-m-like-to-do": "openers",
+  "vve-m-work-goals": "deeper",
+  "vve-m-relationship-audit": "groups",
+  "vve-m-one-uppers": "tough",
+  "vve-m-impression-triggers": "presence",
+  "vve-m-outbreath-hello": "voice",
+  "vve-m-own-baseline": "body",
+  "vve-m-name-statement": "voice",
+  "vg-m-pause-clarify": "presence",
+  "vg-m-be-engaged": "voice",
+  "vg-m-stretch-range": "practice",
+  "vg-m-clean-thinking": "stories",
+  "vg-m-practise-as-you-deliver": "practice",
+  "vg-m-vocal-image": "voice",
+  "vg-m-pick-three": "practice"
  },
  "tech_map": {
   "'Are you lucky?'": "V53",
@@ -380,11 +395,29 @@
   "knowledge-vs-skill": "practice",
   "books-hughes": "teachers",
   "nci-levels": "teachers",
-  "behavior-panel": "teachers"
+  "behavior-panel": "teachers",
+  "m-ethics-three": "ideas",
+  "m-old-broadcast": "presence",
+  "m-same-with-everyone": "presence",
+  "m-connect-not-analyse": "body",
+  "m-joy-at-news": "body",
+  "m-words-matter": "body",
+  "m-skill-of-boredom": "practice",
+  "m-future-self": "practice",
+  "m-causes-not-symptoms": "ideas"
  },
  "kb_retitle": {
   "yt-conflict-frame": "Heated conflict: three threats, five nevers",
-  "ethics": "The scalpel rule: ethics first"
+  "ethics": "The scalpel rule: ethics first",
+  "m-ethics-three": "Three questions before you influence anyone",
+  "m-old-broadcast": "The inner critic is an old broadcast",
+  "m-same-with-everyone": "Treat a CEO and a barista the same",
+  "m-connect-not-analyse": "Connect first, analyse only when it matters",
+  "m-joy-at-news": "Notice joy, or its absence, at your good news",
+  "m-words-matter": "Words still carry the message (the 93% myth)",
+  "m-skill-of-boredom": "Practise being bored",
+  "m-future-self": "Meet your future self",
+  "m-causes-not-symptoms": "Work on causes, not symptoms"
  },
  "kb_merge": {
   "H1": [
@@ -977,6 +1010,200 @@
    ],
    "attach": [
     "H35"
+   ]
+  },
+  {
+   "id": "vg-record-review",
+   "teacher": "vg",
+   "title": "Record and review",
+   "note": "The book ends each chapter with one thing to work on; in his late-2026 interviews he says pick three from a single recording, because fixing one often reveals the next.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Before We Forget How to Connect · 2026",
+     "card": "n-vg-practical-magic"
+    },
+    {
+     "label": "Updated",
+     "when": "Lewis Howes and Mark Manson interviews · Nov 2026",
+     "card": "n-vg-m-pick-three"
+    }
+   ]
+  },
+  {
+   "id": "vg-vocal-image",
+   "teacher": "vg",
+   "title": "Your voice and how you are judged",
+   "note": "The idea that people judge your competence by your voice goes back years: in 2019 he framed it as a vocal image you have to earn; the book backs it with research.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Unstoppable podcast · 2019",
+     "card": "n-vg-m-vocal-image"
+    },
+    {
+     "label": "Updated",
+     "when": "Before We Forget How to Connect · 2026",
+     "card": "n-all-voice-competence"
+    }
+   ]
+  },
+  {
+   "id": "vg-gestures-2026",
+   "teacher": "vg",
+   "title": "The five gestures",
+   "note": "Same five gestures, with clearer rules on when to use the strongest ones.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Before We Forget How to Connect · 2026",
+     "card": "G10"
+    },
+    {
+     "label": "Updated",
+     "when": "Raj Shamani interview · Nov 2026",
+     "text": "He now calls the thinking pose \"the Computer\": use it to show you are processing, then move on. Pointing is for talking to a crowd, never one to one, and the reset clap gets one use per talk."
+    }
+   ],
+   "attach": [
+    "G10"
+   ]
+  },
+  {
+   "id": "vg-last-word-score",
+   "teacher": "vg",
+   "title": "Last Word, Last Letter",
+   "note": "The listening game gained a score, so you can track it.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Before We Forget How to Connect · 2026",
+     "card": "G30"
+    },
+    {
+     "label": "Updated",
+     "when": "Mel Robbins Podcast · Nov 2026",
+     "text": "After a round, rate from 1 to 10 how hard it felt. A high score means you were busy planning your reply instead of listening to the end."
+    }
+   ],
+   "attach": [
+    "G30"
+   ]
+  },
+  {
+   "id": "vve-voice-power-2026",
+   "teacher": "vve",
+   "title": "A confident voice",
+   "note": "The book gives the vocal power rules; her interviews boil them down to two quick habits you can use today.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Cues · 2022",
+     "card": "V85"
+    },
+    {
+     "label": "Updated",
+     "when": "BigDeal interview · 2024",
+     "card": "n-vve-m-name-statement"
+    },
+    {
+     "label": "Latest",
+     "when": "Interview · Jul 2026",
+     "card": "n-vve-m-outbreath-hello"
+    }
+   ]
+  },
+  {
+   "id": "vve-friends-audit",
+   "teacher": "vve",
+   "title": "Making and keeping friends",
+   "note": "Making friends was about social hours and shared places; by 2025 she adds a first step: sort who fuels you before you add more.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Captivate and Conversation",
+     "card": "V49"
+    },
+    {
+     "label": "Updated",
+     "when": "Dan Buettner Podcast · 2025",
+     "card": "n-vve-m-relationship-audit"
+    }
+   ]
+  },
+  {
+   "id": "vve-what-do-you-do",
+   "teacher": "vve",
+   "title": "Answering and asking \"What do you do?\"",
+   "note": "First she fixed your answer with a logline; in 2026 she also fixes the question itself.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Conversation · 2026",
+     "card": "V23"
+    },
+    {
+     "label": "Updated",
+     "when": "Learning Leader interview · Oct 2026",
+     "card": "n-vve-m-like-to-do"
+    }
+   ]
+  },
+  {
+   "id": "ch-discipline-future",
+   "teacher": "ch",
+   "title": "Discipline and the future self",
+   "note": "The future-self idea has stayed constant for years; early on he paired it with a simple aged-photo exercise.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Eric Hunley podcast · 2021",
+     "card": "k-m-future-self"
+    },
+    {
+     "label": "Updated",
+     "when": "The Behavior Ops Manual and videos",
+     "card": "k-discipline"
+    }
+   ]
+  },
+  {
+   "id": "ch-composure-equal",
+   "teacher": "ch",
+   "title": "Composure",
+   "note": "The pendulum (collapse, composure, posturing) gained a daily practice: treat everyone the same and score yourself each night.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "The Behavior Ops Manual",
+     "card": "H30"
+    },
+    {
+     "label": "Updated",
+     "when": "Doug Bopst podcast · 2025",
+     "card": "k-m-same-with-everyone"
+    }
+   ]
+  },
+  {
+   "id": "ch-learn-from-anyone",
+   "teacher": "ch",
+   "title": "Learn one new thing every conversation",
+   "note": "Same habit, with a healthy caveat added.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "The Behavior Ops Manual",
+     "card": "H3"
+    },
+    {
+     "label": "Updated",
+     "when": "Harder Not Smarter podcast · 2024",
+     "text": "Go into every conversation believing the person has something to teach you, while staying sceptical of what you are told."
+    }
+   ],
+   "attach": [
+    "H3"
    ]
   }
  ],

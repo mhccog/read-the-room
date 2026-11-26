@@ -298,7 +298,14 @@ BO.goals = [
    "Never defend yourself or talk about yourself.",
    "Mirror it calmly: 'You seem to feel quite strongly about this.'",
    "Name it lightly: 'Not often someone questions my credibility — happy to talk it through.'",
-   "Deal with it early — 'kill monsters while they're small'."]}
+   "Deal with it early — 'kill monsters while they're small'."]},
+ { id:"composed", t:"Stay composed with anyone", e:"🧘", p:"154–158, 311 · interviews 2025–26", steps:[
+   "Treat everyone the same: a big client and the person making your coffee get the same calm you.",
+   "Be the slowest and most relaxed person in the conversation (the swimming pool rule).",
+   "Watch for the two traps: collapse (shrinking, apologising) and posturing (puffing up).",
+   "If the 'you're not enough' voice starts, label it as an old broadcast and carry on.",
+   "Connect, don't analyse: save careful reading for high-stakes moments.",
+   "Tonight, score your composure from 1 to 10 and note one moment you rushed."]}
 ];
 
 BO.animals = [
