@@ -312,7 +312,13 @@ BO.goals = [
     "When a heated topic starts, find one thing you genuinely agree on, fast.",
     "Thank them for sharing their view, and mean it.",
     "Ask to save the rest for another day. If it matters, it will keep.",
-    "Remember you can dislike a view and still love the person."]}
+    "Remember you can dislike a view and still love the person."]},
+  { id:"interview", t:"Walk into a job interview", e:"💼", p:"Behavior Panel 2024 · videos 2025–26", steps:[
+    "Before you go in, call the jitters excitement: your body can't tell the two apart.",
+    "Arrive slower than usual, and don't look like you need something from them.",
+    "Treat the interviewer the way you'd treat anyone: no ranking yourself above or below.",
+    "Talk about the outcomes they want from the role, so they picture the result while looking at you.",
+    "Afterwards, note one moment you rushed and one that went well."]}
 ];
 
 BO.animals = [

@@ -193,7 +193,18 @@
   "vg-m-pragmatic-mentors": "practice",
   "vg-m-camera-room": "voice",
   "vg-m-pat": "presence",
-  "vg-m-ccc": "stories"
+  "vg-m-ccc": "stories",
+  "vg-m-offer-and-echo": "openers",
+  "vg-m-anchor-invite": "presence",
+  "vg-m-firm-friendly": "voice",
+  "vg-m-criticism": "tough",
+  "vg-m-avoid-overcorrect": "tough",
+  "vg-m-cant-get-wrong": "practice",
+  "vg-m-impromptu-drill": "practice",
+  "vg-m-count-three": "listening",
+  "vg-m-check-level": "stories",
+  "vg-m-three-to-one": "listening",
+  "vve-m-subtle-drainers": "tough"
  },
  "tech_map": {
   "'Are you lucky?'": "V53",
@@ -431,7 +442,15 @@
   "m-show-dont-tell": "stories",
   "m-do-right": "tough",
   "m-value-not-convince": "ideas",
-  "m-future-memory": "practice"
+  "m-future-memory": "practice",
+  "m-costly-honesty": "ideas",
+  "m-incoherence": "body",
+  "m-mistrust-reflection": "ideas",
+  "m-sincerity-messy": "body",
+  "m-testimony-eight": "body",
+  "m-genuine-signs": "body",
+  "m-interview-excited": "presence",
+  "m-regrets-text": "deeper"
  },
  "kb_retitle": {
   "yt-conflict-frame": "Heated conflict: three threats, five nevers",
@@ -452,7 +471,15 @@
   "m-show-dont-tell": "Paint the picture, don't label it",
   "m-do-right": "Do right instead of being right",
   "m-value-not-convince": "Offer value, don't convince",
-  "m-future-memory": "Your future is stored like a memory"
+  "m-future-memory": "Your future is stored like a memory",
+  "m-costly-honesty": "Trust honesty that costs them something",
+  "m-incoherence": "Mistrust starts when the layers stop matching",
+  "m-mistrust-reflection": "Sometimes the mistrust is your own reflection",
+  "m-sincerity-messy": "Three signs of sincerity: messy, in rhythm, fitting",
+  "m-testimony-eight": "Eight changes to watch when someone explains themselves",
+  "m-genuine-signs": "What genuine distress looks like",
+  "m-interview-excited": "Job interviews: call it excitement, talk outcomes",
+  "m-regrets-text": "The five regrets, and the message to send tonight"
  },
  "kb_merge": {
   "H1": [
@@ -1445,6 +1472,70 @@
      "label": "Updated",
      "when": "Doug Bopst podcast · 2026",
      "card": "k-m-words-matter"
+    }
+   ]
+  },
+  {
+   "id": "ch-trust",
+   "teacher": "ch",
+   "title": "What earns trust, and what loses it",
+   "note": "Three angles from one Behavior Panel discussion on trust.",
+   "steps": [
+    {
+     "label": "Earns it",
+     "when": "The Behavior Panel · 2026",
+     "card": "k-m-costly-honesty"
+    },
+    {
+     "label": "Loses it",
+     "when": "The Behavior Panel · 2026",
+     "card": "k-m-incoherence"
+    },
+    {
+     "label": "Check yourself",
+     "when": "The Behavior Panel · 2026",
+     "card": "k-m-mistrust-reflection"
+    }
+   ]
+  },
+  {
+   "id": "ch-genuine",
+   "teacher": "ch",
+   "title": "Genuine or rehearsed?",
+   "note": "What Chase looks for before deciding someone means it, and the changes he watches when they explain themselves.",
+   "steps": [
+    {
+     "label": "Sincere",
+     "when": "The Behavior Panel · 2026",
+     "card": "k-m-sincerity-messy"
+    },
+    {
+     "label": "Genuine distress",
+     "when": "The Behavior Panel · 2025",
+     "card": "k-m-genuine-signs"
+    },
+    {
+     "label": "What changes",
+     "when": "The Behavior Panel · 2025",
+     "card": "k-m-testimony-eight"
+    }
+   ]
+  },
+  {
+   "id": "vg-pause-share",
+   "teacher": "vg",
+   "title": "Pause first, then share",
+   "note": "Two of Vinh's listening habits that work together.",
+   "steps": [
+    {
+     "label": "Before you reply",
+     "when": "Video · Oct 2025",
+     "card": "n-vg-m-count-three"
+    },
+    {
+     "label": "When to share",
+     "when": "Video · Sep 2026",
+     "card": "n-vg-m-three-to-one"
     }
    ]
   }

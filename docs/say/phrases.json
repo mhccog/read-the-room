@@ -9478,5 +9478,50 @@
   "basis": "interview",
   "delivery": "Slow and level, with open hands.",
   "deliveryBy": "Chase Hughes (interview 2025)"
+ },
+ {
+  "id": "p663",
+  "need": "intelligence",
+  "feeling": "respected",
+  "situation": "rapport",
+  "sources": [
+   "VGYT-Sqh6rt1hN2A@0:03:25"
+  ],
+  "text": "Before I go any further, how familiar are you with this?",
+  "technique": "Check their level first",
+  "why": "Vinh: asking first stops you burying people in jargon or talking down to an expert.",
+  "basis": "source-example",
+  "delivery": "Curious, not testing. Then pitch your explanation to the answer.",
+  "deliveryBy": "Vinh Giang (video 2026)"
+ },
+ {
+  "id": "p664",
+  "need": "acceptance",
+  "feeling": "heard",
+  "situation": "rapport",
+  "sources": [
+   "VGYT-1REMKR646bk@0:04:33"
+  ],
+  "text": "You don't sound like yourself. Are you sure you're okay?",
+  "technique": "Notice when safety drops",
+  "why": "Vinh: when someone goes quiet or tense, slow down and check in before carrying on.",
+  "basis": "source-example",
+  "delivery": "Gently, then give them time to answer.",
+  "deliveryBy": "Vinh Giang (video 2026)"
+ },
+ {
+  "id": "p665",
+  "need": "any",
+  "feeling": "respected",
+  "situation": "disagree",
+  "sources": [
+   "VGYT-9Uzvqk4Q4LM@0:13:47"
+  ],
+  "text": "I believe this is the right direction because of what we've seen, and I'd like to hear your view too.",
+  "technique": "Anchor and invite",
+  "why": "Vinh: hold your idea firmly and stay open, instead of dropping it at the first frown.",
+  "basis": "adapted",
+  "delivery": "Finish on a low note, then pause.",
+  "deliveryBy": "Vinh Giang (video 2025)"
  }
 ]
