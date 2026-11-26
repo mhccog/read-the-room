@@ -238,3 +238,10 @@ if(info)info.onclick=()=>APP.dialog(`<h3 style="margin-top:0">About Read the Roo
 window.HUB={askMode};
 })();
 
+
+/* ---- Design: hairline under the frosted header once content scrolls beneath it ---- */
+(function(){
+  let on=false;
+  const upd=()=>{const s=scrollY>4;if(s!==on){on=s;document.body.classList.toggle('scrolled',s)}};
+  addEventListener('scroll',upd,{passive:true});upd();
+})();
