@@ -22,7 +22,7 @@ One phone-first app that combines two earlier sites (both still live and unchang
 The site is *generated* from the two source repos so it stays in step with them:
 
 ```
-overlay/        the hub's own files: index.html, hub.js, hub.css, migrate.js, manifest, icons
+overlay/        the hub's own files: index.html, hub.js, hub.css, design.css (Apple-style design layer, loaded last), migrate.js, manifest, icons
 tools/build.py  copies Behavior Ops, ports the generator to say/ and the blended Ask to blend/,
                 scopes Read Anyone's styles to .ra (say.css), adds overlay/, writes sw.js
 docs/           the built site (GitHub Pages serves this folder)
