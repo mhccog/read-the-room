@@ -495,7 +495,13 @@
   "m-testimony-eight": "body",
   "m-genuine-signs": "body",
   "m-interview-excited": "presence",
-  "m-regrets-text": "deeper"
+  "m-regrets-text": "deeper",
+  "bp-open-close": "body",
+  "bp-body-narration": "body",
+  "bp-barriers-off": "body",
+  "bp-lips-two": "body",
+  "bp-leading-questions": "listening",
+  "bp-adding-to-self": "warmth"
  },
  "kb_retitle": {
   "yt-conflict-frame": "Heated conflict: three threats, five nevers",
@@ -524,7 +530,11 @@
   "m-testimony-eight": "Eight changes to watch when someone explains themselves",
   "m-genuine-signs": "What genuine distress looks like",
   "m-interview-excited": "Job interviews: call it excitement, talk outcomes",
-  "m-regrets-text": "The five regrets, and the message to send tonight"
+  "m-regrets-text": "The five regrets, and the message to send tonight",
+  "bp-open-close": "The one-question body read: opening or closing?",
+  "bp-barriers-off": "Notice when the barriers come off",
+  "bp-leading-questions": "Ask without steering the answer",
+  "bp-adding-to-self": "Notice how much people add to themselves"
  },
  "kb_merge": {
   "H1": [
