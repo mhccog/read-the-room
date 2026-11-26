@@ -9523,5 +9523,125 @@
   "basis": "adapted",
   "delivery": "Finish on a low note, then pause.",
   "deliveryBy": "Vinh Giang (video 2025)"
+ },
+ {
+  "id": "p666",
+  "need": "any",
+  "feeling": "respected",
+  "situation": "close",
+  "sources": [
+   "VGYT-8nSLFPw7Jco@0:03:36"
+  ],
+  "text": "I've got to jump into a meeting, but before I go, what should I order there?",
+  "technique": "Reflect, then one last question",
+  "why": "Vinh: ending on their topic shows you listened, and leaves a warm last impression.",
+  "basis": "adapted",
+  "delivery": "Light and unhurried; mean the question.",
+  "deliveryBy": "Vinh Giang (video 2026)"
+ },
+ {
+  "id": "p667",
+  "need": "any",
+  "feeling": "respected",
+  "situation": "disagree",
+  "sources": [
+   "VGYT-1rldib3f5yA@0:00:19"
+  ],
+  "text": "Thanks for your input. Do you mind if I finish my thought, then I'll hand over to you?",
+  "technique": "Reclaim the floor kindly",
+  "why": "Vinh: give the benefit of the doubt, pause calmly, then ask to finish.",
+  "basis": "source-example",
+  "delivery": "Pause three seconds first; keep it calm and firm.",
+  "deliveryBy": "Vinh Giang (video 2026)"
+ },
+ {
+  "id": "p668",
+  "need": "intelligence",
+  "feeling": "respected",
+  "situation": "rapport",
+  "sources": [
+   "VGYT-Bhn71mwOjsA@0:03:09"
+  ],
+  "text": "I'd love to give you a thoughtful answer. Can I come back to you on that later today?",
+  "technique": "Ask for time",
+  "why": "Vinh: people would rather wait for a useful answer than get a rushed one.",
+  "basis": "adapted",
+  "delivery": "Composed and warm, then follow through.",
+  "deliveryBy": "Vinh Giang (video 2026)"
+ },
+ {
+  "id": "p669",
+  "need": "any",
+  "feeling": "comfortable",
+  "situation": "disagree",
+  "sources": [
+   "VVEYT-JqRSXU3CteI@0:00:00"
+  ],
+  "text": "Let's step back for a second. What do we both agree on here?",
+  "technique": "Start from agreement",
+  "why": "Vanessa: when a talk gets charged, go back to shared ground before the next point.",
+  "basis": "adapted",
+  "delivery": "Slower and lower than the room.",
+  "deliveryBy": "Vanessa Van Edwards (video 2025)"
+ },
+ {
+  "id": "p670",
+  "need": "acceptance",
+  "feeling": "comfortable",
+  "situation": "rapport",
+  "sources": [
+   "VVEYT-xqriEYexh1k@0:00:05"
+  ],
+  "text": "When I need something quickly, do you prefer a call or a message?",
+  "technique": "Ask their preference",
+  "why": "Vanessa: honouring small preferences is a first step to people feeling safe with you.",
+  "basis": "source-example",
+  "delivery": "Genuinely curious; remember the answer.",
+  "deliveryBy": "Vanessa Van Edwards (video 2025)"
+ },
+ {
+  "id": "p671",
+  "need": "any",
+  "feeling": "curious",
+  "situation": "opener",
+  "sources": [
+   "VVEYT-KIh-57wDKZo@0:00:31"
+  ],
+  "text": "What excites you most in your life right now?",
+  "technique": "Move past the basics",
+  "why": "Vanessa: level-two questions about goals and drives make a date go beyond job and hometown.",
+  "basis": "source-example",
+  "delivery": "Lean in and leave space for a long answer.",
+  "deliveryBy": "Vanessa Van Edwards (video 2025)"
+ },
+ {
+  "id": "p672",
+  "need": "significance",
+  "feeling": "important",
+  "situation": "rapport",
+  "sources": [
+   "VVEYT-un55rH7aYXc@0:00:14"
+  ],
+  "text": "What you did there is a big part of why this project is working.",
+  "technique": "Connect their part to the mission",
+  "why": "Vanessa: help each person see how their role matters to the bigger goal.",
+  "basis": "adapted",
+  "delivery": "Specific and sincere; say what they did.",
+  "deliveryBy": "Vanessa Van Edwards (video 2025)"
+ },
+ {
+  "id": "p673",
+  "need": "any",
+  "feeling": "understood",
+  "situation": "rapport",
+  "sources": [
+   "VVEYT-fcyJzW5mKdU@0:00:05"
+  ],
+  "text": "Not to go into too much detail, but the biggest thing I learned was how to look after myself.",
+  "technique": "Past relationship, kindly",
+  "why": "Vanessa: skip details, share what you learned, then what you hope for next.",
+  "basis": "adapted",
+  "delivery": "Relaxed and positive; then turn it back with a question.",
+  "deliveryBy": "Vanessa Van Edwards (video 2024)"
  }
 ]

@@ -204,7 +204,52 @@
   "vg-m-count-three": "listening",
   "vg-m-check-level": "stories",
   "vg-m-three-to-one": "listening",
-  "vve-m-subtle-drainers": "tough"
+  "vve-m-subtle-drainers": "tough",
+  "vve-m-face-at-rest": "body",
+  "vve-m-compliment-both-ways": "warmth",
+  "vve-m-social-battery": "groups",
+  "vve-m-ask-preferences": "groups",
+  "vve-m-warm-voice": "voice",
+  "vve-m-charged-talks": "tough",
+  "vve-m-friend-signals": "groups",
+  "vve-m-host-easy": "groups",
+  "vve-m-feature-story": "listening",
+  "vve-m-name-it-precisely": "ideas",
+  "vve-m-larger-mission": "groups",
+  "vve-m-just-hey": "openers",
+  "vve-m-greeting-signals": "body",
+  "vve-m-space-touch": "body",
+  "vve-m-mute-listening": "body",
+  "vve-m-interested-wins": "warmth",
+  "vve-m-friend-questions": "deeper",
+  "vve-m-date-levels": "deeper",
+  "vve-m-year-end-questions": "deeper",
+  "vve-m-meeting-first": "presence",
+  "vve-m-subject-lines": "ideas",
+  "vve-m-past-relationship": "tough",
+  "vve-m-pause-is-normal": "presence",
+  "vve-m-ramble-know-a-lot": "presence",
+  "vve-m-shared-goals": "tough",
+  "vg-m-exit-one-more": "openers",
+  "vg-m-overarticulate": "voice",
+  "vg-m-vocal-archetypes": "voice",
+  "vg-m-headline-first": "presence",
+  "vg-m-rehearse-three-ways": "practice",
+  "vg-m-interrupted-kindly": "tough",
+  "vg-m-meet-their-level": "listening",
+  "vg-m-breath-support": "voice",
+  "vg-m-review-right-after": "practice",
+  "vg-m-speak-to-one": "voice",
+  "vg-m-ask-for-time": "presence",
+  "vg-m-acq": "presence",
+  "vg-m-pro": "presence",
+  "vg-m-scar-not-wound": "stories",
+  "vg-m-three-pass-review": "practice",
+  "vg-m-join-with-question": "groups",
+  "vg-m-filler-drill": "practice",
+  "vg-m-engagement-tools": "stories",
+  "vg-m-match-weight": "voice",
+  "vg-m-explain-loop": "stories"
  },
  "tech_map": {
   "'Are you lucky?'": "V53",
@@ -1536,6 +1581,42 @@
      "label": "When to share",
      "when": "Video · Sep 2026",
      "card": "n-vg-m-three-to-one"
+    }
+   ]
+  },
+  {
+   "id": "vve-compliments-two",
+   "teacher": "vve",
+   "title": "Compliments, two ways",
+   "note": "How to give a good compliment, and what the research says it does for you.",
+   "steps": [
+    {
+     "label": "How to give one",
+     "when": "Book · Cues",
+     "card": "n-vve-compliments"
+    },
+    {
+     "label": "It lifts the giver too",
+     "when": "Video · Feb 2026",
+     "card": "n-vve-m-compliment-both-ways"
+    }
+   ]
+  },
+  {
+   "id": "vg-record-review",
+   "teacher": "vg",
+   "title": "Record and review",
+   "note": "Two versions of Vinh's self-review habit.",
+   "steps": [
+    {
+     "label": "Fix three things",
+     "when": "Podcasts · Nov 2026",
+     "card": "n-vg-m-pick-three"
+    },
+    {
+     "label": "Three passes",
+     "when": "Video · Aug 2026",
+     "card": "n-vg-m-three-pass-review"
     }
    ]
   }
