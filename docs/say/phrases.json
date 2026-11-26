@@ -9343,5 +9343,140 @@
   "basis": "interview",
   "delivery": "Let your face light up before you speak, and rise on \"brilliant\".",
   "deliveryBy": "Chase Hughes (interview 2026)"
+ },
+ {
+  "id": "p654",
+  "need": "any",
+  "feeling": "curious",
+  "situation": "opener",
+  "sources": [
+   "VVEYT-w-1CLklUxLk@0:15:00"
+  ],
+  "text": "That's a lovely name. Is there a story behind it?",
+  "technique": "Ask about their name",
+  "why": "Vanessa: everyone shares their name, so it's a safe, personal way in that often leads to family and places.",
+  "basis": "interview",
+  "delivery": "Smile on \"lovely\" and lean in slightly as you ask.",
+  "deliveryBy": "Van Edwards (interview 2026)"
+ },
+ {
+  "id": "p655",
+  "need": "any",
+  "feeling": "understood",
+  "situation": "disagree",
+  "sources": [
+   "VVEYT-QCNbq-WwEUI@0:09:05"
+  ],
+  "text": "How would you describe what happened?",
+  "technique": "The Platinum Rule",
+  "why": "Vanessa: see it the way they would, not the way you would have handled it.",
+  "basis": "interview",
+  "delivery": "Ask with a soft, level voice and no edge on \"you\".",
+  "deliveryBy": "Van Edwards (video 2019)"
+ },
+ {
+  "id": "p656",
+  "need": "pity",
+  "feeling": "heard",
+  "situation": "rapport",
+  "sources": [
+   "VGYT-qKzZDW5-UDs@0:08:30"
+  ],
+  "text": "That sounds like a lot. What else is on your mind?",
+  "technique": "Let them take an emotional breath",
+  "why": "Vinh: let a complainer empty out fully before you offer anything.",
+  "basis": "interview",
+  "delivery": "Slow down and drop your volume a little; then wait.",
+  "deliveryBy": "Vinh Giang (video 2024)"
+ },
+ {
+  "id": "p657",
+  "need": "intelligence",
+  "feeling": "understood",
+  "situation": "rapport",
+  "sources": [
+   "VGYT-qKzZDW5-UDs@0:09:30"
+  ],
+  "text": "Out of everything you've said, what feels like the main problem?",
+  "technique": "Move from venting to thinking",
+  "why": "Vinh: once they've emptied out, this gets them thinking about their own answer.",
+  "basis": "interview",
+  "delivery": "Pause before you ask, so it doesn't sound like you're rushing them.",
+  "deliveryBy": "Vinh Giang (video 2024)"
+ },
+ {
+  "id": "p658",
+  "need": "intelligence",
+  "feeling": "respected",
+  "situation": "disagree",
+  "sources": [
+   "VGYT-35Q4krRIz9o@0:05:40"
+  ],
+  "text": "Give me a moment to think that through properly.",
+  "technique": "Pause before answering",
+  "why": "Vinh: a considered answer is valued more than a fast one.",
+  "basis": "interview",
+  "delivery": "Say it calmly, then actually take the pause.",
+  "deliveryBy": "Vinh Giang (video 2026)"
+ },
+ {
+  "id": "p659",
+  "need": "acceptance",
+  "feeling": "trusted",
+  "situation": "rapport",
+  "sources": [
+   "VGYT-DOdcGwUQvJM@0:13:36"
+  ],
+  "text": "I'm practising speaking with more energy. Tell me if it feels odd.",
+  "technique": "Give context for the change",
+  "why": "Vinh: if people close to you don't know why you've changed, they invent their own reason.",
+  "basis": "interview",
+  "delivery": "Say it lightly, with a smile.",
+  "deliveryBy": "Vinh Giang (video 2024)"
+ },
+ {
+  "id": "p660",
+  "need": "acceptance",
+  "feeling": "reconciled",
+  "situation": "disagree",
+  "sources": [
+   "CSYT-tRudCrkv524@0:28:34"
+  ],
+  "text": "We agree on this much. Can we save the rest for another day?",
+  "technique": "Do right, not be right",
+  "why": "Chase: find common ground fast and park the heated part; if it matters, it'll keep.",
+  "basis": "interview",
+  "delivery": "Warm and unhurried; drop your pitch at the end.",
+  "deliveryBy": "Chase Hughes (interview 2025)"
+ },
+ {
+  "id": "p661",
+  "need": "any",
+  "feeling": "heard",
+  "situation": "disagree",
+  "sources": [
+   "CSYT-tRudCrkv524@0:28:50"
+  ],
+  "text": "Thanks for telling me where you stand. I'm glad you did.",
+  "technique": "Thank them for sharing",
+  "why": "Chase: you can dislike a view and still love the person.",
+  "basis": "interview",
+  "delivery": "Mean it; keep eye contact and a relaxed face.",
+  "deliveryBy": "Chase Hughes (interview 2025)"
+ },
+ {
+  "id": "p662",
+  "need": "any",
+  "feeling": "trusted",
+  "situation": "close",
+  "sources": [
+   "CSYT-Okum9dw1gVU@0:07:18"
+  ],
+  "text": "If this isn't right for you, I'd rather tell you now.",
+  "technique": "Offer value, don't convince",
+  "why": "Chase: pushing people into a decision brings regret; your job is to help and answer honestly.",
+  "basis": "interview",
+  "delivery": "Slow and level, with open hands.",
+  "deliveryBy": "Chase Hughes (interview 2025)"
  }
 ]

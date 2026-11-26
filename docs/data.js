@@ -305,7 +305,14 @@ BO.goals = [
    "Watch for the two traps: collapse (shrinking, apologising) and posturing (puffing up).",
    "If the 'you're not enough' voice starts, label it as an old broadcast and carry on.",
    "Connect, don't analyse: save careful reading for high-stakes moments.",
-   "Tonight, score your composure from 1 to 10 and note one moment you rushed."]}
+   "Tonight, score your composure from 1 to 10 and note one moment you rushed."]},
+  { id:"family", t:"Keep the peace at a family gathering", e:"🕊️", p:"interviews 2023–25", steps:[
+    "Decide before you arrive: today you'd rather do right than be right.",
+    "Stay the slowest, calmest person at the table, and treat everyone the same.",
+    "When a heated topic starts, find one thing you genuinely agree on, fast.",
+    "Thank them for sharing their view, and mean it.",
+    "Ask to save the rest for another day. If it matters, it will keep.",
+    "Remember you can dislike a view and still love the person."]}
 ];
 
 BO.animals = [

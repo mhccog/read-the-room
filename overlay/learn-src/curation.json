@@ -174,7 +174,26 @@
   "vg-m-clean-thinking": "stories",
   "vg-m-practise-as-you-deliver": "practice",
   "vg-m-vocal-image": "voice",
-  "vg-m-pick-three": "practice"
+  "vg-m-pick-three": "practice",
+  "vve-m-platinum-rule": "tough",
+  "vve-m-name-story": "openers",
+  "vve-m-warm-word": "presence",
+  "vve-m-social-reps": "practice",
+  "vve-m-practice-spots": "practice",
+  "vve-m-energy-shortlist": "tough",
+  "vve-m-script-dictate": "voice",
+  "vg-m-art-not-science": "ideas",
+  "vg-m-connection-mode": "presence",
+  "vg-m-instrument-not-type": "presence",
+  "vg-m-complainer": "tough",
+  "vg-m-adrenaline": "presence",
+  "vg-m-para": "stories",
+  "vg-m-small-slips": "presence",
+  "vg-m-prime-the-change": "practice",
+  "vg-m-pragmatic-mentors": "practice",
+  "vg-m-camera-room": "voice",
+  "vg-m-pat": "presence",
+  "vg-m-ccc": "stories"
  },
  "tech_map": {
   "'Are you lucky?'": "V53",
@@ -404,7 +423,15 @@
   "m-words-matter": "body",
   "m-skill-of-boredom": "practice",
   "m-future-self": "practice",
-  "m-causes-not-symptoms": "ideas"
+  "m-causes-not-symptoms": "ideas",
+  "m-no-magic-script": "ideas",
+  "m-use-it-today": "practice",
+  "m-first-stair": "practice",
+  "m-authority-not-rank": "presence",
+  "m-show-dont-tell": "stories",
+  "m-do-right": "tough",
+  "m-value-not-convince": "ideas",
+  "m-future-memory": "practice"
  },
  "kb_retitle": {
   "yt-conflict-frame": "Heated conflict: three threats, five nevers",
@@ -417,7 +444,15 @@
   "m-words-matter": "Words still carry the message (the 93% myth)",
   "m-skill-of-boredom": "Practise being bored",
   "m-future-self": "Meet your future self",
-  "m-causes-not-symptoms": "Work on causes, not symptoms"
+  "m-causes-not-symptoms": "Work on causes, not symptoms",
+  "m-no-magic-script": "No script is a magic spell",
+  "m-use-it-today": "Knowing a framework isn't using it",
+  "m-first-stair": "Take the stair in front of you",
+  "m-authority-not-rank": "Authority isn't rank",
+  "m-show-dont-tell": "Paint the picture, don't label it",
+  "m-do-right": "Do right instead of being right",
+  "m-value-not-convince": "Offer value, don't convince",
+  "m-future-memory": "Your future is stored like a memory"
  },
  "kb_merge": {
   "H1": [
@@ -1204,6 +1239,213 @@
    ],
    "attach": [
     "H3"
+   ]
+  },
+  {
+   "id": "vg-fake-explore",
+   "teacher": "vg",
+   "title": "\"Fake it till you make it\"",
+   "note": "He taught it for years, then dropped it: new habits are exploring, not faking.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "His early teaching",
+     "text": "For years he told students to act confident until they became confident: fake it till you make it."
+    },
+    {
+     "label": "Updated",
+     "when": "Before We Forget How to Connect · 2026",
+     "card": "G41"
+    },
+    {
+     "label": "Latest",
+     "when": "\"Advice I've changed my mind about\" video · Apr 2026",
+     "text": "He now says faking backfires, because part of you knows and other people feel it. Call it exploring: trying on something unfamiliar, like new clothes, and keeping what fits."
+    }
+   ],
+   "attach": [
+    "G41"
+   ]
+  },
+  {
+   "id": "vg-listening-first",
+   "teacher": "vg",
+   "title": "Listening is the bigger half",
+   "note": "His first workshops taught speaking only. A student pointed out the missing half, and listening became central to his teaching.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "First US workshop · 2016 (told in an Apr 2026 video)",
+     "text": "Three days on voice, body language and stories, with no listening at all. A student asked when they would learn it, and later wrote that he had missed half of communication."
+    },
+    {
+     "label": "Updated",
+     "when": "Before We Forget How to Connect · 2026",
+     "card": "G24"
+    }
+   ],
+   "attach": [
+    "G24"
+   ]
+  },
+  {
+   "id": "vg-camera-energy",
+   "teacher": "vg",
+   "title": "Energy on video calls",
+   "note": "A simple picture for camera energy came first; the book folds it into a wider video checklist.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "YouTube · Aug 2025",
+     "card": "n-vg-m-camera-room"
+    },
+    {
+     "label": "Updated",
+     "when": "Before We Forget How to Connect · 2026",
+     "card": "G43"
+    }
+   ]
+  },
+  {
+   "id": "vg-introverts",
+   "teacher": "vg",
+   "title": "Introverts and speaking",
+   "note": "He stopped letting introverted students off the hook.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "His early classes",
+     "text": "He went easy on introverted students and let them stay small and quiet, believing that was simply who they were."
+    },
+    {
+     "label": "Updated",
+     "when": "YouTube · Apr 2026 and Jay Shetty Podcast · Aug 2026",
+     "card": "n-vg-m-instrument-not-type"
+    }
+   ]
+  },
+  {
+   "id": "vg-on-the-spot",
+   "teacher": "vg",
+   "title": "When you are put on the spot",
+   "note": "The same core, refined through 2026: buy time, narrow the question, answer one thing.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Before We Forget How to Connect · 2026",
+     "card": "G38"
+    },
+    {
+     "label": "Updated",
+     "when": "YouTube · Jun 2026",
+     "card": "n-vg-m-pat"
+    },
+    {
+     "label": "Latest",
+     "when": "Mel Robbins Podcast · Nov 2026",
+     "card": "n-vg-m-pause-clarify"
+    }
+   ]
+  },
+  {
+   "id": "vve-self-story",
+   "teacher": "vve",
+   "title": "Self-stories",
+   "note": "From three story types in 2024, to five in the book, to the idea that stories can be rewritten.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "BigDeal interview · 2024",
+     "text": "She described three self-stories from new research: someone who overcomes, someone who gives to everyone, and someone who feels nothing they do changes things."
+    },
+    {
+     "label": "Updated",
+     "when": "Conversation · 2026",
+     "card": "V52"
+    },
+    {
+     "label": "Latest",
+     "when": "Learning Leader interview · Oct 2026",
+     "text": "She adds that self-stories are editable and tend to come true: people who see themselves as lucky spot more chances. Helping someone rewrite their story is the deepest goal of conversation."
+    }
+   ],
+   "attach": [
+    "V52"
+   ]
+  },
+  {
+   "id": "vve-disliked-flavours",
+   "teacher": "vve",
+   "title": "Not everyone will like you",
+   "note": "An early food picture for the same idea.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "YouTube · Nov 2022",
+     "text": "Food doesn't take it personally when someone hates coriander. We all have different flavours, and not clicking with someone isn't a verdict on you."
+    },
+    {
+     "label": "Updated",
+     "when": "Conversation · 2026",
+     "card": "V50"
+    }
+   ],
+   "attach": [
+    "V50"
+   ]
+  },
+  {
+   "id": "vve-practice-spots",
+   "teacher": "vve",
+   "title": "Where to practise",
+   "note": "The low-stakes practice idea carried through to her 2026 book.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "YouTube · Oct 2020",
+     "card": "n-vve-m-practice-spots"
+    },
+    {
+     "label": "Updated",
+     "when": "Conversation · 2026",
+     "text": "Practise with friendly people before important ones; you can even tell them you're practising. She thanks hairdressers as small-talk champions."
+    }
+   ]
+  },
+  {
+   "id": "ch-future-memory",
+   "teacher": "ch",
+   "title": "The future self",
+   "note": "The future-self exercise gained a reason: the brain stores imagined futures much like memories.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Eric Hunley podcast · 2021",
+     "card": "k-m-future-self"
+    },
+    {
+     "label": "Updated",
+     "when": "Chase Hughes video · Jan 2026",
+     "card": "k-m-future-memory"
+    }
+   ]
+  },
+  {
+   "id": "ch-scripts",
+   "teacher": "ch",
+   "title": "Words, scripts and who you are",
+   "note": "Two sides of one idea: words matter, but no script works without the person behind it.",
+   "steps": [
+    {
+     "label": "Earlier",
+     "when": "Courtroom Confidential podcast · 2025",
+     "card": "k-m-no-magic-script"
+    },
+    {
+     "label": "Updated",
+     "when": "Doug Bopst podcast · 2026",
+     "card": "k-m-words-matter"
+    }
    ]
   }
  ],

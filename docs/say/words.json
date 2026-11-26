@@ -5224,5 +5224,59 @@
       "curious",
       "liked"
     ]
+  },
+  {
+    "text": "What else?",
+    "need": "any",
+    "feeling": "heard",
+    "situation": "rapport",
+    "sources": [
+      "VGYT-qKzZDW5-UDs@0:08:30"
+    ],
+    "technique": "Let them empty out",
+    "why": "Keeps them talking until they've said it all.",
+    "delivery": "Soft and slow, then wait.",
+    "deliveryBy": "Vinh Giang (video 2024)",
+    "id": "w342",
+    "feelings": [
+      "heard",
+      "understood"
+    ]
+  },
+  {
+    "text": "Lovely name—",
+    "need": "any",
+    "feeling": "curious",
+    "situation": "opener",
+    "sources": [
+      "VVEYT-w-1CLklUxLk@0:15:00"
+    ],
+    "technique": "Ask about their name",
+    "why": "A safe, personal way into their story.",
+    "delivery": "Smile as you say it, then ask the story.",
+    "deliveryBy": "Van Edwards (interview 2026)",
+    "id": "w343",
+    "feelings": [
+      "curious",
+      "liked"
+    ]
+  },
+  {
+    "text": "We agree on this—",
+    "need": "acceptance",
+    "feeling": "reconciled",
+    "situation": "disagree",
+    "sources": [
+      "CSYT-tRudCrkv524@0:28:34"
+    ],
+    "technique": "Common ground first",
+    "why": "Starts a heated moment from what you share.",
+    "delivery": "Calm, and slower than they're speaking.",
+    "deliveryBy": "Chase Hughes (interview 2025)",
+    "id": "w344",
+    "feelings": [
+      "reconciled",
+      "respected"
+    ]
   }
 ]
