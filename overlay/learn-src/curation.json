@@ -549,7 +549,8 @@
   "yt-shorter-answers": "listening",
   "yt-reads-are-drafts": "ideas",
   "yt-xba-room": "presence",
-  "bp-big-answer-small-question": "listening"
+  "bp-big-answer-small-question": "listening",
+  "bp-remorse-without-names": "tough"
  },
  "kb_retitle": {
   "yt-conflict-frame": "Heated conflict: three threats, ten nevers",
@@ -584,7 +585,8 @@
   "bp-leading-questions": "Ask without steering the answer",
   "bp-adding-to-self": "Notice how much people add to themselves",
   "yt-xba-room": "Owning a room: the XBA formula",
-  "bp-big-answer-small-question": "A big answer to a small question"
+  "bp-big-answer-small-question": "A big answer to a small question",
+  "bp-remorse-without-names": "Remorse without calling yourself names"
  },
  "kb_merge": {
   "H1": [
