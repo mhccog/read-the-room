@@ -353,7 +353,10 @@
   "vve-m-recent-example": "deeper",
   "vve-m-red-apple": "groups",
   "vve-m-intent-not-trick": "warmth",
-  "vve-m-say-it-is-uncomfortable": "deeper"
+  "vve-m-say-it-is-uncomfortable": "deeper",
+  "vve-m-repair-first-impression": "warmth",
+  "vve-m-assertive-habits": "tough",
+  "vve-m-no-without-excuse": "tough"
  },
  "tech_map": {
   "'Are you lucky?'": "V53",
