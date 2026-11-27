@@ -9958,5 +9958,35 @@
   "basis": "adapted",
   "delivery": "Quiet and kind; no need to explain more.",
   "deliveryBy": "Vanessa Van Edwards (video)"
+ },
+ {
+  "id": "p695",
+  "need": "any",
+  "feeling": "curious",
+  "situation": "opener",
+  "sources": [
+   "VVEYT-BExVtFFyEgw@0:00:33"
+  ],
+  "text": "How long have you been doing that?",
+  "technique": "Numbers question",
+  "why": "Vanessa: a question with a number in the answer is easy to reply to when someone is nervous.",
+  "basis": "adapted",
+  "delivery": "Relaxed, then listen and follow what they say.",
+  "deliveryBy": "Vanessa Van Edwards (video)"
+ },
+ {
+  "id": "p696",
+  "need": "any",
+  "feeling": "appreciated",
+  "situation": "close",
+  "sources": [
+   "VVEYT-cujUSFamR4I@0:01:03"
+  ],
+  "text": "It's been so great talking to you. I'm going to remember you.",
+  "technique": "Warm closing line",
+  "why": "Vanessa: a closing line that's a compliment and answers the worry 'will they remember me?'. Only if it's true.",
+  "basis": "adapted",
+  "delivery": "Warm, with eye contact.",
+  "deliveryBy": "Vanessa Van Edwards (video)"
  }
 ]
