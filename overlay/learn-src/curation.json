@@ -547,7 +547,8 @@
   "bp-leading-questions": "listening",
   "bp-adding-to-self": "warmth",
   "yt-shorter-answers": "listening",
-  "yt-reads-are-drafts": "ideas"
+  "yt-reads-are-drafts": "ideas",
+  "yt-xba-room": "presence"
  },
  "kb_retitle": {
   "yt-conflict-frame": "Heated conflict: three threats, ten nevers",
@@ -580,7 +581,8 @@
   "bp-open-close": "The one-question body read: opening or closing?",
   "bp-barriers-off": "Notice when the barriers come off",
   "bp-leading-questions": "Ask without steering the answer",
-  "bp-adding-to-self": "Notice how much people add to themselves"
+  "bp-adding-to-self": "Notice how much people add to themselves",
+  "yt-xba-room": "Owning a room: the XBA formula"
  },
  "kb_merge": {
   "H1": [
