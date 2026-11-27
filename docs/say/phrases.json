@@ -9703,5 +9703,50 @@
   "basis": "adapted",
   "delivery": "Warm and specific; make it a real question.",
   "deliveryBy": "Vanessa Van Edwards (video 2024)"
+ },
+ {
+  "id": "p678",
+  "need": "any",
+  "feeling": "curious",
+  "situation": "opener",
+  "sources": [
+   "VGYT-PY-QiUZBFlw@0:05:00"
+  ],
+  "text": "What's been the most fun thing that's happened to you today?",
+  "technique": "Lighter, curious question",
+  "why": "Vinh: swap 'How are you?' for a question that invites a small story.",
+  "basis": "source-example",
+  "delivery": "Light and smiling; really listen to the answer.",
+  "deliveryBy": "Vinh Giang (video 2025)"
+ },
+ {
+  "id": "p679",
+  "need": "any",
+  "feeling": "heard",
+  "situation": "disagree",
+  "sources": [
+   "VVEYT-WM2XB8si3Lc@0:04:29"
+  ],
+  "text": "It sounds like you feel stretched because the deadline moved. What can we do next?",
+  "technique": "Summarise, then next step",
+  "why": "Vanessa: name the feeling and its cause, then move the group forward.",
+  "basis": "adapted",
+  "delivery": "Calm, even pace; pause after the summary so they can correct it.",
+  "deliveryBy": "Vanessa Van Edwards (video 2023)"
+ },
+ {
+  "id": "p680",
+  "need": "any",
+  "feeling": "comfortable",
+  "situation": "rapport",
+  "sources": [
+   "VVEYT-mqP3jcGdh8E@0:01:21"
+  ],
+  "text": "What are you finding hardest this month, and what can I help with?",
+  "technique": "One-to-one: challenges",
+  "why": "Vanessa: asking about challenges lets problems come up naturally, as a 'we' not a 'me'.",
+  "basis": "adapted",
+  "delivery": "Relaxed and open; let them take their time.",
+  "deliveryBy": "Vanessa Van Edwards (video 2023)"
  }
 ]

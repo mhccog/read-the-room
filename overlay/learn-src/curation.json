@@ -270,7 +270,20 @@
   "vve-m-expert-power": "presence",
   "vve-m-team-questions": "groups",
   "vve-m-abcd-delegate": "groups",
-  "vve-m-happy-not-impressive": "warmth"
+  "vve-m-happy-not-impressive": "warmth",
+  "vg-m-tongue-twisters": "voice",
+  "vg-m-playful-questions": "openers",
+  "vg-m-feedback-sandwich": "tough",
+  "vg-m-record-wait": "practice",
+  "vg-m-name-association": "groups",
+  "vg-m-voice-tune-up": "voice",
+  "vve-m-assume-a-story": "deeper",
+  "vve-m-micromanager": "tough",
+  "vve-m-intro-formula": "openers",
+  "vve-m-one-to-one": "groups",
+  "vve-m-real-weakness": "presence",
+  "vve-m-summarise-next": "listening",
+  "vve-m-fun-fact-prompts": "openers"
  },
  "tech_map": {
   "'Are you lucky?'": "V53",
