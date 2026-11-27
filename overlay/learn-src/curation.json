@@ -314,7 +314,21 @@
   "vve-m-hug-before-talk": "deeper",
   "vve-m-stop-replace-thought": "brain",
   "vve-m-plan-vs-actual": "tough",
-  "vve-m-inner-critic-coach": "brain"
+  "vve-m-inner-critic-coach": "brain",
+  "vg-m-new-topic-depth": "brain",
+  "vg-m-honest-dont-know": "tough",
+  "vg-m-elaborate-replies": "openers",
+  "vg-m-memory-lapse": "tough",
+  "vg-m-mic-volume": "voice",
+  "vg-m-practised-shy": "practice",
+  "vve-m-ask-host-intro": "groups",
+  "vve-m-find-the-nodders": "groups",
+  "vve-m-think-big-act-small": "practice",
+  "vve-m-ten-ten-ten": "brain",
+  "vve-m-self-soothing-touch": "brain",
+  "vve-m-end-mid-sentence": "practice",
+  "vve-m-overthinking-vs-prepared": "brain",
+  "vve-m-social-muscle": "groups"
  },
  "tech_map": {
   "'Are you lucky?'": "V53",

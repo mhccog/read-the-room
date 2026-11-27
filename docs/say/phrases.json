@@ -9838,5 +9838,50 @@
   "basis": "adapted",
   "delivery": "Soft and warm; only if they welcome it.",
   "deliveryBy": "Vanessa Van Edwards (video)"
+ },
+ {
+  "id": "p687",
+  "need": "any",
+  "feeling": "trusted",
+  "situation": "rapport",
+  "sources": [
+   "VGYT--QDv1MHuTnM@0:04:25"
+  ],
+  "text": "I don't have that answer yet. I'll find out and come back to you by Friday.",
+  "technique": "Honest not-yet",
+  "why": "Vinh: say plainly you'll find out, instead of bluffing.",
+  "basis": "adapted",
+  "delivery": "Calm and plain; no apology spiral.",
+  "deliveryBy": "Vinh Giang (video)"
+ },
+ {
+  "id": "p688",
+  "need": "any",
+  "feeling": "comfortable",
+  "situation": "opener",
+  "sources": [
+   "VVEYT-aSafzRZf5rI@0:04:35"
+  ],
+  "text": "How are you planning to introduce me?",
+  "technique": "Ask the host",
+  "why": "Vanessa: knowing your intro prevents an awkward start and lets someone else share your credentials.",
+  "basis": "adapted",
+  "delivery": "Friendly and brief; offer one line they can use.",
+  "deliveryBy": "Vanessa Van Edwards (video)"
+ },
+ {
+  "id": "p689",
+  "need": "any",
+  "feeling": "reassured",
+  "situation": "close",
+  "sources": [
+   "VVEYT-GlDNk3VH9pY@0:16:07"
+  ],
+  "text": "Shall we ask ourselves if this will matter in ten weeks, ten months or ten years?",
+  "technique": "10-10-10",
+  "why": "A guest on Vanessa's show: a time-frame question helps unhook from a worry, instead of saying 'don't worry'.",
+  "basis": "adapted",
+  "delivery": "Gentle and curious, said with them, not at them.",
+  "deliveryBy": "Vanessa Van Edwards (video)"
  }
 ]
