@@ -318,7 +318,22 @@ BO.goals = [
     "Arrive slower than usual, and don't look like you need something from them.",
     "Treat the interviewer the way you'd treat anyone: no ranking yourself above or below.",
     "Talk about the outcomes they want from the role, so they picture the result while looking at you.",
-    "Afterwards, note one moment you rushed and one that went well."]}
+    "Afterwards, note one moment you rushed and one that went well."]},
+  { id:"support", t:"Support someone who's struggling", e:"🤝", p:"videos 2025–26", steps:[
+    "Don't try to fix them. Help them put words to what's going on.",
+    "Swap 'why' for 'How did that end up happening?' or 'What was going on around then?'",
+    "Name the feeling you see, so they can say 'that's right'.",
+    "If their answers get shorter, you're adding too much. Stop and count to nine.",
+    "Make it free to say no: 'You don't have to answer that.'",
+    "Ask what's in the way rather than adding more reasons."]},
+  { id:"argue", t:"When an argument gets heated", e:"🔥", p:"videos 2025–26", steps:[
+    "Ask yourself what feels threatened for them: identity, status and control, or safety.",
+    "Stay calm. Don't match their emotion or raise your voice to be heard.",
+    "Don't explain yourself under pressure or debate your character. Leave them a way back: 'Maybe you didn't mean it that way.'",
+    "If they use a heavy word like 'betrayal', ask what they mean by it.",
+    "Don't tell them their feelings are wrong, and don't try to fix them mid-argument.",
+    "Put yourselves on the same side: 'What's the next step that would fix this?'",
+    "Afterwards, if your reaction was bigger than the moment, ask when you first felt exactly this way."]}
 ];
 
 BO.animals = [

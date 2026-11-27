@@ -545,10 +545,12 @@
   "bp-barriers-off": "body",
   "bp-lips-two": "body",
   "bp-leading-questions": "listening",
-  "bp-adding-to-self": "warmth"
+  "bp-adding-to-self": "warmth",
+  "yt-shorter-answers": "listening",
+  "yt-reads-are-drafts": "ideas"
  },
  "kb_retitle": {
-  "yt-conflict-frame": "Heated conflict: three threats, five nevers",
+  "yt-conflict-frame": "Heated conflict: three threats, ten nevers",
   "ethics": "The scalpel rule: ethics first",
   "m-ethics-three": "Three questions before you influence anyone",
   "m-old-broadcast": "The inner critic is an old broadcast",
@@ -683,6 +685,16 @@
    "topic": "tough",
    "title": "Calm someone down (Talk playbook)",
    "try": "Next time someone is upset, say one true thing they can't disagree with, then pause."
+  },
+  "support": {
+   "topic": "listening",
+   "title": "Support someone who's struggling (Talk playbook)",
+   "try": "Next time someone's replies get shorter, stop talking and count to nine in your head."
+  },
+  "argue": {
+   "topic": "tough",
+   "title": "When an argument gets heated (Talk playbook)",
+   "try": "In your next disagreement, ask what a heavy word means to them before you answer it."
   }
  },
  "playbook_merge": {
