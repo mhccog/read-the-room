@@ -9793,5 +9793,50 @@
   "basis": "source-example",
   "delivery": "Relaxed and curious; follow up on their pick.",
   "deliveryBy": "Vanessa Van Edwards (video 2022)"
+ },
+ {
+  "id": "p684",
+  "need": "any",
+  "feeling": "respected",
+  "situation": "disagree",
+  "sources": [
+   "VGYT-_NY-Mw97UsU@0:05:15"
+  ],
+  "text": "Thanks for that. I'm mid-way through this part, so can I hear it properly straight after?",
+  "technique": "Park it kindly",
+  "why": "Vinh: thank them, say when you can listen properly, then carry on.",
+  "basis": "adapted",
+  "delivery": "Warm, level and unhurried; look at them as you say it.",
+  "deliveryBy": "Vinh Giang (video)"
+ },
+ {
+  "id": "p685",
+  "need": "any",
+  "feeling": "comfortable",
+  "situation": "rapport",
+  "sources": [
+   "VGYT-_NY-Mw97UsU@0:06:34"
+  ],
+  "text": "Just quickly, I'd love to add one thing here.",
+  "technique": "Signal then speak",
+  "why": "Vinh: pair a visible signal with a short phrase, then commit to the point.",
+  "basis": "adapted",
+  "delivery": "Light hand lift, friendly tone, steady volume.",
+  "deliveryBy": "Vinh Giang (video)"
+ },
+ {
+  "id": "p686",
+  "need": "any",
+  "feeling": "comfortable",
+  "situation": "close",
+  "sources": [
+   "VVEYT-MSAFP4C7M30@0:09:06"
+  ],
+  "text": "Can we have a hug first and then talk about the day?",
+  "technique": "Hug before talk",
+  "why": "Couples guest John Howard: a hug before talking helps both nervous systems settle.",
+  "basis": "adapted",
+  "delivery": "Soft and warm; only if they welcome it.",
+  "deliveryBy": "Vanessa Van Edwards (video)"
  }
 ]
