@@ -363,7 +363,9 @@
   "vve-m-remember-you-line": "warmth",
   "vve-m-friendship-courtship": "warmth",
   "vve-m-level-up-a-friend": "deeper",
-  "vve-m-short-visit-trust": "warmth"
+  "vve-m-short-visit-trust": "warmth",
+  "vve-m-box-breathing": "brain",
+  "vve-m-five-minute-vocal-warmup": "voice"
  },
  "tech_map": {
   "'Are you lucky?'": "V53",
