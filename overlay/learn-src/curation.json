@@ -328,7 +328,13 @@
   "vve-m-self-soothing-touch": "brain",
   "vve-m-end-mid-sentence": "practice",
   "vve-m-overthinking-vs-prepared": "brain",
-  "vve-m-social-muscle": "groups"
+  "vve-m-social-muscle": "groups",
+  "vve-m-name-the-voice": "brain",
+  "vve-m-feeling-words": "stories",
+  "vve-m-kids-friend-plan": "groups",
+  "vve-m-fresh-start": "practice",
+  "vve-m-esteemable-acts": "brain",
+  "vve-m-specific-resolution": "practice"
  },
  "tech_map": {
   "'Are you lucky?'": "V53",
