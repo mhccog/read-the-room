@@ -9898,5 +9898,65 @@
   "basis": "adapted",
   "delivery": "Warm and curious, said on a relaxed car ride.",
   "deliveryBy": "Vanessa Van Edwards (video 2021)"
+ },
+ {
+  "id": "p691",
+  "need": "any",
+  "feeling": "respected",
+  "situation": "rapport",
+  "sources": [
+   "VGYT-9hk9-zWkheM@0:00:07"
+  ],
+  "text": "Do you mind if I take five minutes to share this, and then I'd love your thoughts?",
+  "technique": "Ask for the floor",
+  "why": "Vinh: frame the time first so people hold their interruptions.",
+  "basis": "adapted",
+  "delivery": "Friendly and steady; wait for their yes.",
+  "deliveryBy": "Vinh Giang (video)"
+ },
+ {
+  "id": "p692",
+  "need": "any",
+  "feeling": "included",
+  "situation": "opener",
+  "sources": [
+   "VGYT-oFsMfVGRqlo@0:00:31"
+  ],
+  "text": "Do you mind if I join? I'm involved in some of those projects and would love to listen in.",
+  "technique": "Join at a natural break",
+  "why": "Vinh: wait for a topic change, then ask and say why you're interested.",
+  "basis": "adapted",
+  "delivery": "Warm and light; smile and wait for the nod.",
+  "deliveryBy": "Vinh Giang (video)"
+ },
+ {
+  "id": "p693",
+  "need": "any",
+  "feeling": "curious",
+  "situation": "opener",
+  "sources": [
+   "VVEYT-QenVPLC-utM@0:00:18"
+  ],
+  "text": "What do you love talking about?",
+  "technique": "Backup question",
+  "why": "Vanessa: when other questions get one-word answers, ask for their favourite topic.",
+  "basis": "source-example",
+  "delivery": "Relaxed and curious; then follow their lead.",
+  "deliveryBy": "Vanessa Van Edwards (video)"
+ },
+ {
+  "id": "p694",
+  "need": "any",
+  "feeling": "trusted",
+  "situation": "close",
+  "sources": [
+   "VVEYT-Uj9oc7AJAKQ@0:00:12"
+  ],
+  "text": "That's a bit uncomfortable for me to talk about, but I'm glad you asked.",
+  "technique": "Honest, brief",
+  "why": "Vanessa: an honest 'this is uncomfortable' beats a polished 'I'm fine'.",
+  "basis": "adapted",
+  "delivery": "Quiet and kind; no need to explain more.",
+  "deliveryBy": "Vanessa Van Edwards (video)"
  }
 ]

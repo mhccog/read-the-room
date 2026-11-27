@@ -334,7 +334,26 @@
   "vve-m-kids-friend-plan": "groups",
   "vve-m-fresh-start": "practice",
   "vve-m-esteemable-acts": "brain",
-  "vve-m-specific-resolution": "practice"
+  "vve-m-specific-resolution": "practice",
+  "vg-m-ask-for-the-floor": "groups",
+  "vg-m-stand-to-pause": "groups",
+  "vg-m-think-feel-do": "practice",
+  "vg-m-longer-intro": "openers",
+  "vg-m-excitement-label": "brain",
+  "vg-m-negativity-not-yours": "tough",
+  "vg-m-expert-shift-gears": "presence",
+  "vg-m-volume-with-melody": "voice",
+  "vg-m-natural-breaks": "groups",
+  "vg-m-energy-to-the-last-word": "voice",
+  "vg-m-hands-while-listening": "body",
+  "vg-m-keep-feeling-in-rehearsal": "practice",
+  "vve-m-ask-what-you-love": "openers",
+  "vve-m-first-question-good": "openers",
+  "vve-m-follow-their-gaze": "tough",
+  "vve-m-recent-example": "deeper",
+  "vve-m-red-apple": "groups",
+  "vve-m-intent-not-trick": "warmth",
+  "vve-m-say-it-is-uncomfortable": "deeper"
  },
  "tech_map": {
   "'Are you lucky?'": "V53",
@@ -591,7 +610,13 @@
   "yt-reads-are-drafts": "ideas",
   "yt-xba-room": "presence",
   "bp-big-answer-small-question": "listening",
-  "bp-remorse-without-names": "tough"
+  "bp-remorse-without-names": "tough",
+  "yt-ego-triangle": "tough",
+  "yt-match-the-threat": "tough",
+  "yt-five-lines-calm": "tough",
+  "yt-question-not-defence": "tough",
+  "yt-front-of-eyes": "presence",
+  "yt-confidence-three-parts": "presence"
  },
  "kb_retitle": {
   "yt-conflict-frame": "Heated conflict: three threats, ten nevers",
