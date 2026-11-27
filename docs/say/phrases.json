@@ -9748,5 +9748,50 @@
   "basis": "adapted",
   "delivery": "Relaxed and open; let them take their time.",
   "deliveryBy": "Vanessa Van Edwards (video 2023)"
+ },
+ {
+  "id": "p681",
+  "need": "any",
+  "feeling": "respected",
+  "situation": "disagree",
+  "sources": [
+   "VGYT-r5Dl33wtJ4Y@0:04:46"
+  ],
+  "text": "Thanks for disagreeing. Tell me more about what you'd change.",
+  "technique": "Welcome the pushback",
+  "why": "Vinh: people who disagree with you keep you out of an echo chamber, so thank them.",
+  "basis": "adapted",
+  "delivery": "Open face, genuine curiosity; then listen without defending.",
+  "deliveryBy": "Vinh Giang (video 2025)"
+ },
+ {
+  "id": "p682",
+  "need": "any",
+  "feeling": "comfortable",
+  "situation": "close",
+  "sources": [
+   "VVEYT-fRM1NjcQqeg@0:01:36"
+  ],
+  "text": "I know this is awkward, but I wanted to tell you privately because I want you to do well here.",
+  "technique": "Awkward truth, kindly",
+  "why": "Vanessa: ask permission, say 'I've noticed', give your reason, and keep it private.",
+  "basis": "adapted",
+  "delivery": "Quiet, private and kind; no audience.",
+  "deliveryBy": "Vanessa Van Edwards (video 2023)"
+ },
+ {
+  "id": "p683",
+  "need": "intelligence",
+  "feeling": "smart",
+  "situation": "opener",
+  "sources": [
+   "VVEYT-3f0YHEymxlk@0:01:16"
+  ],
+  "text": "Have you read or watched anything lately you'd recommend?",
+  "technique": "Ask for advice",
+  "why": "Vanessa: with someone you don't click with, asking for their advice is an easy, warm opener.",
+  "basis": "source-example",
+  "delivery": "Relaxed and curious; follow up on their pick.",
+  "deliveryBy": "Vanessa Van Edwards (video 2022)"
  }
 ]

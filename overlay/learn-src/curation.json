@@ -283,7 +283,17 @@
   "vve-m-one-to-one": "groups",
   "vve-m-real-weakness": "presence",
   "vve-m-summarise-next": "listening",
-  "vve-m-fun-fact-prompts": "openers"
+  "vve-m-fun-fact-prompts": "openers",
+  "vg-m-grammar-check": "voice",
+  "vg-m-arena-feedback": "presence",
+  "vg-m-welcome-disagreement": "tough",
+  "vg-m-breath-then-speak": "voice",
+  "vg-m-calm-isnt-universal": "tough",
+  "vve-m-nervous-laugh-rule": "presence",
+  "vve-m-close-talker": "body",
+  "vve-m-awkward-truth": "tough",
+  "vve-m-dont-click": "tough",
+  "vve-m-trait-stories": "presence"
  },
  "tech_map": {
   "'Are you lucky?'": "V53",
