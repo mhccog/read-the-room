@@ -138,11 +138,18 @@
   <section id="tab-watch" class="tab">
     <h2 class="sec">Watch</h2>
     <p class="caveat">Real-life examples of behaviour profiling, played from YouTube. Each cue moment links to the matching Body cue and Ask entry. <b>Cues are indicators, not proof.</b> Analysts are reading stress and behaviour, not handing down a verdict. Courts and investigators decide facts.</p>
-    <div class="wseg" id="watchSeg" role="tablist"><i></i><button data-g="hughes" role="tab">Chase Hughes</button><button data-g="others" role="tab">Other analysts</button></div>
+    <div class="wseg" id="watchSeg" role="tablist"><i></i><button data-g="hughes" role="tab">Chase Hughes</button><button data-g="others" role="tab">Other analysts</button><button data-ap="1" role="tab">Appearance &amp; movement</button></div>
     <p class="caveat wnote" id="watchNote"></p>
     <div class="regions" id="watchConcepts"></div>
     <div class="wfilter"><select id="watchCue" aria-label="Filter by cue"><option value="">Any cue</option></select><span id="watchCount" class="caveat"></span></div>
     <div id="watchList"></div>
+    <div id="apPane">
+      <p class="caveat">Clothes, hair, shoes, posture, walk and gaze, plus the teachers’ talks. Teachers come first. <b>Outside sources</b> are other experts and researchers, shown for comparison only, and they don’t feed Ask or Learn. These are first-impression cues, not character.</p>
+      <div class="regions" id="apTopics" aria-label="Topic"></div>
+      <div class="wfilter"><select id="apKind" aria-label="Filter by source or type"><option value="any">All sources</option><option value="teachers">Teachers only</option><option value="outside">Outside sources only</option><option value="practitioner">Practitioner clips</option><option value="research">Research clips</option></select><span id="apCount" class="caveat"></span></div>
+      <p class="caveat" id="apOffline" hidden>You’re offline. The list still works, but videos and links need a connection.</p>
+      <div id="apList"></div>
+    </div>
   </section>
 
   <!-- PEOPLE -->
@@ -187,6 +194,7 @@
 <script src="ask/ui.js"></script>
 <script src="blend/ui.js"></script>
 <script src="watch/ui.js"></script>
+<script src="watch/appearance.js"></script>
 <script src="hub.js"></script>
 <script src="learn/learn.js"></script>
 </body>
