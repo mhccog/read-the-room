@@ -144,9 +144,21 @@
     <div class="wfilter"><select id="watchCue" aria-label="Filter by cue"><option value="">Any cue</option></select><span id="watchCount" class="caveat"></span></div>
     <div id="watchList"></div>
     <div id="apPane">
-      <p class="caveat">Clothes, hair, shoes, posture, walk and gaze, plus the teachers’ talks. Teachers come first. <b>Outside sources</b> are other experts and researchers, shown for comparison only, and they don’t feed Ask or Learn. These are first-impression cues, not character.</p>
+      <p class="caveat"><b>One cue on its own is not a profile.</b> Everything here is a prompt to ask, not a verdict. Teachers come first. Outside sources are other experts and researchers, shown for comparison only. They don’t feed Ask or Learn.</p>
+      <details class="ap-legend"><summary>What the tags mean</summary>
+        <p><b>Mainstream</b>: peer-reviewed research, universities, health services such as the NHS, major outlets and established experts on them.</p>
+        <p><b>Non-mainstream</b>: practitioner coaches, style and image consultants, influencers, and alternative takes such as colour analysis or face reading. Often useful, but opinion or experience, not tested evidence. Fringe items carry a short caution.</p>
+        <p><b>Strong / Moderate / Weak</b> on an evidence point is how solid the research behind it is, as rated in the research notes.</p>
+        <p><b>When to suggest a GP / be concerned</b> marks health and safeguarding items. They are not for diagnosing anyone. If you’re worried about someone, encourage them to see a GP or follow your safeguarding route.</p></details>
+      <input id="apSearch" class="ap-search" type="search" placeholder="Search clothes, gait, beard, colour…" aria-label="Search this view" autocomplete="off">
       <div class="regions" id="apTopics" aria-label="Topic"></div>
-      <div class="wfilter"><select id="apKind" aria-label="Filter by source or type"><option value="any">All sources</option><option value="teachers">Teachers only</option><option value="outside">Outside sources only</option><option value="practitioner">Practitioner clips</option><option value="research">Research clips</option></select><span id="apCount" class="caveat"></span></div>
+      <div class="ap-filters">
+        <label class="ap-fl"><span>Stream</span><select id="apStream" aria-label="Mainstream or non-mainstream"><option value="both">Both</option><option value="main">Mainstream</option><option value="non">Non-mainstream</option></select></label>
+        <label class="ap-fl"><span>Type</span><select id="apFmt"><option value="any">All</option><option value="video">Video</option><option value="written">Written</option><option value="interactive">Interactive</option><option value="code">Code &amp; data</option><option value="point">Evidence points</option></select></label>
+        <label class="ap-fl"><span>Source</span><select id="apKind"><option value="any">All</option><option value="teachers">Teachers</option><option value="outside">Outside sources</option><option value="research">Research</option><option value="practitioner">Practitioner</option><option value="health">Health &amp; care</option></select></label>
+      </div>
+      <div class="wfilter"><span id="apCount" class="caveat"></span></div>
+      <details class="ap-legend" id="apGaps"></details>
       <p class="caveat" id="apOffline" hidden>You’re offline. The list still works, but videos and links need a connection.</p>
       <div id="apList"></div>
     </div>

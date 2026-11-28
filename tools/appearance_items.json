@@ -1,0 +1,2388 @@
+{
+ "checked": "2026-11-28",
+ "gaps": [
+  "No study found linking stretched necklines, worn cuffs, fading or pilling to personality, habits or job.",
+  "No reliable source found for reading someone’s job from wear patterns.",
+  "Hughes’ and Van Edwards’ views on clothes are practitioner opinion, not tested profiling.",
+  "Body-odour studies mostly use small samples and lab sniff tests."
+ ],
+ "items": [
+  {
+   "id": "RvjR9GM2kX8",
+   "title": "The Behaviour Expert: Instantly Read Any Room",
+   "who": "Chase Hughes",
+   "outlet": "The Diary of a CEO",
+   "teacher": "hughes",
+   "type": "practitioner",
+   "primary": "talks",
+   "topics": [
+    "talks",
+    "posture"
+   ],
+   "get": "Chase on how to read a room: slow down, notice posture and appearance, and look for what has changed from a person’s normal.",
+   "kind": "yt",
+   "dur": "2:05:17",
+   "date": "2024-12",
+   "fmt": "video",
+   "stream": "non"
+  },
+  {
+   "id": "VHUrdELKjDw",
+   "title": "Body Language Expert: Stop Using This",
+   "who": "Vanessa Van Edwards",
+   "outlet": "The Diary of a CEO",
+   "teacher": "vve",
+   "type": "practitioner",
+   "primary": "talks",
+   "topics": [
+    "talks",
+    "posture"
+   ],
+   "get": "Vanessa on the cues that make you come across as warm and capable, and the small habits that quietly put people off.",
+   "kind": "yt",
+   "dur": "2:43:35",
+   "date": "2024-12",
+   "fmt": "video",
+   "stream": "non"
+  },
+  {
+   "id": "ldizQkuWpDE",
+   "title": "Body Language Expert Explains Why People Dislike You",
+   "who": "Vanessa Van Edwards",
+   "outlet": "The Diary of a CEO",
+   "teacher": "vve",
+   "type": "practitioner",
+   "primary": "talks",
+   "topics": [
+    "talks",
+    "gaze"
+   ],
+   "get": "A first-impressions conversation, with sunglasses as one everyday example of a cue that gets in the way.",
+   "kind": "yt",
+   "dur": "2:09:03",
+   "date": "2025-04",
+   "fmt": "video",
+   "stream": "non"
+  },
+  {
+   "id": "UJGsioQ59AE",
+   "title": "How To Overcome Awkwardness",
+   "who": "Vanessa Van Edwards",
+   "outlet": "Jordan B Peterson’s podcast",
+   "teacher": "vve",
+   "type": "practitioner",
+   "primary": "talks",
+   "topics": [
+    "talks",
+    "posture",
+    "gaze"
+   ],
+   "get": "A long chat about easing awkwardness: posture, eye contact, tone of voice and what to do with your hands.",
+   "kind": "yt",
+   "dur": "1:35:02",
+   "date": "2025-07",
+   "fmt": "video",
+   "stream": "non"
+  },
+  {
+   "id": "oIiv_335yus",
+   "title": "This Speaking Mistake Makes People Dislike You",
+   "who": "Vinh Giang",
+   "outlet": "The Diary of a CEO",
+   "teacher": "vg",
+   "type": "practitioner",
+   "primary": "talks",
+   "topics": [
+    "talks",
+    "clothes",
+    "hair"
+   ],
+   "get": "Vinh on how your delivery and body language land, with a look at how clothes, hair and glasses add to the picture.",
+   "kind": "yt",
+   "dur": "2:26:48",
+   "date": "2025-03",
+   "fmt": "video",
+   "stream": "non"
+  },
+  {
+   "id": "TTCxDsByxZk",
+   "title": "Simple rule for using hand gestures",
+   "who": "Vinh Giang",
+   "outlet": "Vinh Giang’s channel",
+   "teacher": "vg",
+   "type": "practitioner",
+   "primary": "talks",
+   "topics": [
+    "talks",
+    "posture"
+   ],
+   "get": "One easy rule for your hands: keep them in the band between your belly button and your eyes.",
+   "kind": "yt",
+   "dur": "0:41",
+   "date": "2024-09",
+   "fmt": "video",
+   "stream": "non"
+  },
+  {
+   "id": "Ks-_Mh1QhMc",
+   "title": "Your body language may shape who you are",
+   "who": "Amy Cuddy",
+   "outlet": "TED",
+   "teacher": "",
+   "type": "research",
+   "primary": "talks",
+   "topics": [
+    "talks",
+    "posture"
+   ],
+   "get": "Amy Cuddy on whether holding an open, expansive posture can change how confident you feel.",
+   "note": "Some of the findings in this talk are disputed, and TED says so on the video. Treat power posing as something to try, not a proven fix.",
+   "kind": "yt",
+   "dur": "21:03",
+   "date": "2012-10",
+   "fmt": "video",
+   "stream": "main"
+  },
+  {
+   "id": "ahatVZtk5z8",
+   "title": "Color Psychology: How Color Choices Affect Behavior",
+   "who": "Vanessa Van Edwards",
+   "outlet": "Vanessa’s channel",
+   "teacher": "vve",
+   "type": "practitioner",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "Vanessa on how the colours you wear can send a mood message, and how colour can affect stress and mood.",
+   "kind": "yt",
+   "dur": "5:11",
+   "date": "2014-01",
+   "fmt": "video",
+   "stream": "non"
+  },
+  {
+   "id": "qsx7YFkPMlQ",
+   "title": "How Appearance Affects Success",
+   "who": "Joe Navarro",
+   "outlet": "WIRED",
+   "teacher": "",
+   "type": "practitioner",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "Joe Navarro on how dress and appearance feed into the impression of success, money and power.",
+   "kind": "yt",
+   "dur": "11:24",
+   "date": "2022-08",
+   "fmt": "video",
+   "stream": "main"
+  },
+  {
+   "id": "TPASqFd4I1A",
+   "title": "Styling from Inside Out",
+   "who": "Dawnn Karen",
+   "outlet": "TEDxFIT",
+   "teacher": "",
+   "type": "research",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "A TEDx talk on fashion psychology: how what you put on can change how you feel inside.",
+   "kind": "yt",
+   "dur": "13:18",
+   "date": "2017-12",
+   "fmt": "video",
+   "stream": "non"
+  },
+  {
+   "id": "IAP_3u7OlHw",
+   "title": "USask Research Minute",
+   "who": "Alexandra Zidenberg",
+   "outlet": "University of Saskatchewan",
+   "teacher": "",
+   "type": "research",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "A short research summary on how a psychologist’s visible tattoos change what prospective clients assume.",
+   "kind": "yt",
+   "dur": "1:34",
+   "date": "2021-12",
+   "fmt": "video",
+   "stream": "main"
+  },
+  {
+   "title": "What do your clothes say about you?",
+   "who": "Neil MacGregor",
+   "outlet": "BBC Radio 4",
+   "teacher": "",
+   "type": "research",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "A short animation on how people use clothes to say who they are.",
+   "kind": "web",
+   "url": "https://www.bbc.co.uk/programmes/p05lxlgs",
+   "host": "bbc.co.uk",
+   "id": "bbc",
+   "fmt": "video",
+   "stream": "main"
+  },
+  {
+   "id": "-yJ17ysm5DY",
+   "title": "The Psychology of Black Hair",
+   "who": "Johanna Lukate",
+   "outlet": "TEDxCambridgeUniversity",
+   "teacher": "",
+   "type": "research",
+   "primary": "hair",
+   "topics": [
+    "hair"
+   ],
+   "get": "A TEDx talk on how Black hair is read in first impressions, with the bias and identity that come with it.",
+   "kind": "yt",
+   "dur": "17:05",
+   "date": "2018-04",
+   "fmt": "video",
+   "stream": "main"
+  },
+  {
+   "id": "3NcyEx6cwlo",
+   "title": "Yes, grooming does matter!",
+   "who": "Joe Navarro",
+   "outlet": "Joe Navarro’s channel",
+   "teacher": "",
+   "type": "practitioner",
+   "primary": "hair",
+   "topics": [
+    "hair"
+   ],
+   "get": "A quick tip on how grooming and presentation shape a first impression.",
+   "kind": "yt",
+   "dur": "1:33",
+   "date": "2024-04",
+   "fmt": "video",
+   "stream": "non"
+  },
+  {
+   "title": "Shoes tell of your inner sole?",
+   "who": "Wendy Walsh",
+   "outlet": "CNN",
+   "teacher": "",
+   "type": "practitioner",
+   "primary": "shoes",
+   "topics": [
+    "shoes"
+   ],
+   "get": "A short news segment on research suggesting shoes may say more about the wearer than you would expect.",
+   "kind": "web",
+   "url": "https://www.cnn.com/videos/living/2012/07/04/nr-walsh-shoe-study.cnn",
+   "host": "cnn.com",
+   "id": "cnn",
+   "fmt": "video",
+   "stream": "main"
+  },
+  {
+   "id": "C4rcktjjsBs",
+   "title": "Leaving a Footprint",
+   "who": "Etu Evans",
+   "outlet": "TEDxDeerPark",
+   "teacher": "",
+   "type": "practitioner",
+   "primary": "shoes",
+   "topics": [
+    "shoes"
+   ],
+   "get": "A TEDx talk about shoes as a story of power, politics and price.",
+   "kind": "yt",
+   "dur": "12:05",
+   "date": "2020-03",
+   "fmt": "video",
+   "stream": "non"
+  },
+  {
+   "id": "GIzJLrunhSo",
+   "title": "My formula for self confidence",
+   "who": "Vinh Giang",
+   "outlet": "Vinh Giang’s channel",
+   "teacher": "vg",
+   "type": "practitioner",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "A quick routine: practise a confident posture so you feel and sound more sure of yourself.",
+   "kind": "yt",
+   "dur": "0:59",
+   "date": "2023-01",
+   "fmt": "video",
+   "stream": "non"
+  },
+  {
+   "id": "5-vwFqW6mek",
+   "title": "Your Body Language Is Talking (Even When You’re Not)",
+   "who": "Joe Navarro",
+   "outlet": "Joe Navarro’s channel",
+   "teacher": "",
+   "type": "practitioner",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "Joe Navarro on how posture, gestures and facial expressions colour how other people see you.",
+   "kind": "yt",
+   "dur": "23:37",
+   "date": "2025-12",
+   "fmt": "video",
+   "stream": "non"
+  },
+  {
+   "title": "BML Walker",
+   "who": "Nikolaus Troje",
+   "outlet": "BioMotionLab",
+   "teacher": "",
+   "type": "research",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "Play with a walking figure made of dots. Slide it between nervous and relaxed, happy and sad, and watch the walk change.",
+   "kind": "interactive",
+   "url": "https://www.biomotionlab.ca/Demos/bmlwalker/",
+   "host": "biomotionlab.ca",
+   "id": "bml",
+   "fmt": "interactive",
+   "stream": "main"
+  },
+  {
+   "id": "VmhXenmSOy8",
+   "title": "Biology in Motion",
+   "who": "BioMotionLab",
+   "outlet": "Canada Foundation for Innovation",
+   "teacher": "",
+   "type": "research",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "A short video about Nikolaus Troje’s lab, which studies how we see other people move.",
+   "kind": "yt",
+   "dur": "3:46",
+   "date": "2011-11",
+   "fmt": "video",
+   "stream": "main"
+  },
+  {
+   "id": "KT89CQ2nRpo",
+   "title": "Johansson: Motion Perception, part 2",
+   "who": "BioMotionLab",
+   "outlet": "Gunnar Johansson film, 1971",
+   "teacher": "",
+   "type": "research",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "A classic 1971 film showing how a handful of moving dots is enough for us to see a person.",
+   "kind": "yt",
+   "dur": "10:54",
+   "date": "2011-11",
+   "fmt": "video",
+   "stream": "non"
+  },
+  {
+   "title": "Biological Motion",
+   "who": "George Mather",
+   "outlet": "University of Lincoln",
+   "teacher": "",
+   "type": "research",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "A demo page of dot-only people in motion, where viewers can often judge things like mood.",
+   "kind": "web",
+   "url": "https://www.georgemather.com/MotionDemos/BioMoMP4.html",
+   "host": "georgemather.com",
+   "id": "mather",
+   "fmt": "interactive",
+   "stream": "main"
+  },
+  {
+   "id": "R0cYNDHZKVs",
+   "title": "What Does Eye Contact Really Do to the Brain?",
+   "who": "Vanessa Van Edwards",
+   "outlet": "Vanessa’s channel",
+   "teacher": "vve",
+   "type": "practitioner",
+   "primary": "gaze",
+   "topics": [
+    "gaze"
+   ],
+   "get": "A very short take on what eye contact does to the brain. Slim on detail, handy as a prompt.",
+   "kind": "yt",
+   "dur": "0:50",
+   "date": "2025-07",
+   "fmt": "video",
+   "stream": "non"
+  },
+  {
+   "id": "mNbQfjGSRLE",
+   "title": "What are you looking at? Adventures in human gaze behaviour",
+   "who": "Benjamin De Haas",
+   "outlet": "BIU Vision Science",
+   "teacher": "",
+   "type": "research",
+   "primary": "gaze",
+   "topics": [
+    "gaze"
+   ],
+   "get": "A research talk on where people look and why, and how gaze habits differ from person to person.",
+   "kind": "yt",
+   "dur": "1:06:46",
+   "date": "2021-07",
+   "fmt": "video",
+   "stream": "main"
+  },
+  {
+   "id": "0t-ShsJmALA",
+   "title": "Eye-tracking in the wild and in film",
+   "who": "Tim Smith",
+   "outlet": "Interacting Minds Centre",
+   "teacher": "",
+   "type": "research",
+   "primary": "gaze",
+   "topics": [
+    "gaze"
+   ],
+   "get": "A research talk on eye-tracking: where viewers look in real scenes and in film.",
+   "kind": "yt",
+   "dur": "1:13:15",
+   "date": "2016-02",
+   "fmt": "video",
+   "stream": "main"
+  },
+  {
+   "id": "OyK0oE5rwFY",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "The benefits of good posture",
+   "who": "Murat Dalkilinç",
+   "outlet": "TED-Ed",
+   "teacher": "",
+   "type": "media",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "A short animated explainer on why good posture matters for your body.",
+   "dur": "4:27",
+   "date": "2015-07"
+  },
+  {
+   "id": "K88q_oEwRS8",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "9 tips for a healthy ergonomic workstation",
+   "who": "Gaylord Bridegan",
+   "outlet": "Mayo Clinic",
+   "teacher": "",
+   "type": "health",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "A clinic ergonomist runs through desk set-up basics that keep your neck, back and wrists comfortable.",
+   "dur": "3:02",
+   "date": "2013-09"
+  },
+  {
+   "id": "rd_kVzsqRAc",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "What the power pose controversy reveals about science",
+   "who": "SciShow",
+   "outlet": "SciShow",
+   "teacher": "",
+   "type": "media",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture",
+    "impressions"
+   ],
+   "get": "A science channel traces how power posing took off, why it was challenged, and what that says about how research gets tested.",
+   "dur": "12:00",
+   "date": "2026-10"
+  },
+  {
+   "id": "yUSyMqDUkv8",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "You can’t fix your posture (here’s why)",
+   "who": "Jeff Nippard",
+   "outlet": "Jeff Nippard’s channel",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "An evidence-minded fitness creator on posture myths and why pain and \"bad posture\" are less tightly linked than people think.",
+   "dur": "12:19",
+   "date": "2021-02",
+   "note": "A fitness influencer’s take, not a clinical source. Pair it with the NHS back pain page."
+  },
+  {
+   "id": "5qWrndt4AcE",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Posture is the loudest form of body language",
+   "who": "Vinh Giang",
+   "outlet": "Vinh Giang’s channel",
+   "teacher": "vg",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "A half-minute reminder from Vinh that how you hold yourself speaks before you do.",
+   "dur": "0:28",
+   "date": "2023-07"
+  },
+  {
+   "id": "k1luKAS_Xcg",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Find your primal posture and sit without back pain",
+   "who": "Esther Gokhale",
+   "outlet": "TEDxStanford",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "A posture teacher argues that modern sitting and standing habits differ from how people in some cultures move, and shows her fixes.",
+   "dur": "6:15",
+   "date": "2012-08",
+   "note": "Teaching method sold by its creator. Independent evidence is limited."
+  },
+  {
+   "id": "zqaM7bQFFic",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "How fashion affects your brain",
+   "who": "ELLE",
+   "outlet": "ELLE",
+   "teacher": "",
+   "type": "media",
+   "stream": "main",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "A short fashion-magazine video on whether wearing a different outfit, like a lab coat, can change how you think and feel.",
+   "dur": "4:51",
+   "date": "2016-07"
+  },
+  {
+   "id": "-ZzQniOar4U",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "How formal clothes can impact our psychology",
+   "who": "CBS Mornings",
+   "outlet": "CBS Mornings",
+   "teacher": "",
+   "type": "media",
+   "stream": "main",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "A news segment on a study linking formal clothing to a more big-picture way of thinking.",
+   "dur": "4:17",
+   "date": "2015-07"
+  },
+  {
+   "id": "x9cKAMU6SD8",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "What your clothes reveal about you",
+   "who": "BBC Reel",
+   "outlet": "BBC Reel",
+   "teacher": "",
+   "type": "media",
+   "stream": "main",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "A short documentary on the unwritten rules of what to wear, and how clothes carry social meaning.",
+   "dur": "7:14",
+   "date": "2021-05"
+  },
+  {
+   "id": "H8t_jtbfJTU",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "The psychology of fashion",
+   "who": "Carolyn Mair",
+   "outlet": "Speaking of Psychology (APA)",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "A cognitive psychologist talks through how clothes shape mood, identity and the impressions we make.",
+   "dur": "34:44",
+   "date": "2019-06"
+  },
+  {
+   "id": "jQgQo6P9g0M",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Dressed: how to think about clothes",
+   "who": "Shahidha Bari",
+   "outlet": "Newcastle University public lecture",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "A university lecture on how to think about clothes, drawing on philosophy and literature.",
+   "dur": "49:10",
+   "date": "2020-10"
+  },
+  {
+   "id": "psdqZ429mjM",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Your clothes are literally changing your brain",
+   "who": "Ellie Richards",
+   "outlet": "Ellie Richards’ channel",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "A stylist’s explainer on \"enclothed cognition\", the idea that what you wear shifts how you feel and act.",
+   "dur": "9:32",
+   "date": "2025-11",
+   "note": "A stylist’s read of the research. The evidence on enclothed cognition is mixed."
+  },
+  {
+   "id": "-uArEIeObsc",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "How to build a wardrobe you love in 7 steps",
+   "who": "The Charisma Coach",
+   "outlet": "The Charisma Coach",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "An image consultant’s step-by-step approach to building a wardrobe that feels like you.",
+   "dur": "16:12",
+   "date": "2025-07",
+   "note": "Image-consultant advice. Opinion and experience, not research."
+  },
+  {
+   "id": "_syOxTu02kU",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Why we buy clothes we never wear",
+   "who": "Dawnn Karen",
+   "outlet": "Closet as Culture (ReBloom)",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "A fashion psychologist on why people hold on to clothes for a \"someday\" self, and what a wardrobe can reveal.",
+   "dur": "19:30",
+   "date": "2026-06"
+  },
+  {
+   "id": "KCh-AeU-o_4",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "The tangled history of Black hair discrimination in the US",
+   "who": "BBC News",
+   "outlet": "BBC News",
+   "teacher": "",
+   "type": "media",
+   "stream": "main",
+   "primary": "hair",
+   "topics": [
+    "hair"
+   ],
+   "get": "A news explainer on how Black hairstyles have been policed in schools and workplaces, and the pushback against it.",
+   "dur": "12:03",
+   "date": "2022-02"
+  },
+  {
+   "id": "1F5ICP9SYLU",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Johansson: Motion Perception, part 1",
+   "who": "BioMotionLab",
+   "outlet": "Gunnar Johansson film, 1971",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "The first part of the classic film showing how a few moving lights are enough to see a person walking.",
+   "dur": "7:16",
+   "date": "2011-11"
+  },
+  {
+   "id": "bhCR0UbW13Y",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Gait recognition",
+   "who": "National Physical Laboratory",
+   "outlet": "NPL",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "A UK lab shows how software can match people by how they walk, as a surveillance aid.",
+   "dur": "3:54",
+   "date": "2011-12"
+  },
+  {
+   "id": "5S1Rh5B06T8",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Take an emotion walk",
+   "who": "GAMMA Lab, University of Maryland",
+   "outlet": "University of Maryland",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "A research video on teaching a computer to guess perceived emotion from walking style. It guesses what viewers would say, not what someone feels.",
+   "dur": "8:46",
+   "date": "2020-09"
+  },
+  {
+   "id": "jgkQrj0JJDs",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Measuring gait speed for fall risk assessment",
+   "who": "JAMA Network",
+   "outlet": "JAMA Network",
+   "teacher": "",
+   "type": "health",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "A clinical video on timing a short walk to help judge falls risk. Walking speed is a health measure, not a personality cue.",
+   "dur": "0:54",
+   "date": "2024-03",
+   "note": "Health context: if someone’s walking has changed, suggest they see a GP."
+  },
+  {
+   "id": "pFLC9C-xH8E",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Gait impairments in Parkinson’s disease",
+   "who": "The Lancet Neurology",
+   "outlet": "The Lancet",
+   "teacher": "",
+   "type": "health",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "A short clinical video on the kinds of walking changes seen as Parkinson’s progresses.",
+   "dur": "2:27",
+   "date": "2019-04",
+   "note": "Not a diagnosis tool. If you’re worried about someone, suggest they see a GP."
+  },
+  {
+   "id": "M1muwy1vQ5Q",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Does color really affect how you act?",
+   "who": "SciShow Psych",
+   "outlet": "SciShow",
+   "teacher": "",
+   "type": "media",
+   "stream": "main",
+   "primary": "colour",
+   "topics": [
+    "colour"
+   ],
+   "get": "A science channel checks the popular claims about colour and mood, and why the evidence is less tidy than the internet makes it sound.",
+   "dur": "4:00",
+   "date": "2017-04"
+  },
+  {
+   "id": "af78RPi6ayE",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "The physics and psychology of colour",
+   "who": "Andrew Hanson",
+   "outlet": "The Royal Institution",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "colour",
+   "topics": [
+    "colour"
+   ],
+   "get": "A Royal Institution talk using demos and illusions to show how much of colour is made by our own perception.",
+   "dur": "36:39",
+   "date": "2018-07"
+  },
+  {
+   "id": "eK0NzsGRceg",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Should you trust your first impression?",
+   "who": "Peter Mende-Siedlecki",
+   "outlet": "TED-Ed",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "impressions",
+   "topics": [
+    "impressions"
+   ],
+   "get": "A short animation on how fast we judge strangers, and when those snap judgements help or mislead.",
+   "dur": "4:38",
+   "date": "2013-08"
+  },
+  {
+   "id": "VRJzvJ5XPQI",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Body language expert explains how to show confidence",
+   "who": "Joe Navarro",
+   "outlet": "WIRED",
+   "teacher": "",
+   "type": "media",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture",
+    "impressions"
+   ],
+   "get": "Joe Navarro walks through poses and habits that look confident, and why some cues work against you.",
+   "dur": "14:16",
+   "date": "2021-10"
+  },
+  {
+   "id": "IQ1FFt2xMLI",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "What your body odour says about you",
+   "who": "Strange Health",
+   "outlet": "Strange Health and The Conversation",
+   "teacher": "",
+   "type": "media",
+   "stream": "main",
+   "primary": "smell",
+   "topics": [
+    "smell"
+   ],
+   "get": "Two hosts and researchers go through what sweat and body odour do and don’t say about a person, with health pointers.",
+   "dur": "39:15",
+   "date": "2026-02",
+   "note": "Health context: a sudden change in someone’s smell can have medical causes. Suggest a GP, not a guess."
+  },
+  {
+   "id": "1zpf8H_Dd40",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "The importance of being inauthentic",
+   "who": "Mark Bowden",
+   "outlet": "TEDxToronto",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "impressions",
+   "topics": [
+    "impressions",
+    "posture"
+   ],
+   "get": "A body-language coach talks about why deliberately shaping your non-verbal signals can land better than just “being yourself”.",
+   "dur": "20:49",
+   "date": "2013-10",
+   "note": "Coaching framework from the speaker. Not peer-reviewed research."
+  },
+  {
+   "id": "-VKLa54S8Jw",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Physiognomy, explained",
+   "who": "Prosopa Insights",
+   "outlet": "Prosopa Insights",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "face",
+   "topics": [
+    "face"
+   ],
+   "get": "A face-reading channel explains what physiognomy claims and why it is making a comeback.",
+   "dur": "7:08",
+   "date": "2025-05",
+   "note": "Fringe. Reading character from facial features isn’t supported by evidence. Included so you can recognise the claims."
+  },
+  {
+   "id": "NyUT2DxBiDM",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "TikTok’s obsession with face reading and its dark history",
+   "who": "Abby Cox",
+   "outlet": "Abby Cox’s channel",
+   "teacher": "",
+   "type": "media",
+   "stream": "non",
+   "primary": "face",
+   "topics": [
+    "face"
+   ],
+   "get": "A long video essay on the face-reading trend and the discredited history behind it.",
+   "dur": "38:38",
+   "date": "2023-09",
+   "note": "A creator’s critical essay, not a research source."
+  },
+  {
+   "id": "7MrvJ7k8B4o",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "How to find your colour season, for beginners",
+   "who": "Ellie-Jean Royden",
+   "outlet": "Body & Style",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "colour",
+   "topics": [
+    "colour",
+    "clothes"
+   ],
+   "get": "An image consultant explains the colour-season idea and how people try to find theirs.",
+   "dur": "13:43",
+   "date": "2023-11",
+   "note": "Season systems aren’t scientifically validated. Treat the result as shopping shorthand, not a verdict."
+  },
+  {
+   "id": "ZrvUblDiXq4",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Is colour analysis just a scam?",
+   "who": "Marie-Anne Lecoeur",
+   "outlet": "French Chic Expert",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "colour",
+   "topics": [
+    "colour"
+   ],
+   "get": "A stylist who trained in colour analysis explains where she thinks the trend over-promises and what to try instead.",
+   "dur": "8:02",
+   "date": "2025-08",
+   "note": "One stylist’s sceptical opinion. Useful as a counterpoint."
+  },
+  {
+   "id": "O5KGbpORMeM",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "Science of facial hair: what do beards and stubble signal?",
+   "who": "Real Men Real Style",
+   "outlet": "Real Men Real Style",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "hair",
+   "topics": [
+    "hair"
+   ],
+   "get": "A men’s-style channel’s take on what beards and stubble signal to other people.",
+   "dur": "7:16",
+   "date": "2014-03",
+   "note": "Style-coach commentary. Not a research source."
+  },
+  {
+   "id": "GuO2RznvZBQ",
+   "fmt": "video",
+   "kind": "yt",
+   "title": "How to have good posture and walk elegantly (deportment)",
+   "who": "Jamila Musayeva",
+   "outlet": "Jamila Musayeva’s channel",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "posture",
+   "topics": [
+    "posture",
+    "walk"
+   ],
+   "get": "An etiquette coach’s lesson in the old deportment tradition: how to stand and walk with poise.",
+   "dur": "13:35",
+   "date": "2020-09",
+   "note": "Etiquette coaching. Opinion and tradition, not research."
+  },
+  {
+   "id": "w-hester",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Dress is a fundamental component of person perception",
+   "who": "Neil Hester and Eric Hehman",
+   "outlet": "Personality and Social Psychology Review",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "clothes",
+   "topics": [
+    "clothes",
+    "hair",
+    "impressions"
+   ],
+   "get": "A review arguing that clothes, hair and accessories shape first impressions, and sorting what people infer from them: group, state of mind, status and taste.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10559650/",
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "date": "2023"
+  },
+  {
+   "id": "w-rucker",
+   "fmt": "written",
+   "kind": "web",
+   "title": "What to wear when: outfits and first impressions of job applicants",
+   "who": "Margaret Rucker and colleagues",
+   "outlet": "Social Behavior and Personality",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "Raters judged a drawn woman in 12 outfits for different jobs. Fitted and layered looks scored better, and what counted as right depended on the job.",
+   "url": "https://doi.org/10.2224/sbp.1981.9.1.53",
+   "host": "doi.org",
+   "date": "1981",
+   "note": "An older, small study with drawings, so use it as a nudge, not a rule."
+  },
+  {
+   "id": "w-bornstein",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Allison Bornstein’s tips for finding your personal style",
+   "who": "Allison Bornstein",
+   "outlet": "Who What Wear",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "A stylist’s \"three-word\" method: pick a practical, an aspirational and an emotional word to steer what you wear and buy.",
+   "url": "https://www.whowhatwear.com/allison-bornstein-stylist-tips",
+   "host": "whowhatwear.com",
+   "note": "Style-press advice. Opinion and experience, not research."
+  },
+  {
+   "id": "w-skin",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Clothing aesthetics: colour choices to match fair and tanned skin",
+   "who": "Research team (open access)",
+   "outlet": "PubMed Central",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "colour",
+   "topics": [
+    "colour",
+    "clothes"
+   ],
+   "get": "Observers matched cool blues to fair skin and warm orange-reds to tanned skin. The authors note stylists’ season categories aren’t defined scientifically.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8597069/",
+   "host": "pmc.ncbi.nlm.nih.gov"
+  },
+  {
+   "id": "w-elliot",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Color psychology: effects of perceiving color on psychological functioning",
+   "who": "Andrew Elliot and Markus Maier",
+   "outlet": "Annual Review of Psychology",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "colour",
+   "topics": [
+    "colour"
+   ],
+   "get": "A scholarly review of what colour does to mood and behaviour, and where the evidence is still thin.",
+   "url": "https://doi.org/10.1146/annurev-psych-010213-115035",
+   "host": "doi.org",
+   "date": "2014"
+  },
+  {
+   "id": "w-atlantic",
+   "fmt": "written",
+   "kind": "web",
+   "title": "The false promise of seasonal-colour analysis",
+   "who": "The Atlantic",
+   "outlet": "The Atlantic",
+   "teacher": "",
+   "type": "media",
+   "stream": "main",
+   "primary": "colour",
+   "topics": [
+    "colour"
+   ],
+   "get": "A critical long read arguing the season trend borrows the language of colour science without the proof.",
+   "url": "https://www.theatlantic.com/magazine/archive/2025/02/clothing-style-seasonal-color-analysis-false-promise/681109/",
+   "host": "theatlantic.com",
+   "date": "2025"
+  },
+  {
+   "id": "w-bbc-colour",
+   "fmt": "written",
+   "kind": "web",
+   "title": "How to find the colours that are perfect for you",
+   "who": "BBC Culture",
+   "outlet": "BBC",
+   "teacher": "",
+   "type": "media",
+   "stream": "main",
+   "primary": "colour",
+   "topics": [
+    "colour"
+   ],
+   "get": "A BBC look at the colour-analysis boom, mostly through consultants and clients who say it changed how they feel.",
+   "url": "https://www.bbc.com/culture/article/20250303-how-to-find-the-colours-that-are-perfect-for-you",
+   "host": "bbc.com",
+   "date": "2025",
+   "note": "Reports on colour analysis, which isn’t scientifically validated. Mostly practitioners’ own accounts."
+  },
+  {
+   "id": "w-daydrape",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Seasonal colour analysis explained: history and evidence",
+   "who": "DayDrape",
+   "outlet": "DayDrape journal",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "colour",
+   "topics": [
+    "colour"
+   ],
+   "get": "A colour-analysis app’s blog sorts what is supported (colours near your face change how skin looks) from what is untested (that your palette flatters you more).",
+   "url": "https://daydrape.com/journal/seasonal-colour-analysis-explained/",
+   "host": "daydrape.com",
+   "note": "Written by a company selling colour analysis. Read the evidence section critically."
+  },
+  {
+   "id": "w-cmb",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Colour Me Beautiful (UK)",
+   "who": "Colour Me Beautiful",
+   "outlet": "colourmebeautiful.co.uk",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "colour",
+   "topics": [
+    "colour",
+    "clothes"
+   ],
+   "get": "The long-running image-consultancy brand behind the \"season\" idea. Useful to see how colour analysis is sold.",
+   "url": "https://www.colourmebeautiful.co.uk/",
+   "host": "colourmebeautiful.co.uk",
+   "note": "Commercial site. Season systems aren’t scientifically validated."
+  },
+  {
+   "id": "w-mesko",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Hairstyle as an adaptive means of displaying phenotypic quality",
+   "who": "Norbert Meskó and Tamás Bereczkei",
+   "outlet": "Human Nature",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "hair",
+   "topics": [
+    "hair"
+   ],
+   "get": "Tests how six hairstyles, from long and tidy to unkempt, change how attractive a face is rated.",
+   "url": "https://doi.org/10.1007/s12110-004-1008-6",
+   "host": "doi.org",
+   "date": "2004"
+  },
+  {
+   "id": "w-dixson",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Facial hair and perceptions of men",
+   "who": "Barnaby Dixson and Robert Brooks",
+   "outlet": "Evolution and Human Behavior",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "hair",
+   "topics": [
+    "hair"
+   ],
+   "get": "Looks at how beards and stubble change women’s ratings of men’s attractiveness, health, masculinity and parenting ability.",
+   "url": "https://doi.org/10.1016/j.evolhumbehav.2013.02.003",
+   "host": "doi.org",
+   "date": "2013"
+  },
+  {
+   "id": "w-koval",
+   "fmt": "written",
+   "kind": "web",
+   "title": "The natural hair bias in job recruitment",
+   "who": "Christy Koval and Ashleigh Rosette",
+   "outlet": "Social Psychological and Personality Science",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "hair",
+   "topics": [
+    "hair",
+    "impressions"
+   ],
+   "get": "Four studies found a hiring bias against Black women wearing natural hairstyles.",
+   "url": "https://doi.org/10.1177/1948550620937937",
+   "host": "doi.org",
+   "date": "2021"
+  },
+  {
+   "id": "w-nhs-hair",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Hair loss",
+   "who": "NHS",
+   "outlet": "NHS",
+   "teacher": "",
+   "type": "health",
+   "stream": "main",
+   "primary": "hair",
+   "topics": [
+    "hair"
+   ],
+   "get": "The NHS guide to why hair thins or falls out and when it is worth seeing a GP.",
+   "url": "https://www.nhs.uk/symptoms/hair-loss/",
+   "host": "nhs.uk",
+   "note": "If you’re worried about someone, suggest they see a GP. Don’t guess at causes.",
+   "care": true
+  },
+  {
+   "id": "w-nhs-bo",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Body odour (BO)",
+   "who": "NHS",
+   "outlet": "NHS",
+   "teacher": "",
+   "type": "health",
+   "stream": "main",
+   "primary": "smell",
+   "topics": [
+    "smell"
+   ],
+   "get": "The NHS guide to common causes of body odour, what helps, and when to see a GP.",
+   "url": "https://www.nhs.uk/symptoms/body-odour-bo/",
+   "host": "nhs.uk",
+   "note": "Smell can have medical causes. If you’re worried about someone, suggest they see a GP.",
+   "care": true
+  },
+  {
+   "id": "w-nhs-sweat",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Excessive sweating (hyperhidrosis)",
+   "who": "NHS",
+   "outlet": "NHS",
+   "teacher": "",
+   "type": "health",
+   "stream": "main",
+   "primary": "smell",
+   "topics": [
+    "smell"
+   ],
+   "get": "The NHS page on heavy sweating that doesn’t fit the situation, and when to get help.",
+   "url": "https://www.nhs.uk/conditions/excessive-sweating-hyperhidrosis/",
+   "host": "nhs.uk",
+   "note": "If someone sweats a lot, it may be a treatable condition. Suggest a GP, not a verdict.",
+   "care": true
+  },
+  {
+   "id": "w-wyatt",
+   "fmt": "written",
+   "kind": "web",
+   "title": "The search for human pheromones: the lost decades",
+   "who": "Tristram Wyatt",
+   "outlet": "Proceedings of the Royal Society B",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "smell",
+   "topics": [
+    "smell"
+   ],
+   "get": "A review finding no solid evidence for the \"human pheromones\" often claimed. Humans may have them, but they haven’t been shown.",
+   "url": "https://doi.org/10.1098/rspb.2014.2994",
+   "host": "doi.org",
+   "date": "2015"
+  },
+  {
+   "id": "w-degroot",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Chemosignals communicate human emotions",
+   "who": "Jasper de Groot and colleagues",
+   "outlet": "Psychological Science",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "smell",
+   "topics": [
+    "smell"
+   ],
+   "get": "A lab study testing whether smelling sweat from people in different emotional states nudges the sniffer’s own expression.",
+   "url": "https://doi.org/10.1177/0956797612445317",
+   "host": "doi.org",
+   "date": "2012",
+   "note": "Small lab study. One piece of the picture."
+  },
+  {
+   "id": "w-gillath",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Shoes as a source of first impressions",
+   "who": "Omri Gillath and colleagues",
+   "outlet": "Journal of Research in Personality",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "shoes",
+   "topics": [
+    "shoes",
+    "impressions"
+   ],
+   "get": "Strangers rated owners from photos of their shoes alone. Some basics like age and income came through, with limits.",
+   "url": "https://doi.org/10.1016/j.jrp.2012.04.003",
+   "host": "doi.org",
+   "date": "2012"
+  },
+  {
+   "id": "w-sciam-shoes",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Shoes reveal personality traits",
+   "who": "Scientific American",
+   "outlet": "Scientific American",
+   "teacher": "",
+   "type": "media",
+   "stream": "main",
+   "primary": "shoes",
+   "topics": [
+    "shoes"
+   ],
+   "get": "A short write-up of the shoe study. Observers beat chance on age, gender, income and attachment anxiety, but caught only about half of the real cues.",
+   "url": "https://www.scientificamerican.com/article/shoes-reveal-personality-traits/",
+   "host": "scientificamerican.com",
+   "date": "2012"
+  },
+  {
+   "id": "w-nair",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Do slumped and upright postures affect stress responses?",
+   "who": "Sharon Nair and colleagues",
+   "outlet": "Health Psychology",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "A randomised trial comparing slumped and upright sitting during a stressful task, measuring mood and self-esteem.",
+   "url": "https://doi.org/10.1037/hea0000146",
+   "host": "doi.org",
+   "date": "2015"
+  },
+  {
+   "id": "w-brinol",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Body posture effects on self-evaluation",
+   "who": "Pablo Briñol, Richard Petty and Benjamin Wagner",
+   "outlet": "European Journal of Social Psychology",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "Sitting upright made people more confident in the good or bad things they wrote about themselves.",
+   "url": "https://doi.org/10.1002/ejsp.607",
+   "host": "doi.org",
+   "date": "2009"
+  },
+  {
+   "id": "w-simmons",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Power posing: P-curving the evidence",
+   "who": "Joseph Simmons and Uri Simonsohn",
+   "outlet": "Psychological Science",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "A statistical re-look at the power-posing literature, finding little real evidence in it.",
+   "url": "https://doi.org/10.1177/0956797616658563",
+   "host": "doi.org",
+   "date": "2017"
+  },
+  {
+   "id": "w-cuddy18",
+   "fmt": "written",
+   "kind": "web",
+   "title": "P-curving a more comprehensive body of research on postural feedback",
+   "who": "Amy Cuddy, Stephen Schultz and Nathan Fosse",
+   "outlet": "Psychological Science",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "The power-posing side’s reply, arguing a broader set of studies shows an effect on feelings.",
+   "url": "https://doi.org/10.1177/0956797617746749",
+   "host": "doi.org",
+   "date": "2018",
+   "note": "One side of an open debate. Read it with the Simmons paper."
+  },
+  {
+   "id": "w-elkjaer",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Expansive and contractive postures: a review and meta-analysis",
+   "who": "Ebba Elkjær and colleagues",
+   "outlet": "Perspectives on Psychological Science",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "Pooled 73 studies: slumped, closed postures worsen mood, but open postures add little over a neutral one.",
+   "url": "https://doi.org/10.1177/1745691620919358",
+   "host": "doi.org",
+   "date": "2022"
+  },
+  {
+   "id": "w-slater",
+   "fmt": "written",
+   "kind": "web",
+   "title": "\"Sit up straight\": time to re-evaluate",
+   "who": "Slater and colleagues",
+   "outlet": "Journal of Orthopaedic & Sports Physical Therapy",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "Physiotherapy researchers question the belief that \"bad posture\" causes spinal pain.",
+   "url": "https://doi.org/10.2519/jospt.2019.0610",
+   "host": "doi.org",
+   "date": "2019"
+  },
+  {
+   "id": "w-sciencefocus",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Can power posing make you feel more confident?",
+   "who": "BBC Science Focus",
+   "outlet": "BBC Science Focus",
+   "teacher": "",
+   "type": "media",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "A plain-English summary: effects on feeling are stronger than on hormones or behaviour, and may come from avoiding slumping.",
+   "url": "https://www.sciencefocus.com/the-human-body/power-posing-can-make-you-feel-more-confident-but-not-for-the-reasons-you-might-think",
+   "host": "sciencefocus.com"
+  },
+  {
+   "id": "w-nhs-back",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Back pain",
+   "who": "NHS",
+   "outlet": "NHS",
+   "teacher": "",
+   "type": "health",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "NHS advice on back pain, including staying active, and when to see a GP.",
+   "url": "https://www.nhs.uk/conditions/back-pain/",
+   "host": "nhs.uk",
+   "note": "If someone is in ongoing pain, suggest a GP or physio. Don’t blame posture by sight.",
+   "care": true
+  },
+  {
+   "id": "w-ateam",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Alexander technique lessons, exercise and massage for back pain",
+   "who": "Paul Little and colleagues",
+   "outlet": "BMJ",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "A UK trial where one-to-one Alexander technique lessons eased long-term back pain more than usual care.",
+   "url": "https://doi.org/10.1136/bmj.a884",
+   "host": "doi.org",
+   "date": "2008"
+  },
+  {
+   "id": "w-alexander",
+   "fmt": "written",
+   "kind": "web",
+   "title": "The Alexander Technique",
+   "who": "Society of Teachers of the Alexander Technique",
+   "outlet": "STAT",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "The UK teachers’ society explains the technique, a way of changing habits of posture and movement.",
+   "url": "https://alexandertechnique.co.uk/",
+   "host": "alexandertechnique.co.uk",
+   "note": "Complementary practice. The trial above is the main independent evidence."
+  },
+  {
+   "id": "w-gokhale",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Gokhale Method",
+   "who": "Esther Gokhale",
+   "outlet": "gokhalemethod.com",
+   "teacher": "",
+   "type": "practitioner",
+   "stream": "non",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "The posture teacher’s own site, covering her \"primal posture\" approach to sitting, standing and walking.",
+   "url": "https://gokhalemethod.com/",
+   "host": "gokhalemethod.com",
+   "note": "Method sold by its creator. Independent evidence is limited."
+  },
+  {
+   "id": "w-troje",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Decomposing biological motion",
+   "who": "Nikolaus Troje",
+   "outlet": "Journal of Vision",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "The paper behind the BML Walker: how a walk can be split into dimensions such as sex, weight and mood.",
+   "url": "https://doi.org/10.1167/2.5.2",
+   "host": "doi.org",
+   "date": "2002"
+  },
+  {
+   "id": "w-kozlowski",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Recognising the sex of a walker from a point-light display",
+   "who": "Lynn Kozlowski and James Cutting",
+   "outlet": "Perception & Psychophysics",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "A classic study showing observers can often tell a walker’s sex from dots alone.",
+   "url": "https://doi.org/10.3758/bf03198740",
+   "host": "doi.org",
+   "date": "1977"
+  },
+  {
+   "id": "w-montepare",
+   "fmt": "written",
+   "kind": "web",
+   "title": "The identification of emotions from gait information",
+   "who": "Joann Montepare and colleagues",
+   "outlet": "Journal of Nonverbal Behavior",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "Observers read emotions such as sadness and anger from how people walk.",
+   "url": "https://doi.org/10.1007/bf00999605",
+   "host": "doi.org",
+   "date": "1987"
+  },
+  {
+   "id": "w-thoresen",
+   "fmt": "written",
+   "kind": "web",
+   "title": "First impressions: gait cues drive reliable trait judgements",
+   "who": "Jennifer Thoresen and colleagues",
+   "outlet": "Cognition",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk",
+    "impressions"
+   ],
+   "get": "Observers agree with each other on traits seen in walking, but agreement isn’t the same as accuracy.",
+   "url": "https://doi.org/10.1016/j.cognition.2012.05.018",
+   "host": "doi.org",
+   "date": "2012"
+  },
+  {
+   "id": "w-michalak",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Gait patterns associated with sadness and depression",
+   "who": "Johannes Michalak and colleagues",
+   "outlet": "Psychosomatic Medicine",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "Compared the walking of people with depression with others, and of people induced to feel sad.",
+   "url": "https://doi.org/10.1097/psy.0b013e3181a2515c",
+   "host": "doi.org",
+   "date": "2009",
+   "note": "Research on groups, not a way to spot depression. If you’re worried about someone’s mood, ask kindly and suggest a GP.",
+   "care": true
+  },
+  {
+   "id": "w-studenski",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Gait speed and survival in older adults",
+   "who": "Stephanie Studenski and colleagues",
+   "outlet": "JAMA",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "Pooled data from older adults: walking speed tracked closely with how long people went on to live.",
+   "url": "https://doi.org/10.1001/jama.2010.1923",
+   "host": "doi.org",
+   "date": "2011",
+   "note": "A population finding. It says nothing reliable about one person you see walking.",
+   "care": true
+  },
+  {
+   "id": "w-nhs-footdrop",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Foot drop",
+   "who": "NHS",
+   "outlet": "NHS",
+   "teacher": "",
+   "type": "health",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "NHS guide to difficulty lifting the front of the foot, a cause of changed walking, and when to see a GP.",
+   "url": "https://www.nhs.uk/conditions/foot-drop/",
+   "host": "nhs.uk",
+   "note": "If someone’s walking has changed, suggest they see a GP. Don’t guess the cause.",
+   "care": true
+  },
+  {
+   "id": "w-nhs-falls",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Falls",
+   "who": "NHS",
+   "outlet": "NHS",
+   "teacher": "",
+   "type": "health",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "NHS advice on falls and unsteadiness, what raises the risk and when to ask for help.",
+   "url": "https://www.nhs.uk/conditions/falls/",
+   "host": "nhs.uk",
+   "note": "If someone seems unsteady or has fallen, suggest they see a GP.",
+   "care": true
+  },
+  {
+   "id": "w-todorov",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Social attributions from faces",
+   "who": "Alexander Todorov and colleagues",
+   "outlet": "Annual Review of Psychology",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "face",
+   "topics": [
+    "face",
+    "impressions"
+   ],
+   "get": "A review of how quickly we judge faces, how much we agree, and how limited their accuracy is.",
+   "url": "https://doi.org/10.1146/annurev-psych-113011-143831",
+   "host": "doi.org",
+   "date": "2015"
+  },
+  {
+   "id": "w-physio",
+   "fmt": "written",
+   "kind": "web",
+   "title": "Physiognomy",
+   "who": "Wikipedia",
+   "outlet": "Wikipedia",
+   "teacher": "",
+   "type": "media",
+   "stream": "main",
+   "primary": "face",
+   "topics": [
+    "face"
+   ],
+   "get": "A neutral overview of face reading: its history, its use in racist pseudoscience, and why scientists reject it.",
+   "url": "https://en.wikipedia.org/wiki/Physiognomy",
+   "host": "wikipedia.org"
+  },
+  {
+   "id": "i-bach",
+   "fmt": "interactive",
+   "kind": "web",
+   "title": "Biological motion",
+   "who": "Michael Bach",
+   "outlet": "Visual Phenomena & Optical Illusions",
+   "teacher": "",
+   "type": "research",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "White dots that look random until the film plays, then a walking figure appears. A neat way to feel how little it takes to see a person.",
+   "url": "https://michaelbach.de/ot/mot-biomot/index.html",
+   "host": "michaelbach.de"
+  },
+  {
+   "id": "i-tm",
+   "fmt": "interactive",
+   "kind": "web",
+   "title": "Teachable Machine",
+   "who": "Google",
+   "outlet": "Google",
+   "teacher": "",
+   "type": "tool",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "Train a model in your browser to tell two postures apart from your webcam. Shows how posture-detection software learns.",
+   "url": "https://teachablemachine.withgoogle.com/",
+   "host": "teachablemachine.withgoogle.com"
+  },
+  {
+   "id": "c-gaitset",
+   "fmt": "code",
+   "kind": "web",
+   "title": "GaitSet",
+   "who": "Hanqing Chao and colleagues",
+   "outlet": "GitHub",
+   "teacher": "",
+   "type": "tool",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "Code for a well-known network that recognises people by their walking silhouettes, from different camera angles.",
+   "url": "https://github.com/AbnerHqC/GaitSet",
+   "host": "github.com"
+  },
+  {
+   "id": "c-opengait",
+   "fmt": "code",
+   "kind": "web",
+   "title": "OpenGait",
+   "who": "Shiqi Yu’s lab",
+   "outlet": "GitHub",
+   "teacher": "",
+   "type": "tool",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "A toolbox that collects several gait-recognition methods and datasets under one roof.",
+   "url": "https://github.com/ShiqiYu/OpenGait",
+   "host": "github.com"
+  },
+  {
+   "id": "c-step",
+   "fmt": "code",
+   "kind": "web",
+   "title": "STEP: emotion from gait",
+   "who": "Uttaran Bhattacharya and colleagues",
+   "outlet": "GitHub",
+   "teacher": "",
+   "type": "tool",
+   "stream": "main",
+   "primary": "walk",
+   "topics": [
+    "walk"
+   ],
+   "get": "Code behind the \"Take an Emotion Walk\" research on guessing perceived emotion from skeleton walks.",
+   "url": "https://github.com/UttaranB127/STEP",
+   "host": "github.com",
+   "note": "Predicts what viewers would perceive, not what a person feels."
+  },
+  {
+   "id": "c-posture",
+   "fmt": "code",
+   "kind": "web",
+   "title": "Sitting posture detection (YOLOv5)",
+   "who": "itakurah",
+   "outlet": "GitHub",
+   "teacher": "",
+   "type": "tool",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture"
+   ],
+   "get": "A small open project that flags good and bad sitting posture from a side-on webcam view.",
+   "url": "https://github.com/itakurah/sitting-posture-detection-yolov5",
+   "host": "github.com",
+   "note": "Posture labels here are the author’s own rules, not clinical advice."
+  },
+  {
+   "id": "c-openpose",
+   "fmt": "code",
+   "kind": "web",
+   "title": "OpenPose",
+   "who": "CMU Perceptual Computing Lab",
+   "outlet": "GitHub",
+   "teacher": "",
+   "type": "tool",
+   "stream": "main",
+   "primary": "posture",
+   "topics": [
+    "posture",
+    "walk"
+   ],
+   "get": "The widely used system that finds body, hand and face keypoints in video. A building block for posture and gait tools.",
+   "url": "https://github.com/CMU-Perceptual-Computing-Lab/openpose",
+   "host": "github.com"
+  },
+  {
+   "id": "c-deepfashion",
+   "fmt": "code",
+   "kind": "web",
+   "title": "DeepFashion",
+   "who": "CUHK MMLAB",
+   "outlet": "Project page",
+   "teacher": "",
+   "type": "tool",
+   "stream": "main",
+   "primary": "clothes",
+   "topics": [
+    "clothes"
+   ],
+   "get": "A large clothing-image dataset with labels for garment type and attributes, used in fashion research.",
+   "url": "https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html",
+   "host": "mmlab.ie.cuhk.edu.hk"
+  },
+  {
+   "id": "c-celebamask",
+   "fmt": "code",
+   "kind": "web",
+   "title": "CelebAMask-HQ",
+   "who": "Switchable Norms",
+   "outlet": "GitHub",
+   "teacher": "",
+   "type": "tool",
+   "stream": "main",
+   "primary": "hair",
+   "topics": [
+    "hair",
+    "face"
+   ],
+   "get": "A face-image dataset with labelled regions such as hair, used to train hair and face segmentation.",
+   "url": "https://github.com/switchablenorms/CelebAMask-HQ",
+   "host": "github.com"
+  },
+  {
+   "id": "p-naumann",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If you only have a full-length photo of someone…",
+   "get": "Strangers can still read some of their more outgoing, visible traits from it. This works best for obvious traits and varies a lot between people.",
+   "strength": "moderate",
+   "topics": [
+    "impressions",
+    "clothes"
+   ],
+   "primary": "impressions",
+   "sources": [
+    {
+     "t": "Naumann and colleagues 2009",
+     "u": "https://doi.org/10.1177/0146167209346309"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "p-kraus",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone wears a suit rather than sweatpants…",
+   "get": "They may act more dominant. In a negotiation, suit-wearers took more of the profit, and the other person grew more watchful.",
+   "strength": "moderate",
+   "topics": [
+    "clothes"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Kraus and Mendes 2014",
+     "u": "https://doi.org/10.1037/xge0000023"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "p-slepian",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone is dressed formally…",
+   "get": "They may think in a more big-picture way, tied to feeling powerful. A correction was issued for this paper, so treat it lightly.",
+   "strength": "weak",
+   "topics": [
+    "clothes"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Slepian and colleagues 2015",
+     "u": "https://doi.org/10.1177/1948550615579462"
+    },
+    {
+     "t": "Correction notice",
+     "u": "https://doi.org/10.1177/1948550615599778"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "p-enclothed",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If clothes seem to change how the wearer thinks (“enclothed cognition”)…",
+   "get": "The evidence is mixed. The famous white-coat result didn’t replicate, but studies after 2015 look more solid.",
+   "strength": "moderate",
+   "topics": [
+    "clothes"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Burns and colleagues 2019",
+     "u": "https://doi.org/10.1016/j.jesp.2018.10.001"
+    },
+    {
+     "t": "Horton 2023",
+     "u": "https://doi.org/10.1177/01461672231182478"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "p-bellezza",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone breaks the dress code on purpose (red trainers at work, gym kit in a luxury shop)…",
+   "get": "People may see them as higher in status and competence. It only works when it looks deliberate and the observer knows the norms.",
+   "strength": "moderate",
+   "topics": [
+    "clothes"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Bellezza and colleagues 2014",
+     "u": "https://doi.org/10.1086/674870"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "p-luxury",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone wears visible luxury labels…",
+   "get": "One study found they were treated better, but a stricter double-blind replication found no effect.",
+   "strength": "weak",
+   "topics": [
+    "clothes"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Nelissen and Meijers 2011",
+     "u": "https://doi.org/10.1016/j.evolhumbehav.2010.12.002"
+    },
+    {
+     "t": "Berger 2017",
+     "u": "https://doi.org/10.1371/journal.pone.0170216"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "p-gurney",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone stands tall in smart clothes…",
+   "get": "Posture and clothing combine in how competent they look, and the mix differs for men and women.",
+   "strength": "moderate",
+   "topics": [
+    "clothes",
+    "posture"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Gurney and colleagues 2016",
+     "u": "https://doi.org/10.1111/bjop.12209"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "p-peers",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone dresses like their peers…",
+   "get": "A practitioner guide reads it as a sign of a conformity driver. It is a coaching view, not a tested test.",
+   "strength": "weak",
+   "topics": [
+    "clothes"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Behavior Ops guide (GitHub)",
+     "u": "https://github.com/mhccog/behavior-ops"
+    }
+   ],
+   "stream": "non",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "p-navarro",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone turns up in clean clothes again and again…",
+   "get": "Joe Navarro says it builds trust through consistency, and that people tend to prefer the well-groomed and well-dressed.",
+   "strength": "weak",
+   "topics": [
+    "clothes",
+    "hair"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "WIRED video",
+     "u": "https://www.wired.com/video/watch/body-language-expert-breaks-how-appearance-affects-success"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note",
+   "note": "A practitioner’s view on a major outlet, not a tested finding."
+  },
+  {
+   "id": "p-thin",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If you form a view from a very short clip of behaviour…",
+   "get": "Short clips can predict some real outcomes. That is not the same as reading a whole person.",
+   "strength": "moderate",
+   "topics": [
+    "impressions"
+   ],
+   "primary": "impressions",
+   "sources": [
+    {
+     "t": "Ambady and Rosenthal 1992",
+     "u": "https://doi.org/10.1037/0033-2909.111.2.256"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "p-dalton",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If you smell someone’s untreated sweat…",
+   "get": "In one study, men rated women as less confident and competent while smelling it. Smell can colour judgement without you noticing.",
+   "strength": "moderate",
+   "topics": [
+    "smell",
+    "impressions"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "Dalton and colleagues 2013",
+     "u": "https://doi.org/10.1371/journal.pone.0077144"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "p-scie",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone’s hygiene slips, they lose weight or wear the same clothes every day…",
+   "get": "These appear in UK abuse and neglect indicator lists. They are prompts to ask kindly, not verdicts. If you’re worried, suggest they speak to a GP or follow your safeguarding route.",
+   "strength": "moderate",
+   "topics": [
+    "smell",
+    "clothes",
+    "hair"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "SCIE indicators of abuse",
+     "u": "https://www.scie.org.uk/safeguarding/adults/introduction/types-and-indicators-of-abuse/"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note",
+   "care": true
+  },
+  {
+   "id": "p-fit",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If a suit fits better, or a small detail is neater…",
+   "get": "In one study the same man in a better-cut suit was rated more confident, successful and better paid. Trustworthiness barely moved.",
+   "strength": "",
+   "topics": [
+    "clothes"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Howlett and colleagues 2013",
+     "u": "https://doi.org/10.1108/13612021311305128"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note",
+   "note": "Strength not rated in the research file."
+  },
+  {
+   "id": "p-uniform",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone wears a uniform or formal dress…",
+   "get": "Classic field studies found people complied more. That is about status and role, not a personality profile.",
+   "strength": "",
+   "topics": [
+    "clothes"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Lefkowitz and colleagues 1955",
+     "u": "https://doi.org/10.1037/h0042000"
+    },
+    {
+     "t": "Bickman 1974",
+     "u": "https://doi.org/10.1111/j.1559-1816.1974.tb02599.x"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note",
+   "note": "Strength not rated in the research file."
+  },
+  {
+   "id": "p-red",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone is wearing red…",
+   "get": "Don’t read much into it. An early study found red raised attractiveness ratings, but two preregistered replications found very weak, uncertain effects.",
+   "strength": "",
+   "topics": [
+    "colour",
+    "clothes"
+   ],
+   "primary": "colour",
+   "sources": [
+    {
+     "t": "Elliot and Niesta 2008",
+     "u": "https://doi.org/10.1037/0022-3514.95.5.1150"
+    },
+    {
+     "t": "Lehmann and Calin-Jageman 2017",
+     "u": "https://doi.org/10.1027/1864-9335/a000296"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note",
+   "note": "Strength not rated in the research file."
+  }
+ ]
+}
