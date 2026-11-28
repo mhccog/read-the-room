@@ -2223,7 +2223,7 @@
      "u": "https://www.wired.com/video/watch/body-language-expert-breaks-how-appearance-affects-success"
     }
    ],
-   "stream": "main",
+   "stream": "non",
    "type": "research",
    "teacher": "",
    "who": "",
@@ -2269,6 +2269,14 @@
     {
      "t": "Dalton and colleagues 2013",
      "u": "https://doi.org/10.1371/journal.pone.0077144"
+    },
+    {
+     "t": "Mujica-Parodi and colleagues 2009",
+     "u": "https://doi.org/10.1371/journal.pone.0006415"
+    },
+    {
+     "t": "de Groot and colleagues 2012",
+     "u": "https://doi.org/10.1177/0956797612445317"
     }
    ],
    "stream": "main",
@@ -2282,7 +2290,7 @@
    "fmt": "point",
    "kind": "point",
    "title": "If someone’s hygiene slips, they lose weight or wear the same clothes every day…",
-   "get": "These appear in UK abuse and neglect indicator lists. They are prompts to ask kindly, not verdicts. If you’re worried, suggest they speak to a GP or follow your safeguarding route.",
+   "get": "These appear in UK abuse and neglect indicator lists. They are prompts to ask kindly, not verdicts. If you’re worried, suggest they speak to a GP or follow your safeguarding route. SCIE also warns against judging someone’s cleanliness or lifestyle.",
    "strength": "moderate",
    "topics": [
     "smell",
@@ -2294,6 +2302,10 @@
     {
      "t": "SCIE indicators of abuse",
      "u": "https://www.scie.org.uk/safeguarding/adults/introduction/types-and-indicators-of-abuse/"
+    },
+    {
+     "t": "SCIE: self-neglect",
+     "u": "https://www.scie.org.uk/self-neglect/at-a-glance/"
     }
    ],
    "stream": "main",
@@ -2309,7 +2321,7 @@
    "kind": "point",
    "title": "If a suit fits better, or a small detail is neater…",
    "get": "In one study the same man in a better-cut suit was rated more confident, successful and better paid. Trustworthiness barely moved.",
-   "strength": "",
+   "strength": "moderate",
    "topics": [
     "clothes"
    ],
@@ -2324,8 +2336,7 @@
    "type": "research",
    "teacher": "",
    "who": "",
-   "outlet": "Evidence note",
-   "note": "Strength not rated in the research file."
+   "outlet": "Evidence note"
   },
   {
    "id": "p-uniform",
@@ -2361,7 +2372,7 @@
    "kind": "point",
    "title": "If someone is wearing red…",
    "get": "Don’t read much into it. An early study found red raised attractiveness ratings, but two preregistered replications found very weak, uncertain effects.",
-   "strength": "",
+   "strength": "weak",
    "topics": [
     "colour",
     "clothes"
@@ -2375,6 +2386,218 @@
     {
      "t": "Lehmann and Calin-Jageman 2017",
      "u": "https://doi.org/10.1027/1864-9335/a000296"
+    },
+    {
+     "t": "Lehmann and Calin-Jageman 2018",
+     "u": "https://doi.org/10.1177/1474704918802412"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "s-bacteria",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If clothes or armpits smell stale or sour…",
+   "get": "Skin bacteria have usually broken down the sweat. Fresh sweat has very little smell of its own.",
+   "strength": "strong",
+   "topics": [
+    "smell"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "NHS: body odour",
+     "u": "https://www.nhs.uk/symptoms/body-odour-bo/"
+    },
+    {
+     "t": "MSD Manual: body odour",
+     "u": "https://www.msdmanuals.com/home/skin-disorders/sweating-disorders/body-odor"
+    },
+    {
+     "t": "Natsch and colleagues 2003",
+     "u": "https://doi.org/10.1074/jbc.M210142200"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "s-sulphur",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If the smell is sulphurous or onion-like…",
+   "get": "That fits the sulphur compounds underarm bacteria make from sweat.",
+   "strength": "moderate",
+   "topics": [
+    "smell"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "Troccaz and colleagues 2004",
+     "u": "https://doi.org/10.1002/cbdv.200490077"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "s-polyester",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If a polyester top smells worse than a cotton one after the same workout…",
+   "get": "Part of it is the fabric. Polyester shirts smelled stronger and less pleasant, and grew different bacteria.",
+   "strength": "moderate",
+   "topics": [
+    "smell",
+    "clothes"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "Callewaert and colleagues 2014",
+     "u": "https://doi.org/10.1128/AEM.01422-14"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "s-synthetic",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If a synthetic garment still smells after washing…",
+   "get": "Polyester can hold on to odour even after laundering. Fabrics that soak up less water tend to give off more smell.",
+   "strength": "moderate",
+   "topics": [
+    "smell",
+    "clothes"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "McQueen and colleagues 2014",
+     "u": "https://doi.org/10.1108/ijcst-05-2013-0064"
+    },
+    {
+     "t": "McQueen and colleagues 2008",
+     "u": "https://doi.org/10.1080/00405000701659774"
+    },
+    {
+     "t": "Møllebjerg and colleagues 2021",
+     "u": "https://doi.org/10.1128/spectrum.01185-21"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "s-damp",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If clean laundry smells like a damp, dirty dishcloth…",
+   "get": "It may have dried slowly indoors. One bacterium (Moraxella osloensis) makes that smell and survives drying.",
+   "strength": "moderate",
+   "topics": [
+    "smell",
+    "clothes"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "Kubota and colleagues 2012",
+     "u": "https://doi.org/10.1128/aem.07816-11"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "s-smoke",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone smells of stale smoke but doesn’t smoke…",
+   "get": "Smoke chemicals cling to clothes and skin and are given off indoors afterwards, so it may just be where they have been.",
+   "strength": "moderate",
+   "topics": [
+    "smell",
+    "clothes"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "Sheu and colleagues 2020",
+     "u": "https://doi.org/10.1126/sciadv.aay4109"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "s-causes",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone has body odour…",
+   "get": "It can come from exercise, hot weather, hormone changes, being overweight, some medicines or some illnesses. The NHS says the cause is often unknown, so don’t assume.",
+   "strength": "strong",
+   "topics": [
+    "smell"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "NHS: body odour",
+     "u": "https://www.nhs.uk/symptoms/body-odour-bo/"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "s-change",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone’s usual smell changes, or they suddenly sweat far more…",
+   "get": "The NHS says to see a GP. A fruity smell can sometimes go with diabetes, and a bleach-like one with liver or kidney problems. Suggest a GP kindly; don’t guess a cause.",
+   "strength": "moderate",
+   "topics": [
+    "smell"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "NHS: body odour",
+     "u": "https://www.nhs.uk/symptoms/body-odour-bo/"
+    },
+    {
+     "t": "nidirect: body odour",
+     "u": "https://www.nidirect.gov.uk/conditions/body-odour-bromhidrosis"
     }
    ],
    "stream": "main",
@@ -2382,7 +2605,596 @@
    "teacher": "",
    "who": "",
    "outlet": "Evidence note",
-   "note": "Strength not rated in the research file."
+   "care": true
+  },
+  {
+   "id": "s-infection",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone is fighting an infection…",
+   "get": "Their body odour can turn more unpleasant within hours. This comes from lab studies, not something to diagnose by nose.",
+   "strength": "moderate",
+   "topics": [
+    "smell"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "Olsson and colleagues 2014",
+     "u": "https://doi.org/10.1177/0956797613515681"
+    },
+    {
+     "t": "Shirasu and Touhara 2011",
+     "u": "https://doi.org/10.1093/jb/mvr090"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "s-parkinson",
+   "fmt": "point",
+   "kind": "point",
+   "title": "Some illnesses have their own smell…",
+   "get": "Parkinson’s changes the make-up of skin oil in lab work. This is research, not something to read by nose.",
+   "strength": "weak",
+   "topics": [
+    "smell"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "Trivedi and colleagues 2019",
+     "u": "https://doi.org/10.1021/acscentsci.8b00879"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "s-nonenal",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If a greasy, grassy body smell is noticed…",
+   "get": "One study found a chemical behind it (2-nonenal) only in people aged 40 and over. Weak evidence; don’t guess ages from smell.",
+   "strength": "weak",
+   "topics": [
+    "smell"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "Haze and colleagues 2001",
+     "u": "https://doi.org/10.1046/j.0022-202x.2001.01287.x"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "s-redmeat",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone eats a lot of red meat…",
+   "get": "Their body odour was rated less pleasant in one small study.",
+   "strength": "weak",
+   "topics": [
+    "smell"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "Havlíček and Lenochová 2006",
+     "u": "https://doi.org/10.1093/chemse/bjl017"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "s-genetic",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone has almost no underarm smell…",
+   "get": "It can be genetic. A gene variant common among many people of Asian ancestry nearly removes typical underarm odour.",
+   "strength": "strong",
+   "topics": [
+    "smell"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "Martin and colleagues 2009",
+     "u": "https://doi.org/10.1038/jid.2009.254"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "s-personality",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If you try to guess personality from someone’s smell…",
+   "get": "Strangers did only slightly better than chance for extraversion, neuroticism and dominance. Not a reliable cue.",
+   "strength": "weak",
+   "topics": [
+    "smell",
+    "impressions"
+   ],
+   "primary": "smell",
+   "sources": [
+    {
+     "t": "Sorokowska and colleagues 2012",
+     "u": "https://doi.org/10.1002/per.848"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "c-sport",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If an athlete wears red…",
+   "get": "Across several contact sports they won a bit more often. English football teams in red also had a better home record.",
+   "strength": "moderate",
+   "topics": [
+    "colour",
+    "clothes"
+   ],
+   "primary": "colour",
+   "sources": [
+    {
+     "t": "Hill and Barton 2005",
+     "u": "https://doi.org/10.1038/435293a"
+    },
+    {
+     "t": "Attrill and colleagues 2008",
+     "u": "https://doi.org/10.1080/02640410701736244"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "c-red-man",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If a man wears red…",
+   "get": "People tend to rate him as more aggressive and dominant, and to read his face as angrier.",
+   "strength": "moderate",
+   "topics": [
+    "colour",
+    "clothes"
+   ],
+   "primary": "colour",
+   "sources": [
+    {
+     "t": "Wiedemann and colleagues 2015",
+     "u": "https://doi.org/10.1098/rsbl.2015.0166"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "c-black",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If a team wears black…",
+   "get": "It tends to get more penalties. Referees judged black-clad players more harshly, and the players played more aggressively.",
+   "strength": "moderate",
+   "topics": [
+    "colour",
+    "clothes"
+   ],
+   "primary": "colour",
+   "sources": [
+    {
+     "t": "Frank and Gilovich 1988",
+     "u": "https://doi.org/10.1037/0022-3514.54.1.74"
+    },
+    {
+     "t": "Webster and colleagues 2011",
+     "u": "https://doi.org/10.1177/1948550611418535"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "c-attract",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone wears red or black…",
+   "get": "They may be rated as more attractive, and part of this showed even when the colour was hidden. That hints the colour changes how the wearer holds themselves.",
+   "strength": "weak",
+   "topics": [
+    "colour",
+    "clothes"
+   ],
+   "primary": "colour",
+   "sources": [
+    {
+     "t": "Roberts and colleagues 2010",
+     "u": "https://doi.org/10.1177/147470491000800304"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "c-dating",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If a woman’s dating-profile photo shows red…",
+   "get": "One set of studies linked it to more interest in casual sex. Weak and context-bound; don’t read a person from it.",
+   "strength": "weak",
+   "topics": [
+    "colour"
+   ],
+   "primary": "colour",
+   "sources": [
+    {
+     "t": "Elliot and Pazda 2012",
+     "u": "https://doi.org/10.1371/journal.pone.0034607"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "c-fertility",
+   "fmt": "point",
+   "kind": "point",
+   "title": "The idea that women wear red or pink at peak fertility…",
+   "get": "It has not held up reliably in later, larger studies.",
+   "strength": "weak",
+   "topics": [
+    "colour"
+   ],
+   "primary": "colour",
+   "sources": [
+    {
+     "t": "Beall and Tracy 2013",
+     "u": "https://doi.org/10.1177/0956797613476045"
+    },
+    {
+     "t": "Eisenbruch and colleagues 2015",
+     "u": "https://doi.org/10.1177/0956797615586403"
+    },
+    {
+     "t": "Hone and McCullough 2020",
+     "u": "https://doi.org/10.1111/bjso.12371"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "c-mood",
+   "fmt": "point",
+   "kind": "point",
+   "title": "Grey, yellow and mood…",
+   "get": "In a colour-wheel study, people with anxious or depressed mood picked grey most often and people with normal mood picked yellow. This was about choosing colours, not clothes.",
+   "strength": "weak",
+   "topics": [
+    "colour"
+   ],
+   "primary": "colour",
+   "sources": [
+    {
+     "t": "Carruthers and colleagues 2010",
+     "u": "https://doi.org/10.1186/1471-2288-10-12"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "c-vve",
+   "fmt": "point",
+   "kind": "point",
+   "title": "Vanessa Van Edwards on colour in clothes…",
+   "get": "Her coaching view is that blue reads as trustworthy, black as authority, grey as neutral or passive, and red as energetic.",
+   "strength": "weak",
+   "topics": [
+    "colour",
+    "clothes"
+   ],
+   "primary": "colour",
+   "sources": [
+    {
+     "t": "Science of People: colour psychology",
+     "u": "https://www.scienceofpeople.com/color-psychology/"
+    }
+   ],
+   "stream": "non",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note",
+   "note": "A coaching view, not tested profiling."
+  },
+  {
+   "id": "c-navarro",
+   "fmt": "point",
+   "kind": "point",
+   "title": "Joe Navarro on colour and rank…",
+   "get": "He notes that in history some colours were reserved by rank, such as purple for kings.",
+   "strength": "weak",
+   "topics": [
+    "colour"
+   ],
+   "primary": "colour",
+   "sources": [
+    {
+     "t": "WIRED video",
+     "u": "https://www.wired.com/video/watch/body-language-expert-breaks-how-appearance-affects-success"
+    }
+   ],
+   "stream": "non",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note",
+   "note": "A practitioner’s remark, not a tested finding."
+  },
+  {
+   "id": "f-bagging",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If trousers bag at the knees or sleeves at the elbows…",
+   "get": "Repeated, long-lasting force from those joints has deformed the fabric, which points to long or repeated wear.",
+   "strength": "moderate",
+   "topics": [
+    "clothes"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Şengöz 2004",
+     "u": "https://doi.org/10.1533/jotp.36.1.1.59475"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "f-worn",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone’s clothes are worn out…",
+   "get": "It can mean money is tight. Being unable to replace worn-out clothes is an official EU measure of deprivation.",
+   "strength": "moderate",
+   "topics": [
+    "clothes"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Eurostat EU-SILC module note",
+     "u": "https://ec.europa.eu/eurostat/documents/1012329/1012401/2014+Module+assessment.pdf"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "f-keep",
+   "fmt": "point",
+   "kind": "point",
+   "title": "Why people keep or drop clothes…",
+   "get": "Wear and tear, poor fit, fashion and boredom all play a part, so one worn item says little.",
+   "strength": "moderate",
+   "topics": [
+    "clothes"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Laitala 2014",
+     "u": "https://doi.org/10.1111/ijcs.12088"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "f-loose",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone’s clothes, belt or jewellery look looser over time…",
+   "get": "The NHS lists this among signs of malnutrition, and unplanned weight loss can come from stress or illness. Ask kindly and suggest a GP if you’re worried.",
+   "strength": "strong",
+   "topics": [
+    "clothes"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "NHS: malnutrition symptoms",
+     "u": "https://www.nhs.uk/conditions/malnutrition/symptoms/"
+    },
+    {
+     "t": "NHS: unintentional weight loss",
+     "u": "https://www.nhs.uk/symptoms/unintentional-weight-loss/"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note",
+   "care": true
+  },
+  {
+   "id": "f-size",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If you notice a bigger clothing size…",
+   "get": "It tracks a bigger waist and BMI, and with them higher heart and diabetes risk on average. This is a population finding; never comment on someone’s body.",
+   "strength": "moderate",
+   "topics": [
+    "clothes"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Han and colleagues 2005",
+     "u": "https://doi.org/10.1111/j.1365-277X.2005.00646.x"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "f-shoes",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If you look at someone’s everyday shoes…",
+   "get": "Strangers guessed their age, gender, income and attachment anxiety better than chance.",
+   "strength": "moderate",
+   "topics": [
+    "shoes",
+    "clothes"
+   ],
+   "primary": "shoes",
+   "sources": [
+    {
+     "t": "Gillath and colleagues 2012",
+     "u": "https://doi.org/10.1016/j.jrp.2012.04.003"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "f-richer",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If clothes look “richer” or “poorer”…",
+   "get": "The same face is judged more or less competent, even in a flash and even when people are told to ignore the clothes.",
+   "strength": "strong",
+   "topics": [
+    "clothes",
+    "impressions"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Oh and colleagues 2019",
+     "u": "https://doi.org/10.1038/s41562-019-0782-4"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "w-damhorst",
+   "fmt": "point",
+   "kind": "point",
+   "title": "When people read someone’s dress…",
+   "get": "Across 109 older studies they mainly judged four things: how good the person seems, how powerful, how lively, and how they think.",
+   "strength": "moderate",
+   "topics": [
+    "clothes",
+    "impressions"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Damhorst 1990",
+     "u": "https://doi.org/10.1177/0887302X9000800201"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
+  },
+  {
+   "id": "w-vazire",
+   "fmt": "point",
+   "kind": "point",
+   "title": "If someone wears expensive, flashy clothes and looks neat and carefully prepared…",
+   "get": "It can go with higher narcissism. Snap judgements from full-body photos picked this up.",
+   "strength": "moderate",
+   "topics": [
+    "clothes",
+    "impressions"
+   ],
+   "primary": "clothes",
+   "sources": [
+    {
+     "t": "Vazire and colleagues 2008",
+     "u": "https://doi.org/10.1016/j.jrp.2008.06.007"
+    }
+   ],
+   "stream": "main",
+   "type": "research",
+   "teacher": "",
+   "who": "",
+   "outlet": "Evidence note"
   }
  ]
 }

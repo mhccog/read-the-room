@@ -117,7 +117,7 @@
 #apTopics button[data-empty]{opacity:.45}
 .ap-search{width:100%;box-sizing:border-box;margin:2px 0 8px;padding:10px 14px;border:0;border-radius:12px;background:var(--fill);color:var(--text);font:inherit;font-size:15px;appearance:none;-webkit-appearance:none}
 .ap-search:focus{outline:2px solid var(--acc);outline-offset:1px}
-.ap-filters{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin:8px 0 4px}
+.ap-filters{display:grid;grid-template-columns:1.35fr 1fr 1fr;gap:6px;margin:8px 0 4px}
 .ap-fl{display:block;min-width:0}.ap-fl-wide{grid-column:1/-1}
 .ap-fl span{display:block;margin:0 4px 3px;font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--mute)}
 .ap-filters select{min-width:0;width:100%;appearance:none;-webkit-appearance:none;background:var(--card);color:var(--text);border:0;border-radius:12px;padding:10px 8px;font:inherit;font-size:13.5px;box-shadow:var(--sh);text-overflow:ellipsis}
